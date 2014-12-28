@@ -1,3 +1,10 @@
 $topbar-media-query: "only screen and (min-width: 1130px)";
 $topbar-height: rem-calc(100);
 
+.full-width{
+	max-width: none !important
+}
+
+.centered-text{
+	text-align: center;
+}

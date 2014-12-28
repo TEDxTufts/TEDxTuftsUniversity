@@ -1,0 +1,9 @@
+/* line 4, ../scss/home.scss */
+.full-width {
+  max-width: none !important;
+}
+
+/* line 8, ../scss/home.scss */
+.centered-text {
+  text-align: center;
+}
