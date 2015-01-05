@@ -1,0 +1,19 @@
+<div class="sticky">
+	<nav class="top-bar" data-topbar role="navigation">
+	  <ul class="title-area">
+	    <li class="name">
+	      <h1><a href="#"><img style="padding-top: 20px" src={{"public/TEDx_white.png" | prepend: site.baseurl }} width="400px"></a></h1>
+	    </li>
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	  </ul>
+	  <section class="top-bar-section tedx-nav">
+	      <!-- Right Nav Section -->
+	      <ul class="right">
+	        {% for page in site.pages %}
+	        <li><a href={{page.url}}>{{page.title}}</a></li>
+	        {% endfor %}
+	      </ul>
+	      <!-- Left Nav Section -->
+	    </section>
+	</nav>
+</div>
