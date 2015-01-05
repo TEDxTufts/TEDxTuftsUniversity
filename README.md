@@ -24,3 +24,6 @@ _coming soon._ It's easy I promise!
 
 ## How to Add Pages
 _coming soon._ It's easy I promise!
+
+## How to make your changes live on the Internet!
+_coming soon._ It's...sorta easy!
