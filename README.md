@@ -1,4 +1,4 @@
-# TEDxTuftsUniversity Webapp
-> Webapp and supporting code for TEDxTuftsUniversity, built with Meteor and Foundation.
+# TEDxTuftsUniversity Website
+> Static web presence currently, built with Jekyll.
 
 more here soon.
