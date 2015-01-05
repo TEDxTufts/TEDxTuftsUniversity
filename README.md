@@ -4,7 +4,7 @@
 ## What is this?
 This is the code that runs behind the [TEDxTuftsUniversity](http://www.tedxtuftsuniversity) website. It is a statically-generated site, built with [Foundation](#) and [Jekyll](http://jekyllrb.com/docs/home/). Foundation is a wonderful grid-based {S}CSS framework that makes designing the site a breeze. The plans are for static hosting via Amazon S3, but we might look for a Tufts-hosted solution if possible. A statically-generated site is one that requires nothing more than a simple HTTP server to serve pre-generated pages. Jekyll, a powerful static site generator, allows for template reuse and simple data management, perfect for this application. 
 
-## What The Files Mean
+## What (the important) The Files Mean
 *	`<name>.html`:  In Jekyll, each `.html` file (or `.md` filepre, but we're not getting too crazy) in the root directory of the site represents a _page_. `index.html` is the root page, the one that gets loaded when someone visits the site. Creating pages is as simple (and complicated) as creating a new `.html` file (more on this below).
 *	`_layouts`: the directory that currently only contains the base template (`base.html`), built with Foundation. it is the template that all future pages should be constructed with, and contains a header and footer only. It is not advisable to edit files in the `_layouts` directory.
 *	`_includes/`: a directory that contains the header and footer portions of the site. The header is dynamically generated and should be generally left alone. The footer is up in the air currently, edit `_includes/footer.html` to edit the footer. Both use Foundation.
