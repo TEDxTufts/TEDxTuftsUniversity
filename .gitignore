@@ -1,2 +1,4 @@
+.DS_Store
 aws-s3-config.json
 .sass-cache/*
+_site/*
