@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$topbar-bg".
-        on line 11 of /Users/tony/Dropbox/Projects/tedxtufts/static/scss/home.scss
+        on line 11 of /Users/tony/Dropbox/Projects/tedxtufts/scss/home.scss
 
 6: .centered-text{
 7: 	text-align: center;
@@ -12,7 +12,7 @@ Error: Undefined variable: "$topbar-bg".
 13: }
 
 Backtrace:
-/Users/tony/Dropbox/Projects/tedxtufts/static/scss/home.scss:11
+/Users/tony/Dropbox/Projects/tedxtufts/scss/home.scss:11
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$topbar-bg\".\A         on line 11 of /Users/tony/Dropbox/Projects/tedxtufts/static/scss/home.scss\A \A 6: .centered-text{\A 7: 	text-align: center;\A 8: }\A 9: \A 10: #footer{\A 11: 	background-color: $topbar-bg;\A 12: 	height: 200px\A 13: }"; }
+  content: "Error: Undefined variable: \"$topbar-bg\".\A         on line 11 of /Users/tony/Dropbox/Projects/tedxtufts/scss/home.scss\A \A 6: .centered-text{\A 7: 	text-align: center;\A 8: }\A 9: \A 10: #footer{\A 11: 	background-color: $topbar-bg;\A 12: 	height: 200px\A 13: }"; }

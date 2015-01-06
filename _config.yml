@@ -12,3 +12,13 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# exclusions:
+exclude:
+ - Gruntfile.js
+ - bower_components
+ - node_modules
+ - aws-s3-config.json
+ - scss
+ - config.rb
+ - package.json

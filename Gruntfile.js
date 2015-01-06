@@ -10,11 +10,13 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     aws: grunt.file.readJSON('aws-s3-config.json'),
-    compass: {
-      options:{
-        // use existing Compass configuration
-        config: "config.rb",
-      }
+    compass: {                  // Task
+        dev: {                    // Another target
+          options: {
+            sassDir: 'scss',
+            cssDir: 'stylesheets'
+          }
+        }
     },
     // configure jekyll build and serve tasks
     shell : {
@@ -32,14 +34,23 @@ module.exports = function(grunt) {
         secretAccessKey: '<%= aws.AWSSecretKey %>',
         region: 'us-east-1',
       },
-      deploy: {
+      deploy_staging : {
         options : {
-          bucket: '<%= aws.AWSBucketName %>',
+          bucket : '<%= aws.AWSBucketName_staging %>',
           differential: true
-        }
-        files : {
-          {expand: true, src: '_/site/**', dest: '.'}
-        }
+        },  
+        files : [
+          { expand: true, cwd: '_site/', src: "**", dest: "/", action: 'upload'}
+        ]
+      },
+      deploy_production : {
+        options : {
+          bucket : '<%= aws.AWSBucketName_production %>',
+          differential: true
+        },  
+        files : [
+          { expand: true, cwd: '_site/', src: "**", dest: "/", action: 'upload'}
+        ]
       },
 
     }
@@ -51,8 +62,17 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-shell');
   // load AWS S3 interface tasks
   grunt.loadNpmTasks('grunt-aws-s3');
+  // create deployment task (above AWS abstraction)
+  grunt.registerTask('deploy', "Deploy site to AWS S3", function(type){
+    if(type == "staging" || type == "production"){
+      grunt.task.run(['compass', 'shell:jekyllBuild', 'aws_s3:deploy_' + type]);
+    } else {
+      grunt.log.writeln("Specify 'staging' or 'production'");
+    }
+  });
 
   // default tasks
   grunt.registerTask('default', ['compass', 'shell:jekyllServe']);
+
 
 };  
