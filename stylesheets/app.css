@@ -9059,6 +9059,11 @@ th.hide-for-touch {
 }
 
 /* line 15, ../scss/home.scss */
+#header-img {
+  padding-top: 25px;
+}
+
+/* line 19, ../scss/home.scss */
 a.anchor {
   display: block;
   position: relative;
