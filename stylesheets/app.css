@@ -9058,6 +9058,49 @@ th.hide-for-touch {
   height: 200px;
 }
 
+/* line 15, ../scss/home.scss */
+a.anchor {
+  display: block;
+  position: relative;
+  top: -6.25rem;
+  visibility: hidden;
+}
+
+/* line 1, ../scss/team.scss */
+#team-image {
+  position: absolute;
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #FFF;
+  border: 3px solid #FFF;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  top: 0px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 18, ../scss/team.scss */
+#team-list {
+  text-align: right;
+  border-right: thin solid red;
+  height: 100%;
+}
+
+/* line 23, ../scss/team.scss */
+#team-list p {
+  line-height: 10px;
+}
+
+/* line 27, ../scss/team.scss */
+#team-container {
+  margin-bottom: 10px;
+}
+
 /* Fade In */
 @-webkit-keyframes fadeIn {
   from {

@@ -12,9 +12,20 @@
 .tedx-billboard{
 	padding-top: 40px;
 }
+
 .tedx-billboard h1{
 	color: white;
 	text-decoration: bold;
+}
+
+.tedx-billboard-small{
+	padding-top:20px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+.tedx-billboard-small h1{
+	color: white;
+	text-decoration : bold;
 
 }
 

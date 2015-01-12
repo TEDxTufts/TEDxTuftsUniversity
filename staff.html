@@ -1,5 +1,80 @@
 ---
 layout: base
 title: TEDx Team
+permalink: /team/
+
+people:
+ - name: Slide Kelly
+   title: Curator 
+   bio: He's a cool person.
+   image-url: http://placehold.it/400
+
+ - name: Tony Cannistra
+   title: Team Member
+   bio: test.
+   image-url: http://placehold.it/400
+
+ - name: Val Cleland
+   title: Team Member
+   bio: test.
+   image-url: http://placehold.it/400
+
+ - name: Steph Cleland
+   title: Team Member
+   bio: test.
+   image-url: http://placehold.it/400
+
+ - name: ShanZhi Thia
+   title: Team Member
+   bio: test.
+   image-url: http://placehold.it/400
+
+ - name: Vadim Reytblat
+   title: Team Member
+   bio: test.
+   image-url: http://placehold.it/400
+
+ - name: Kit McDonnell
+   title: Team Member
+   bio: test.
+   image-url: http://placehold.it/400
+
+ - name: Ben Berman
+   title: Team Member
+   bio: test.
+   image-url: http://placehold.it/400
+
+ - name: Nick Demas
+   title: Team Member
+   bio: test.
+   image-url: http://placehold.it/400
+
+
 ---
-Here's the team
+
+<div class="tedx-billboard-small background-img">
+	<h1 class="centered-text">Meet the Team.</h1>
+</div>
+
+
+<div class="row" id="team-container" data-equalizer>
+	<div class="large-2 columns show-for-large-up" id="team-list" data-equalizer-watch>
+		{% for person in page.people %}
+		<p><a href="#{{person.name | slugify }}">{{person.name}}</a></p>
+		{% endfor %}
+	</div>
+	<div class="large-10 columns" data-equalizer-watch>
+		{% for person in page.people %}
+		<div class="row">
+			<div class="small-4 columns">
+				<img src="{{person.image-url}}" alt="" id="team-image">
+			</div>
+			<a class="anchor" id="{{person.name | slugify}}"></a>
+			<div class="small-8 columns">
+				<h3> {{ person.name }} <small>{{person.title}}</small></h3>	
+				<p> {{person.bio}} </p>	
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
