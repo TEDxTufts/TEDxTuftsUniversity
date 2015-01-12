@@ -4,6 +4,14 @@
   Tony Cannistra, 2015
 */
 
+/* Specifies which files to upload to remote server */
+static_fileobject =  [
+  // Delete from s3 all files that are not in _/site 
+  { cwd: "_site/", dest: "/", action: 'delete'},
+  // Upload to s3 those files that do not exist or have changed
+  { expand: true, cwd: '_site/', src: "**", dest: "/", action: 'upload'}
+]
+
 module.exports = function(grunt) {
 
   // Project configuration.
@@ -39,18 +47,14 @@ module.exports = function(grunt) {
           bucket : '<%= aws.AWSBucketName_staging %>',
           differential: true
         },  
-        files : [
-          { expand: true, cwd: '_site/', src: "**", dest: "/", action: 'upload'}
-        ]
+        files : static_fileobject
       },
       deploy_production : {
         options : {
           bucket : '<%= aws.AWSBucketName_production %>',
           differential: true
         },  
-        files : [
-          { expand: true, cwd: '_site/', src: "**", dest: "/", action: 'upload'}
-        ]
+        files : static_fileobject
       },
 
     }
@@ -63,7 +67,9 @@ module.exports = function(grunt) {
   // load AWS S3 interface tasks
   grunt.loadNpmTasks('grunt-aws-s3');
   // create deployment task (above AWS abstraction)
-  grunt.registerTask('deploy', "Deploy site to AWS S3", function(type){
+  grunt.registerTask('deploy', "Deploy site to AWS S3. Requires aws-s3-config.json file."+
+                                " deploy:staging and deploy:production specify which of 2"+
+                                "   buckets to deploy to.", function(type){
     if(type == "staging" || type == "production"){
       grunt.task.run(['compass', 'shell:jekyllBuild', 'aws_s3:deploy_' + type]);
     } else {
