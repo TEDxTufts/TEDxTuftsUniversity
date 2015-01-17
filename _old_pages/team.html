@@ -1,0 +1,34 @@
+---
+layout: base
+title: TEDx Team
+permalink: /team/
+
+
+---
+
+<div class="tedx-billboard-small background-img">
+	<h1 class="centered-text">Meet the Team.</h1>
+</div>
+
+
+<div class="row" id="team-container" data-equalizer>
+	<div class="large-2 columns show-for-large-up" id="team-list" data-equalizer-watch>
+		{% for person in site.data.team %}
+		<p><a href="#{{person.name | slugify }}">{{person.name}}</a></p>
+		{% endfor %}
+	</div>
+	<div class="large-10 columns" data-equalizer-watch>
+		{% for person in site.data.team %}
+		<div class="row">
+			<div class="small-4 columns">
+				<img src="{{person.image-url}}" alt="" id="team-image">
+			</div>
+			<a class="anchor" id="{{person.name | slugify}}"></a>
+			<div class="small-8 columns">
+				<h3> {{ person.name }} <small>{{person.title}}</small></h3>	
+				<p> {{person.bio}} </p>	
+			</div>
+		</div>
+		{% endfor %}
+	</div>
+</div>
