@@ -12,16 +12,18 @@ static_fileobject =  [
   { expand: true, cwd: '_site/', src: "**", dest: "/", action: 'upload'}
 ]
 
-aws_config = {};
-
-try {
-  aws_config = grunt.file.readJSON('aws-s3-config.json');
-}
-catch(err){
-  console.log("Warning, no aws-s3-config.json file configured. Deployment disabled.");
-};
 
 module.exports = function(grunt) {
+
+  aws_config = {};
+
+  try {
+    aws_config = grunt.file.readJSON('aws-s3-config.json');
+  }
+  catch(err){
+    console.log("Warning, no aws-s3-config.json file configured. Deployment disabled.");
+  };
+
 
   // Project configuration.
   grunt.initConfig({
