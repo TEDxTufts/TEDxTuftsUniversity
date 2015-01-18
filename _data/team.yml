@@ -1,7 +1,7 @@
  - name: Slide Kelly
-   title: Curator 
-   bio: He's a cool person.
-   image-url: http://placehold.it/400
+   title: Curator.
+   bio: 
+   image-url: /public/team_images/slide.jpg
 
  - name: Tony Cannistra
    title: Organizer.
