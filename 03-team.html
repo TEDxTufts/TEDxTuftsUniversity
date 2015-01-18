@@ -1,0 +1,56 @@
+---
+layout: base
+title: TEDx Team 
+permalink: /team/
+ 
+
+---
+
+<div class="tedx-billboard-small background-img">
+	<h1 class="centered-text">Meet the Team.</h1>
+</div>
+
+
+{% for person in site.data.team %}
+
+  {% capture modulo %}{{ forloop.index | mod:2 }}{% endcapture %}
+
+  {% if modulo == '0' or forloop.first %}
+    <div class="row">
+  {% endif %}
+  <div class="small-6 columns">
+      <div class="row">
+         <div class="small-4 columns">
+            <img src="{{person.image-url}}" alt="" id="team-image">
+         </div>
+         <a class="anchor" id="{{person.name | slugify}}"></a>
+         <div class="small-8 columns">
+            <h3> {{ person.name }} <small>{{person.title}}</small></h3> 
+            <p> {{person.bio}} </p> 
+         </div>
+      </div>
+  </div>
+
+  {% if modulo == '0' or forloop.last %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+<div class="tedx-billboard-small background-img">
+  <h1 class="centered-text">Join the Team.</h1>
+</div>
+
+<div class="row" >
+  <div class="large-12 columns" >
+    <div class="row">
+      <div class="small-12 small-centered columns" data-equalizer-watch> 
+        <h2 style="text-align: center">We need your help.</h2>
+        <p style="text-align:center" ><p style="text-align:center">If you believe in the power of ideas and the incredible potential of this university- we want you on our team. Whether you're interested in publicity, web, sponsors or coaching speakers- we’d love to hear from you.</p>
+      </div>
+      <div class="small-8 small-centered columns"> 
+        <a class="button" href="https://docs.google.com/forms/d/11s9-_P_AO4XrFu3MUC-yEeHbqMYBAUwaEhLUFQysNFg/viewform" style="width: 100%">Apply now.</a>
+      </div>
+    </div>
+  </div>
+</div>
