@@ -9084,6 +9084,13 @@ a.anchor {
   visibility: hidden;
 }
 
+/* line 33, ../scss/home.scss */
+#mission {
+  text-align: center;
+  font-style: italic;
+  font-size: 200%;
+}
+
 /* line 1, ../scss/team.scss */
 #team-image {
   position: absolute;
