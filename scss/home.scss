@@ -4,16 +4,29 @@
 }
 
 .centered-text{
+	
 	text-align: center;
 }
 
 #footer{
 	background-color: $topbar-bg;
-	height: 200px
+	height: 200px;
+	padding-top: 20px;
 }
 
 #header-img{
 	padding-top: 25px;
 }
 
+.mission{
+	color: white;
+	font-size: 80%;
+	font-style: italic;
+}
+
+#icon{
+	color:white;
+}
+
 a.anchor{display: block; position: relative; top: -$topbar-height; visibility: hidden;}
+

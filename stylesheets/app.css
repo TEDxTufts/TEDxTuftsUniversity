@@ -9052,18 +9052,31 @@ th.hide-for-touch {
   text-align: center;
 }
 
-/* line 10, ../scss/home.scss */
+/* line 11, ../scss/home.scss */
 #footer {
   background-color: #333333;
   height: 200px;
+  padding-top: 20px;
 }
 
-/* line 15, ../scss/home.scss */
+/* line 17, ../scss/home.scss */
 #header-img {
   padding-top: 25px;
 }
 
-/* line 19, ../scss/home.scss */
+/* line 21, ../scss/home.scss */
+.mission {
+  color: white;
+  font-size: 80%;
+  font-style: italic;
+}
+
+/* line 27, ../scss/home.scss */
+#icon {
+  color: white;
+}
+
+/* line 31, ../scss/home.scss */
 a.anchor {
   display: block;
   position: relative;
