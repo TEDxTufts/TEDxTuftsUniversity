@@ -1,6 +1,6 @@
  - name: Slide Kelly
    title: Curator.
-   bio: 
+   bio: Slide is a sophomore majoring in urban planning and design. He's from Morrison, Colorado and is interested in effective and equitable use of public space, mountain sports, and the circus arts.
    image-url: /public/team_images/slide.jpg
 
  - name: Tony Cannistra
@@ -13,11 +13,6 @@
    bio: Val is a senior majoring in Environmental Science and International Relations and she loves getting outside. She's been with the Tufts Idea Exchange from the start and is our bridge in merging the history of the Tufts Idea Exchange with TEDxTuftsUniversity.
    image-url: /public/team_images/val.jpg
 
- - name: Stephanie Cleland
-   title: Organizer.
-   bio: Stephanie is a junior double majoring in Computer Science and Community Health. She likes coffee, design, TED talks, Settlers of Catan, folk music, and the great outdoors.
-   image-url: /public/team_images/steph.jpg
-
  - name: Shanzhi Thia
    title: Organizer.
    bio: Shanzhi is a senior, majoring in History, and is from Singapore. His interests include soccer, military affairs, modern history, and milk chocolate.
@@ -25,13 +20,18 @@
 
  - name: Vadim Reytblat
    title: Organizer.
-   bio: test.
-   image-url: http://placehold.it/400
+   bio: Vadim is senior majoring in Mechanical Engineering.
+   image-url: /public/team_images/vadim.jpg
+
+ - name: Stephanie Cleland
+   title: Organizer.
+   bio: Stephanie is a junior double majoring in Computer Science and Community Health. She likes coffee, design, TED talks, Settlers of Catan, folk music, and the great outdoors.
+   image-url: /public/team_images/steph.jpg
 
  - name: Kit McDonnell
    title: Organizer.
-   bio: test.
-   image-url: http://placehold.it/400
+   bio: Kit is a junior, currently abroad in Hong Kong, and is a Biology and Anthropology major.
+   image-url: /public/team_images/kit.jpg
 
  - name: Ben Berman
    title: Organizer.
