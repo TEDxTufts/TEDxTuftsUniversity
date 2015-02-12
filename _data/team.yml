@@ -44,7 +44,121 @@
    image-url: /public/team_images/nick.jpg
 
  - name: Rachael Robinson
-   title: Web/Design Team
+   title: Web/Design.
    bio: Rachael Robinson is sophomore from Seattle majoring in Computer Science. She enjoys the outdoors as well as photography and can name the five major types of pacific salmon. 
    image-url: /public/team_images/RachaelRobinson.jpg
 
+ - name: Annie Lye
+   title: Production.
+   bio: Annie is a sophomore who hails from what is known as the "fragrant harbour" but you may know it as Hong Kong. She finds inspiration in every detail and her camera is permanently at her side documenting all her inconspicuous pleasures.
+   image-url: /public/team_images/annie_lye.jpg
+
+ - name: Jeremy Ott
+   title: Speaker Coaching.
+   bio: Jeremy is a sophomore studying Engineering Physics from Paris, France. He is an amateur hiker who loves contrarian ideas, cooking and the history of science.
+   image-url: /public/team_images/jeremy_ott.jpg
+
+ - name: Jake Moran
+   title: Speaker Coaching.
+   bio: Jake Moran is a freshman interested in double majoring in Economics and Computer Science.
+   image-url: /public/team_images/john_moran.jpg
+
+ - name: Cat Armistead
+   title: Design.
+   bio: Catherine Armistead is a sophomore majoring in Engineering Psychology and enrolled in the Dual Degree Program with the School of the Museum of Fine Arts, and she is really into minimalist design, unique mark-making, and houseplants.
+   image-url: /public/team_images/cat_armistead.jpg
+
+ - name: Kate Sienko
+   title: Marketing & Publicity.
+   bio: Kate Sienko is a sophomore from New Providence, New Jersey majoring in English and loves being behind the camera, storytelling, and all things nautical.
+   image-url: /public/team_images/kate_sienko.jpg
+
+ - name: Mika Sanger
+   title: Speaker Coaching.
+   bio: Mika is a sophomore studying economics and communications / media studies who is passionate about music, film, the internet, and other passionate people.
+   image-url: /public/team_images/mika_sanger.jpg
+
+ - name: Ramone Brown
+   title: Production
+   bio: Ramone is a first year student who is interested in neuroscience and the humanities.
+   image-url: /public/team_images/ramone_brown.jpg
+
+ - name: Peter Bae
+   title: Speaker Coaching.
+   bio: Peter is a freshman from Milford, Massachusetts; he enjoys reading and playing the cello and guitar, and he is currently thinking about majoring in either Economics or Computer Science.
+   image-url: /public/team_images/peter_bae.jpg
+
+ - name: Noah Wise
+   title: Marketing & Publicity.
+   bio: Noah is a sophomore Biopsychology major from the Chicago area with strong interests in hiking, live music, and tennis.
+   image-url: https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
+
+ - name: Esi Alkatun
+   title: Senior Advisor &mdash; Design.
+   bio: A global nomad at heart, Esi studies Sociology and Entrepreneurship and is incredibly passionate about the society, knowledge and innovation.
+   image-url: /public/team_images/esi_alkatun.jpg
+
+ - name: Sam McPeck
+   title: Speaker Coaching.
+   bio: Sam is a senior from LaGrangeville, New York majoring in Community Health and Spanish.
+   image-url: /public/team_images/sam_mcpeck.jpg
+
+ - name: Caitlin Pohl
+   title: Senior Advisor &mdash; Coaching.
+   bio: Caitlin Pohl is a senior majoring in International Relations, and she is pursuing a Master of Public Health at Tufts University. 
+   image-url: /public/team_images/caitlin_pohl.jpg
+
+ - name: Stephanie Kim
+   title: Sponsorship & Finance.
+   bio: Stephanie is a sophomore double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
+   image-url: /public/team_images/stephanie_kim.png
+
+ - name: Jane Acker
+   title: Speaker Coaching.
+   bio: Jane is a sophomore majoring in Quantitative Economics with concentrations in Philosophy and Dance, seeking the connection between systems of numbers, movement and speech.
+   image-url: /public/team_images/jane_acker.jpg
+
+ - name: Maya Pace
+   title: Marketing & Publicity.
+   bio: Maya is a freshman (who is currently undecided on her life path) and finds joy in activities such as eating bananas, drinking tea, reading and having her mind blown by the wise words of TED folk. 
+   image-url: /public/team_images/maya_pace.jpg
+
+ - name: Mallory Feldman
+   title: Junior Advisor &mdash; Coaching.
+   bio: Mallory Feldman is a shower diva, peanut-butter loving, and mountain climbing Junior studying Psychology & Peace and Justice studies. 
+   image-url: https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
+
+ - name: Annahstasia Enuke
+   title: Speaker Coaching.
+   bio: Annahstasia Enuke is from Los Angeles, CA. She is a sophomore at Tufts University studying political science and studio art.
+   image-url: /public/team_images/annahstasia_enuke.jpg
+
+ - name: Adriana Guardans-Godo
+   title: Marketing & Publicity.
+   bio: Adriana is a sophomore from Barcelona, Spain majoring in International Relations who is passionate about people, loves to travel and enjoys frolicking outside.
+   image-url: /public/team_images/adriana_guardans_godo.jpg
+
+ - name: Scott Delisle
+   title: Senior Advisor &mdash; Coaching
+   bio: Scott is a senior double majoring in Biomedical Engineering and English and loves anything interdisciplinary, biologically inspired engineering, modern and postmodern literature, and wearing lots of different hats.
+   image-url: /public/team_images/scott_delisle.jpg
+
+ - name: Dani Kupfer
+   title: Sponsorship & Finance.
+   bio: Dani is a freshman from Chevy Chase, MD, who is undecided (but leaning towards Computer Science).  She loves the beach, the Pittsburgh Steelers, Friends (the TV show), whipped cream, and traveling anywhere & everywhere.
+   image-url: /public/team_images/dani_kupfer.jpg
+
+ - name: Nikita Shukla
+   title: Sponsorship & Finance.
+   bio: Nikita is a sophomore majoring in International Relations and Economics. She loves talking, meeting new people, and Reeses.  
+   image-url: /public/team_images/nikita_shukla.jpg
+
+ - name: Kate Scheer
+   title: Production.
+   bio: Kate is a sophomore majoring in Quantitative Economics and enjoys Victorian era period pieces, kale and rhyming.
+   image-url: /public/team_images/kate_scheer.jpg
+
+ - name: Amanda Ng Yann Chwen
+   title: Marketing & Publicity.
+   bio: Amanda Ng Yann Chwen is a freshman from Penang, Malaysia, who hopes to minor in Education and major in something cool she doesn't know yet. She adores writing, listening to stories, coffee, watching TED Talks at 2am, Reese's, Cookie Monster, and guacamole. 
+   image-url: /public/team_images/amanda_ng_yann_chwen.jpg
