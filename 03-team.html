@@ -11,8 +11,8 @@ permalink: /team/
 </div>
 
 
-
-{% for person in site.data.team %}
+{% assign people = site.data.team  %}
+{% for person in people %}
 
   {% capture modulo %}{{ forloop.index | mod:2 }}{% endcapture %}
 
