@@ -28,19 +28,35 @@ window._fbq.push(['track', '6020043221567', {'value':'0.00','currency':'USD'}]);
 	<h1 class="centered-text">TEDxTufts Speakers</h1>
 </div>
 
+{% assign people = site.data.speakers  %}
+{% for person in people %}
+
+
+  <div class="row">
+	  <div class="small-12 columns">
+	      <div class="row">
+	         <div class="small-3 columns">
+	            <img src="{{person.image-url}}" alt="" id="team-image">
+	         </div>
+	         <a class="anchor" id="{{person.name | slugify}}"></a>
+	         <div class="small-9 columns">
+	            <h3> {{ person.name }} 
+				{% if person.twitter %}
+	            <small><a href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></small>
+				{% endif %}
+	            </h3> 
+	            <p> {{person.bio}} </p> 
+	         </div>
+	      </div>
+	  </div>
+  </div>
+
+{% endfor %}
+
+
+
 <div class="row">
-	<div class="large-6 columns" >
-		<div class="row">
-			<div class="small-12 small-centered columns"> 
-				<h2 style="text-align: center">Apply To Speak.</h2>
-				<p style="text-align:center" >Have an idea you want to share with the Tufts community? Are you a writer, scientist, performer, artist, or dreamer who would like to tell your story to Tufts students, faculty, staff, and alumni? We want you to apply to speak at TEDxTufts 2015.<i> The deadline for speaker applications is Friday, February 6, 2015 at 11:59:59 PM.</i></p>
-			</div>
-			<div class="small-8 small-centered columns"> 
-				<a href="https://docs.google.com/forms/d/1FCrXB_xWLIFx7eo-cohpd35A0xBaZwfnaWzm60tyRT8/viewform" class="button" style="width: 100%">Apply Now</a>
-			</div>
-		</div>
-	</div>
-	<div class="large-6 columns">
+	<div class="large-12 columns">
 		<div class="row">
 			<div class="small-12 small-centered columns" data-equalizer-watch> 
 				<h2 style="text-align: center">Nominate Someone.</h2>	
@@ -57,6 +73,10 @@ TEDxTufts, more than anything, is about Tufts: we want to showcase innovative an
 
 </div>
 
+
+<div class="tedx-billboard-small background-img">
+	<h1 class="centered-text">TEX Selected Past Speakers</h1>
+</div>
 
 <div class="videos">
 	<div class="row">
