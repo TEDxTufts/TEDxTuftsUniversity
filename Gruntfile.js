@@ -44,6 +44,12 @@ module.exports = function(grunt) {
       },
       jekyllServe : {
         command: "jekyll serve"
+      },
+      jekyllServe_nobuild : {
+      	command: "jekyll serve --skip-initial-build"
+      },
+      compress_images: {
+      	command: "cd _site/public; mogrify -verbose -strip -interlace Plane -sampling-factor 4:2:0 -resize 400x400 */*.jpg"
       }
     },
     // configure aws s3 tasks
@@ -82,11 +88,12 @@ module.exports = function(grunt) {
                                 " deploy:staging and deploy:production specify which of 2"+
                                 "   buckets to deploy to.", function(type){
     if(type == "staging" || type == "production"){
-      grunt.task.run(['compass', 'shell:jekyllBuild', 'aws_s3:deploy_' + type]);
+      grunt.task.run(['compass', 'shell:jekyllBuild', 'shell:compress_images', 'aws_s3:deploy_' + type]);
     } else {
       grunt.log.writeln("Specify 'staging' or 'production'");
     }
   });
+  grunt.registerTask('serve_compressed', ['compass', 'shell:jekyllBuild', 'shell:compress_images', 'shell:jekyllServe_nobuild'])
 
   // default tasks
   grunt.registerTask('default', ['compass', 'shell:jekyllServe']);
