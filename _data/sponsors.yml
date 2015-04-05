@@ -1,0 +1,22 @@
+ - name: Tufts Admissions
+   image-url: /public/sponsor_images/tufts_admissions.jpg
+ - name: Tufts Gordon Institute
+   image-url: /public/sponsor_images/tufts_gordon.jpg
+ - name: President Anthony Monaco
+   image-url: /public/sponsor_images/president.jpg
+ - name: Tufts Career Center
+   image-url: /public/sponsor_images/tufts_career_center.jpg
+ - name: Tufts Observer
+   image-url: /public/sponsor_images/observer.jpg
+ - name: Tufts Hillel
+   image-url: /public/sponsor_images/hillel.jpg
+ - name: Tufts Experimental College
+   image-url: /public/sponsor_images/excollege.jpg
+ - name: Flatbread Company Somerville
+   image-url: /public/sponsor_images/flatbread.jpg
+ - name: Dave's Fresh Pasta
+   image-url: /public/sponsor_images/daves.jpg
+ - name: Orange Leaf 
+   image-url: /public/sponsor_images/orange_leaf.jpg
+ - name: Tufts Student Resources
+   image-url: /public/sponsor_images/tsr.jpg
