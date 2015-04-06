@@ -47,9 +47,13 @@ permalink: /sponsors/
 {% for sponsor in sponsors %}
 	<li>
 		  <div style="height: 120px; width: 100%">
-		  	<img  class="sponsor_img" src="{{sponsor.image-url}}">
+		  	<a target="_blank" href="{{sponsor.link-url}}">
+		  		<img class="sponsor_img" src="{{sponsor.image-url}}">
+		  	</a>
 		  </div>
-		  <p class="text-center"><b>{{sponsor.name}}</b></p>
+		  <a href="{{sponsor.link-url}}">
+		  	<p class="text-center"><b>{{sponsor.name}}</b></p>
+		  </a>
 
 	</li>	
   <!-- {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
