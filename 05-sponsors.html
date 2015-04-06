@@ -10,7 +10,7 @@ permalink: /sponsors/
 	<h1 class="centered-text">Our Sponsors</h1>
 </div>
 
-<h2 class="text-center">Making TEDxTufts Possible.</h2>
+<h2 class="text-center" style="margin-bottom: 40px">Making TEDxTufts Possible.</h2>
 
 <!-- {% assign sponsors = site.data.sponsors  %}
 {% for sponsor in sponsors %}
@@ -40,12 +40,19 @@ permalink: /sponsors/
   </div>
 
 {% endfor %} -->
-
-
+<div class="row">
+<div class="small-12">
+<ul class="small-block-grid-3">
 {% assign sponsors = site.data.sponsors  %}
 {% for sponsor in sponsors %}
+	<li>
+		  <div style="height: 120px; width: 100%">
+		  	<img  class="sponsor_img" src="{{sponsor.image-url}}">
+		  </div>
+		  <p class="text-center"><b>{{sponsor.name}}</b></p>
 
-  {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
+	</li>	
+  <!-- {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
 
   {% if forloop.first %}
     <div class="row">
@@ -62,6 +69,9 @@ permalink: /sponsors/
   {% if modulo == '0' or forloop.last %}
     </div>
     <div class="row">
-  {% endif %}
+  {% endif %} -->
 {% endfor %}
+</ul>
 </div>
+</div>
+
