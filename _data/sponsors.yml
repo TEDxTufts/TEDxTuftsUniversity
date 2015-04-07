@@ -1,33 +1,96 @@
- - name: Tufts Admissions
-   image-url: /public/sponsor_images/tufts_admissions.jpg
-   link-url: "http://admissions.tufts.edu"
- - name: Tufts Gordon Institute
-   image-url: /public/sponsor_images/tufts_gordon.jpg
-   link-url: "http://gordon.tufts.edu/"
- - name: President Anthony Monaco
-   image-url: /public/sponsor_images/president.jpg
-   link-url: "http://president.tufts.edu"
- - name: Tufts Career Center
-   image-url: /public/sponsor_images/tufts_career_center.jpg
-   link-url: "http://career.tufts.edu"
  - name: Tufts Observer
    image-url: /public/sponsor_images/observer.jpg
    link-url: "http://www.tuftsobserver.org"
- - name: Tufts Hillel
-   image-url: /public/sponsor_images/hillel.jpg
-   link-url: "http://www.tuftshillel.org"
+   image_width: 300px
+   image_height: 150px
+ - name: Tisch College
+   image-url: /public/sponsor_images/tisch_college.jpg
+   image_width: 300px
+   image_height: 150px
  - name: Tufts Experimental College
    image-url: /public/sponsor_images/excollege.jpg
    link-url: "http://www.excollege.tufts.edu/"
+   image_width: 300px
+   image_height: 150px
+ - name: Tufts Admissions
+   image-url: /public/sponsor_images/tufts_admissions.jpg
+   link-url: "http://admissions.tufts.edu"
+   image_width: 250px
+   image_height: 100px
+ - name: Tufts Gordon Institute
+   image-url: /public/sponsor_images/tufts_gordon.jpg
+   link-url: "http://gordon.tufts.edu/"
+   image_width: 250px
+   image_height: 100px
+ - name: President Anthony Monaco
+   image_width: 250px
+   image_height: 100px
+   image-url: /public/sponsor_images/president.jpg
+   link-url: "http://president.tufts.edu"
+   image_width: 250px
+   image_height: 100px
+ - name: Tufts Athletics
+   image-url: /public/sponsor_images/tufts_athletics.jpg
+   link-url: "http://www.gotuftsjumbos.com"
+   image_width: 250px
+   image_height: 100px
+ - name: Tufts Student Fund
+   image-url: /public/sponsor_images/studentfund_logo.jpg
+   link-url: "http://giving.tufts.edu/ways_to_give/annualgiving/studentgiving/"
+   image_width: 250px
+   image_height: 100px
+ - name: Tufts Office for Fraternity and Sorority Life
+   image-url: /public/sponsor_images/greeklife.jpg
+   image_width: 250px
+   image_height: 100px
+   link_url: "http://uss.tufts.edu/studentAffairs/fraternitySororityLife/"
+ - name: Tufts Hillel
+   image-url: /public/sponsor_images/hillel.jpg
+   link-url: "http://www.tuftshillel.org"
+   image_width: 250px
+   image_height: 100px
  - name: Flatbread Company Somerville
    image-url: /public/sponsor_images/flatbread.jpg
    link-url: "http://flatbreadcompany.com/FlatbreadSacco2010.html"
+   image_width: 250px
+   image_height: 100px
  - name: Dave's Fresh Pasta
    image-url: /public/sponsor_images/daves.jpg
    link-url: "http://www.davesfreshpasta.com/"
+   image_width: 250px
+   image_height: 100px
+ - name: Espresso Pizzeria
+   image-url: /public/sponsor_images/espresso.jpg
+   link-url: "http://www.espressopizzaofmedford.com/index.php"
+   image_width: 250px
+   image_height: 100px
+ - name: Yoshi's Sushi
+   image-url: /public/sponsor_images/yoshis.jpg
+   link-url: "http://yoshis.net/"
+   image_width: 250px
+   image_height: 100px
  - name: Orange Leaf 
    image-url: /public/sponsor_images/orange_leaf.jpg
    link-url: "http://www.orangeleafyogurt.com/"
+   image_width: 250px
+   image_height: 100px
+ - name: Helen's Pizzeria
+   image-url: /public/sponsor_images/helens.jpg
+   link-url: "http://helenspizzeria.com/"
+   image_width: 250px
+   image_height: 100px
  - name: Tufts Student Resources
    image-url: /public/sponsor_images/tsr.jpg
    link-url: "http://www.tuftsstudentresources.com/"
+   image_width: 250px
+   image_height: 100px
+ - name: Tufts Career Center
+   image-url: /public/sponsor_images/tufts_career_center.jpg
+   link-url: "http://career.tufts.edu"
+   image_width: 250px
+   image_height: 70px
+ - name: Tufts Premedical Society
+   image-url: /public/sponsor_images/tufts_premed.jpg
+   link-url: "http://tuftspremedical.strikingly.com/"
+   image_width: 250px
+   image_height: 70px

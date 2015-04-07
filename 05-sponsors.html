@@ -40,13 +40,13 @@ permalink: /sponsors/
   </div>
 
 {% endfor %} -->
-<div class="row">
-<div class="small-12">
-<ul class="small-block-grid-3">
+<!-- <div class="row"> -->
+<!-- <div class="small-12">
+<ul class="small-block-grid-3"> -->
 {% assign sponsors = site.data.sponsors  %}
 {% for sponsor in sponsors %}
-	<li>
-		  <div style="height: 120px; width: 100%">
+<!-- 	<li>
+		  <div style="height: 200px; width: 100%">
 		  	<a target="_blank" href="{{sponsor.link-url}}">
 		  		<img class="sponsor_img" src="{{sponsor.image-url}}">
 		  	</a>
@@ -55,27 +55,31 @@ permalink: /sponsors/
 		  	<p class="text-center"><b>{{sponsor.name}}</b></p>
 		  </a>
 
-	</li>	
-  <!-- {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
+	</li> -->	
+  {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
 
   {% if forloop.first %}
-    <div class="row">
+  <div class="row" data-equalizer>
   {% endif %}
-  <div class="large-4 columns sponsor end">
+  <div class="large-4 columns sponsor end" data-equalizer-watch>
 		<div class="row">
-			<div class="small-12 image">
-				<img src="{{sponsor.image-url}}">
+			<a target="_blank" href="{{sponsor.link-url}}">
+			<div class="small-12 image" >
+				<div  class="hcenter" style="height: {{sponsor.image_height}}; width: {{sponsor.image_width}}">
+					<img class="sponsor_img" src="{{sponsor.image-url}}">
+				</div>
 			</div>
+			</a>
 		</div>
-		<p class="text-center sponsor-name">{{sponsor.name}}</p>
+		<a target="_blank" href="{{sponsor.link-url}}"><p class="text-center sponsor-name">{{sponsor.name}}</p></a>
   </div>
 
   {% if modulo == '0' or forloop.last %}
     </div>
-    <div class="row">
-  {% endif %} -->
+    <div class="row" data-equalizer>
+  {% endif %}
 {% endfor %}
-</ul>
-</div>
+<!-- </ul> -->
+<!-- </div> -->
 </div>
 
