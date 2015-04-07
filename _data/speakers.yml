@@ -1,7 +1,3 @@
- - name: Sulmaan Khan, Ellen Mcdonald, and Elayne Stecher
-   sort-order: 0
-   bio: "<b>Sulmaan Khan</b> is Assistant Professor of International History and Chinese Foreign Relations. He also directs the Water and Oceans program at the Center for International Environment and Resource Policy (CIERP). His book, Muslim, Trader, Nomad, Spy: China's Cold War and the People of the Tibetan Borderlands, was published on March 23, 2015 by UNC Chapel Hill Press. He is currently working on a history of Sino-Japanese relations and China's maritime encounters with its neighbors during the twentieth century. <b>Ellen McDonald</b> began working as a librarian at the Fletcher School's Ginn Library in 1986. Her days are mostly consumed with research, book collecting and ferreting out snacks in nearby offices. Her strong convictions have only occasionally landed her in jail. <b>Elayne Stecher</b> graduated from Tufts in May 2014 with a degree in Arabic and International Relations, and currently works for the Center for International Environment and Resource Policy (CIERP) at the Fletcher School. Her interest in the psychology of conflict and particularly children in conflict zones has found her working and conducting research in Jordan, Nicaragua and Iraq within the past two years. She still firmly believes that one motivated person can change the world."
-   image-url: /public/speaker_images/triple.jpg
  - name: Angeli Gianchandani
    twitter: angeligian
    sort-order: 0
@@ -40,7 +36,7 @@
    sort-order: 2
    image-url: /public/speaker_images/james_kiefner.jpg
    bio: James Kiefner is a Tufts senior from Concord, NH, majoring in Psychology and History.  He is also a cadet in the US Army ROTC, destined for Ft. Rucker, AL shortly after graduation.
- 
+
  - name: Gracie McKenzie
    twitter: graciemckenzie
    sort-order: 2
@@ -51,3 +47,7 @@
    sort-order: 2
    image-url: /public/speaker_images/abuzar_royesh.jpg
    bio: Abuzar Royesh, is an International Relations student at Tufts University, class of 2016, originally from Kabul, Afghanistan. He is the co-founder of Bridges Academy, an education and literacy project for internally displaced persons in Afghanistan.
+ - name: Sulmaan Khan, Ellen Mcdonald, and Elayne Stecher
+   sort-order: 2
+   bio: "<b>Sulmaan Khan</b> is Assistant Professor of International History and Chinese Foreign Relations. He also directs the Water and Oceans program at the Center for International Environment and Resource Policy (CIERP). His book, Muslim, Trader, Nomad, Spy: China's Cold War and the People of the Tibetan Borderlands, was published on March 23, 2015 by UNC Chapel Hill Press. He is currently working on a history of Sino-Japanese relations and China's maritime encounters with its neighbors during the twentieth century. <b>Ellen McDonald</b> began working as a librarian at the Fletcher School's Ginn Library in 1986. Her days are mostly consumed with research, book collecting and ferreting out snacks in nearby offices. Her strong convictions have only occasionally landed her in jail. <b>Elayne Stecher</b> graduated from Tufts in May 2014 with a degree in Arabic and International Relations, and currently works for the Center for International Environment and Resource Policy (CIERP) at the Fletcher School. Her interest in the psychology of conflict and particularly children in conflict zones has found her working and conducting research in Jordan, Nicaragua and Iraq within the past two years. She still firmly believes that one motivated person can change the world."
+   image-url: /public/speaker_images/triple.jpg
