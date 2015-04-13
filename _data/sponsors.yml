@@ -35,49 +35,13 @@
    link-url: "http://www.gotuftsjumbos.com"
    image_width: 250px
    image_height: 100px
- - name: Tufts Student Fund
-   image-url: /public/sponsor_images/studentfund_logo.jpg
-   link-url: "http://giving.tufts.edu/ways_to_give/annualgiving/studentgiving/"
-   image_width: 250px
-   image_height: 100px
  - name: Tufts Office for Fraternity and Sorority Life
    image-url: /public/sponsor_images/greeklife.jpg
    link-url: "http://uss.tufts.edu/studentAffairs/fraternitySororityLife/"
    image_width: 250px
    image_height: 100px
- - name: Tufts Hillel
-   image-url: /public/sponsor_images/hillel.jpg
-   link-url: "http://www.tuftshillel.org"
-   image_width: 250px
-   image_height: 100px
- - name: Flatbread Company Somerville
-   image-url: /public/sponsor_images/flatbread.jpg
-   link-url: "http://flatbreadcompany.com/FlatbreadSacco2010.html"
-   image_width: 250px
-   image_height: 100px
- - name: Dave's Fresh Pasta
-   image-url: /public/sponsor_images/daves.jpg
-   link-url: "http://www.davesfreshpasta.com/"
-   image_width: 250px
-   image_height: 100px
- - name: Espresso Pizzeria
-   image-url: /public/sponsor_images/espresso.jpg
-   link-url: "http://www.espressopizzaofmedford.com/index.php"
-   image_width: 250px
-   image_height: 100px
- - name: Yoshi's Sushi
-   image-url: /public/sponsor_images/yoshis.jpg
-   link-url: "http://yoshis.net/"
-   image_width: 250px
-   image_height: 100px
- - name: Orange Leaf 
-   image-url: /public/sponsor_images/orange_leaf.jpg
-   link-url: "http://www.orangeleafyogurt.com/"
-   image_width: 250px
-   image_height: 100px
- - name: Helen's Pizzeria
-   image-url: /public/sponsor_images/helens.jpg
-   link-url: "http://helenspizzeria.com/"
+ - name: Tufts Programming Board
+   image-url: http://ocl.tufts.edu/wp-content/uploads/JPEG-Logo.jpg
    image_width: 250px
    image_height: 100px
  - name: Tufts Student Resources
@@ -94,4 +58,25 @@
    image-url: /public/sponsor_images/tufts_premed.jpg
    link-url: "http://tuftspremedical.strikingly.com/"
    image_width: 250px
+   image_height: 70px 
+ - name: Tufts ALLIES
+   image-url: http://www.alliescivmil.org/wp-content/uploads/2014/01/ALLIES-Letterhead-BW.png
+   image_width: 250px
    image_height: 70px
+   link-url: http://www.alliescivmil.org/
+ - name: Espresso Pizzeria
+   link-url: "http://www.espressopizzaofmedford.com/index.php"
+   image_width: 250px
+   image_height: 100px
+ - name: Yoshi's Sushi
+   link-url: "http://yoshis.net/"
+   image_width: 250px
+   image_height: 100px
+ - name: Orange Leaf 
+   link-url: "http://www.orangeleafyogurt.com/"
+   image_width: 250px
+   image_height: 100px
+ - name: Helen's Pizzeria
+   link-url: "http://helenspizzeria.com/"
+   image_width: 250px
+   image_height: 100px
