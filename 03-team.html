@@ -7,7 +7,7 @@ permalink: /team/
 ---
 
 <div class="tedx-billboard-small background-img">
-	<h1 class="centered-text">Meet the Team.</h1>
+	<h1 class="centered-text">Meet the Team</h1>
 </div>
 
 
@@ -26,7 +26,8 @@ permalink: /team/
          </div>
          <a class="anchor" id="{{person.name | slugify}}"></a>
          <div class="small-8 columns">
-            <h3> {{ person.name }} <small>{{person.title}}</small></h3> 
+            <h3> {{ person.name }}</h3>
+            <p id = "team-title">{{person.title}}</p> 
             <p> {{person.bio}} </p> 
          </div>
       </div>

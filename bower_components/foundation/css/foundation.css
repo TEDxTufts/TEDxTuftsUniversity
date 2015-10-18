@@ -1210,11 +1210,11 @@ select {
   .alert-box.secondary {
     background-color: #e7e7e7;
     border-color: #c7c7c7;
-    color: #4f4f4f; }
+    color: #4f4f4f;}
   .alert-box.warning {
-    background-color: #f08a24;
-    border-color: #de770f;
-    color: #FFFFFF; }
+    background-color: #f04124;
+    border-color: #f04124;
+    color: #FFFFFF;}
   .alert-box.info {
     background-color: #a0d3e8;
     border-color: #74bfdd;
@@ -1630,9 +1630,10 @@ button, .button {
     button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
       color: #FFFFFF; }
   button.warning, .button.warning {
-    background-color: #f08a24;
+    background-color: #f04124;
     border-color: #cf6e0e;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+     }
     button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {
       background-color: #cf6e0e; }
     button.warning:hover, button.warning:focus, .button.warning:hover, .button.warning:focus {

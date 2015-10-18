@@ -1,17 +1,12 @@
  - name: Slide Kelly
    title: Curator.
    bio: Slide is a junior majoring in Urban Policy, Planning and Design from Denver, Colorado. He loves innovative and equitable design, mountain sports, and bringing out the creative spark in others.
-   image-url: /public/team_images/slide.jpg
+   image-url: /public/team_images/slide_kelly.jpg
 
  - name: Stephanie Cleland
    title: Organizer.
    bio: Stephanie is a senior double majoring in Computer Science and Community Health. She likes coffee, design, TED talks, Settlers of Catan, folk music, and the great outdoors.
    image-url: /public/team_images/steph.jpg
-
- - name: Kit McDonnell
-   title: Lead Speaker Coach.
-   bio: Kit is a senior majoring in Biology. She tends to embody the "but first, coffee" mentality and enjoys biological design/biomimicry, anthropology, yoga, chocolate, and the Oxford comma. Kit is a co-founder of TEDxTufts and was one of the bridges in the transition from the Tufts Idea Exchange. This year she will be the head of Speaker Coaching. 
-   image-url: /public/team_images/kit.jpg
 
  - name: Mallory Feldman
    title: Lead Marketing & Publicity.
@@ -38,30 +33,30 @@
    bio: Rachael Robinson is junior from Seattle majoring in Computer Science. She enjoys the outdoors as well as photography and can name the five major types of pacific salmon. 
    image-url: /public/team_images/RachaelRobinson.jpg
 
+ - name: Kit McDonnell
+   title: Senior Advisor.
+   bio: Kit is a senior majoring in Biology. She tends to embody the "but first, coffee" mentality and enjoys biological design/biomimicry, anthropology, yoga, chocolate, and the Oxford comma. Kit is a co-founder of TEDxTufts and was one of the bridges in the transition from the Tufts Idea Exchange.
+   image-url: /public/team_images/kit_mcdonnell.jpg
+ 
+ - name: Annahstasia Enuke
+   title: Production.
+   bio: Annahstasia Enuke is from Los Angeles, CA. She is a junior at Tufts University studying political science and studio art.
+   image-url: /public/team_images/annahstasia_enuke.jpg
+
  - name: Annie Lye
    title: Production.
    bio: Annie is a junior who hails from what is known as the "fragrant harbour" but you may know it as Hong Kong. She finds inspiration in every detail and her camera is permanently at her side documenting all her inconspicuous pleasures.
    image-url: /public/team_images/annie_lye.jpg
-
- - name: Kate Scheer
-   title: Production.
-   bio: Kate is a junior majoring in Quantitative Economics and enjoys Victorian era period pieces, kale and rhyming.
-   image-url: /public/team_images/kate_scheer.jpg
-
- - name: Jane Acker
-   title: Speaker Coaching.
-   bio: Jane is a junior majoring in Quantitative Economics with concentrations in Philosophy and Dance, seeking the connection between systems of numbers, movement and speech.
-   image-url: /public/team_images/jane_acker.jpg
 
  - name: Peter Bae
    title: Speaker Coaching.
    bio: Peter is a sophomore from Milford, Massachusetts; he enjoys reading and playing the cello and guitar, and he is currently thinking about majoring in Community Health, Biology, and/or Spanish.
    image-url: /public/team_images/peter_bae.jpg
 
- - name: Annahstasia Enuke
+ - name: Adriana Guardans-Godo
    title: Speaker Coaching.
-   bio: Annahstasia Enuke is from Los Angeles, CA. She is a junior at Tufts University studying political science and studio art.
-   image-url: /public/team_images/annahstasia_enuke.jpg
+   bio: Adriana is a junior from Barcelona, Spain majoring in International Relations who is passionate about people, loves to travel and enjoys frolicking outside.
+   image-url: /public/team_images/adriana_guardans_godo.jpg
 
  - name: Jake Moran
    title: Speaker Coaching.
@@ -73,11 +68,6 @@
    bio: Mika is a junior majoring in economics and film studies. She is passionate about music, film, the internet, and other passionate people.
    image-url: /public/team_images/mika_sanger.jpg
 
- - name: Adriana Guardans-Godo
-   title: Marketing & Publicity.
-   bio: Adriana is a junior from Barcelona, Spain majoring in International Relations who is passionate about people, loves to travel and enjoys frolicking outside.
-   image-url: /public/team_images/adriana_guardans_godo.jpg
-
  - name: Maya Pace
    title: Marketing & Publicity.
    bio: Maya is a sophomore (who is currently undecided on her life path) and finds joy in activities such as eating bananas, drinking tea, reading and having her mind blown by the wise words of TED folk. 
@@ -87,19 +77,29 @@
    title: Marketing & Publicity.
    bio: Kate Sienko is a junior from New Providence, New Jersey majoring in English and loves being behind the camera, storytelling, and all things nautical.
    image-url: /public/team_images/kate_sienko.jpg
-
- - name: Noah Wise
-   title: Marketing & Publicity.
-   bio: Noah is a junior Biopsychology major from the Chicago area with strong interests in hiking, live music, and tennis.
-   image-url: https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
+ 
+ - name: Jane Acker
+   title: Sponsorship & Finance.
+   bio: Jane is a junior majoring in Quantitative Economics with concentrations in Philosophy and Dance, seeking the connection between systems of numbers, movement and speech.
+   image-url: /public/team_images/jane_acker.jpg
 
  - name: Stephanie Kim
    title: Sponsorship & Finance.
    bio: Stephanie is a junior double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
    image-url: /public/team_images/stephanie_kim.png
 
+ - name: Kate Scheer
+   title: Sponsorship & Finance.
+   bio: Kate is a junior majoring in Quantitative Economics and enjoys Victorian era period pieces, kale and rhyming.
+   image-url: /public/team_images/kate_scheer.jpg
+   
  - name: Nikita Shukla
    title: Sponsorship & Finance.
    bio: Nikita is a junior majoring in International Relations and Economics. She loves talking, meeting new people, and Reeses.  
    image-url: /public/team_images/nikita_shukla.jpg
+
+ - name: Noah Wise
+   title: Sponsorship & Finance.
+   bio: Noah is a junior Biopsychology major from the Chicago area with strong interests in hiking, live music, and tennis.
+   image-url: /public/team_images/noah_wise.jpg
 

@@ -1,1 +1,5 @@
-#team-image{position:absolute;display:block;width:200px;margin-left:auto;margin-right:auto;background:#FFF;border:3px solid #FFF;border-radius:100px;-webkit-border-radius:100px;-moz-border-radius:100px;top:0px;position:relative;overflow:hidden;text-align:center}#team-list{text-align:right;border-right:thin solid red;height:100%}#team-list p{line-height:10px}#team-container{margin-bottom:10px}
+#team-image{position:absolute;display:block;width:200px;margin-left:auto;margin-right:auto;background:#FFF;border:3px solid #FFF;border-radius:100px;-webkit-border-radius:100px;-moz-border-radius:100px;top:0px;position:relative;overflow:hidden;text-align:center}
+#team-list{text-align:right;border-right:thin solid red;height:100%}
+#team-list p{line-height:10px}
+#team-container{margin-bottom:10px}
+#team-title{color:blue;font-size:.5em}
