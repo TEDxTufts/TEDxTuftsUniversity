@@ -58,16 +58,31 @@
    bio: Adriana is a junior from Barcelona, Spain majoring in International Relations who is passionate about people, loves to travel and enjoys frolicking outside.
    image-url: /public/team_images/adriana_guardans_godo.jpg
 
+ - name: Abby Lord
+   title: Speaker Coaching.
+   bio: Abby Lord is a junior majoring in anthropology and architectural studies. She believes in the power of storytelling and is thrilled to give a stage to these narratives by being a part of TedxTufts.
+   image-url: /public/team_images/abby_lord.jpg
+
  - name: Jake Moran
    title: Speaker Coaching.
    bio: Jake Moran is a sophomore interested in double majoring in Economics and Computer Science.
    image-url: /public/team_images/john_moran.jpg
+ 
+ - name: Akshat Rajan
+   title: Speaker Coaching.
+   bio: Akshat is a first year, from Bombay, India, who will probably major in International Relations. He's been involved with TEDx for 4 years and loves theatre, people and traveling.
+   image-url: /public/team_images/akshat_rajan.jpg
 
  - name: Mika Sanger
    title: Speaker Coaching.
    bio: Mika is a junior majoring in economics and film studies. She is passionate about music, film, the internet, and other passionate people.
    image-url: /public/team_images/mika_sanger.jpg
-
+ 
+ # - name: Ballard Blair
+ #   title: Marketing & Publicity.
+ #   bio: 
+ #   image-url: 
+ 
  - name: Maya Pace
    title: Marketing & Publicity.
    bio: Maya is a sophomore (who is currently undecided on her life path) and finds joy in activities such as eating bananas, drinking tea, reading and having her mind blown by the wise words of TED folk. 
@@ -77,6 +92,11 @@
    title: Marketing & Publicity.
    bio: Kate Sienko is a junior from New Providence, New Jersey majoring in English and loves being behind the camera, storytelling, and all things nautical.
    image-url: /public/team_images/kate_sienko.jpg
+ 
+ - name: Amy Sokolow
+   title: Marketing & Publicity.
+   bio: Amy Sokolow is a sophomore from Lynnfield, MA majoring in Film and Media Studies.  She gets really excited about good live music, peppermint stick ice cream, wandering through new cities, and well-timed naps.
+   image-url: /public/team_images/amy_sokolow.jpg
  
  - name: Jane Acker
    title: Sponsorship & Finance.
@@ -88,11 +108,16 @@
    bio: Stephanie is a junior double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
    image-url: /public/team_images/stephanie_kim.png
 
+ - name: Emily North
+   title: Sponsorship & Finance.
+   bio: Emily is a Freshman from San Diego, California majoring in International Relations. Her interests include trail mix, Birkenstocks, and hiding from cold weather.
+   image-url: /public/team_images/emily_north.jpg
+
  - name: Kate Scheer
    title: Sponsorship & Finance.
    bio: Kate is a junior majoring in Quantitative Economics and enjoys Victorian era period pieces, kale and rhyming.
    image-url: /public/team_images/kate_scheer.jpg
-   
+
  - name: Nikita Shukla
    title: Sponsorship & Finance.
    bio: Nikita is a junior majoring in International Relations and Economics. She loves talking, meeting new people, and Reeses.  
@@ -102,4 +127,7 @@
    title: Sponsorship & Finance.
    bio: Noah is a junior Biopsychology major from the Chicago area with strong interests in hiking, live music, and tennis.
    image-url: /public/team_images/noah_wise.jpg
+
+   # If no photo, put this as photo
+   # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
 
