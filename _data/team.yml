@@ -43,31 +43,71 @@
    bio: Annahstasia Enuke is from Los Angeles, CA. She is a junior at Tufts University studying political science and studio art.
    image-url: /public/team_images/annahstasia_enuke.jpg
 
+ - name: Robert Hrabchak
+   title: Production.
+   bio: Robert Hrabchak is studying Mechanical Engineering and is interested in developing renewable energy. He is also an avid traveler because he loves meeting new people and hearing each of their stories.
+   image-url: /public/team_images/robert_hrabchak.jpg
+
+ - name: Julie Jiang
+   title: Production.
+   bio: Julie is a Canadian girl from China. She is a freshman at Tufts looking to double major in Applied Math and Quantitative Economics. She loves snapchatting. It's a crime.
+   image-url: /public/team_images/julie_jiang.jpg
+
  - name: Annie Lye
    title: Production.
    bio: Annie is a junior who hails from what is known as the "fragrant harbour" but you may know it as Hong Kong. She finds inspiration in every detail and her camera is permanently at her side documenting all her inconspicuous pleasures.
    image-url: /public/team_images/annie_lye.jpg
+
+ - name: Tommy Tang
+   title: Production.
+   bio: Tommy is a sophomore engineer from Beijing, China. He is a computer science major and an economics minor. He loves programming and reading.
+   image-url: /public/team_images/tommy_tang.jpg   
 
  - name: Peter Bae
    title: Speaker Coaching.
    bio: Peter is a sophomore from Milford, Massachusetts; he enjoys reading and playing the cello and guitar, and he is currently thinking about majoring in Community Health, Biology, and/or Spanish.
    image-url: /public/team_images/peter_bae.jpg
 
+ - name: Andrew Goldblatt
+   title: Speaker Coaching.
+   bio: Andrew is a freshman from Chicago, IL. He is passionate about using art to better the world. He loves singing, the Chicago Bulls, and traveling anywhere & everywhere.
+   image-url: /public/team_images/andrew_goldblatt.jpg
+
  - name: Adriana Guardans-Godo
    title: Speaker Coaching.
    bio: Adriana is a junior from Barcelona, Spain majoring in International Relations who is passionate about people, loves to travel and enjoys frolicking outside.
    image-url: /public/team_images/adriana_guardans_godo.jpg
+
+ - name: Miriam Hauptman
+   title: Speaker Coaching.
+   bio: Miriam is a first-year student who is interested in studying Child Development and German. She loves chocolate, marimbas, and public speaking.
+   image-url: /public/team_images/miriam_hauptman.jpg
+
+ - name: Teddy Laurita
+   title: Speaker Coaching.
+   bio: Teddy is a freshman planning on majoring in computer science. Teddy loves history, hiking, skiing, and snow! Teddy lectured for two years at the Hope Elephants organization, and is now excited to be coaching at TedxTufts!
+   image-url: /public/team_images/teddy_laurita.jpg
 
  - name: Abby Lord
    title: Speaker Coaching.
    bio: Abby Lord is a junior majoring in anthropology and architectural studies. She believes in the power of storytelling and is thrilled to give a stage to these narratives by being a part of TedxTufts.
    image-url: /public/team_images/abby_lord.jpg
 
+ - name: Will Lorenzen
+   title: Speaker Coaching.
+   bio: Will is a senior majoring in International Relations. He is passionate about the power of words, different cultures, and of course, food.
+   image-url: /public/team_images/will_lorenzen.jpg
+
  - name: Jake Moran
    title: Speaker Coaching.
    bio: Jake Moran is a sophomore interested in double majoring in Economics and Computer Science.
    image-url: /public/team_images/john_moran.jpg
  
+ - name: Asha Nidumolu
+   title: Speaker Coaching.
+   bio: Asha is a junior majoring in Psychology from California and specifically interested in the socio-cognitive processes involved in racial discrimination. She loves hopping the globe, learning new languages, listening to other people's problems, singing, making coffee at The Rez and obsessing over Brazilian music.
+   image-url: /public/team_images/asha_nidumolu.jpg
+
  - name: Akshat Rajan
    title: Speaker Coaching.
    bio: Akshat is a first year, from Bombay, India, who will probably major in International Relations. He's been involved with TEDx for 4 years and loves theatre, people and traveling.
@@ -78,10 +118,20 @@
    bio: Mika is a junior majoring in economics and film studies. She is passionate about music, film, the internet, and other passionate people.
    image-url: /public/team_images/mika_sanger.jpg
  
- # - name: Ballard Blair
- #   title: Marketing & Publicity.
- #   bio: 
- #   image-url: 
+ - name: Catherine Sillari
+   title: Speaker Coaching.
+   bio: Catherine is a sophomore from Lexington, MA studying biology and child development. She loves running, reading, and anything involving peanut butter.
+   image-url: /public/team_images/catherine_sillari.jpg
+
+ - name: Katyana Wardhana
+   title: Speaker Coaching.
+   bio: Katyana is a freshman from Indonesia double majoring in Economics and International Relations.  Her passions and interests are centralized around children's rights, demographic studies, economic development, baking and photography.
+   image-url: /public/team_images/katyana_wardhana.jpg
+ 
+ - name: Ballard Blair
+   title: Marketing & Publicity.
+   bio: Ballard is a sophomore from Fairfield, CT who hopes to major in computer science. He loves to explore the outdoors, cook, eat, and think.
+   image-url: /public/team_images/ballard_blair.jpg
  
  - name: Maya Pace
    title: Marketing & Publicity.
@@ -103,10 +153,20 @@
    bio: Jane is a junior majoring in Quantitative Economics with concentrations in Philosophy and Dance, seeking the connection between systems of numbers, movement and speech.
    image-url: /public/team_images/jane_acker.jpg
 
+ # - name: Zoe Foglizzo
+ #   title: Sponsorship & Finance.
+ #   bio: 
+ #   image-url: /public/team_images/zoe_foglizzo.jpg
+
  - name: Stephanie Kim
    title: Sponsorship & Finance.
    bio: Stephanie is a junior double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
    image-url: /public/team_images/stephanie_kim.png
+
+ - name: Gio Nikolaishvili
+   title: Sponsorship & Finance.
+   bio: Gio is a freshman from Tbilisi, Georgia. He is most likely majoring in Economics and minoring in Entrepreneurial Leadership Studies. He enjoys listening to jazz, playing guitar, and analyzing Plato's works while hanging out at the library.
+   image-url: /public/team_images/gio_nikolaishvili.jpg
 
  - name: Emily North
    title: Sponsorship & Finance.
