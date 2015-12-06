@@ -32,14 +32,13 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 
 
 <div class="tedx-billboard-small background-img">
-	<h1 class="centered-text">TEDxTufts Past Speakers</h1>
+	<h1 class="centered-text">TEDxTufts Speakers</h1>
 </div>
 
 <!-- <div style="padding-top: .5em" class="row">
 	<div class="small-6 columns"><a href="http://goo.gl/forms/NloDMjs6Oy" class="button alert" style="width: 100%	">Nominate a Speaker.</a></div>
 	<div class="small-6 columns"><a href="http://goo.gl/forms/psxxgHNW9U" class="button alert" style="width: 100%	">Apply to Speak.</a></div>
 </div> -->
-
 
 {% assign people = site.data.speakers  %}
 {% for person in people %}
@@ -67,7 +66,36 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 
 {% endfor %}
 
+<div class="tedx-billboard-small background-img">
+	<h1 class="centered-text">TEDxTufts Past Speakers</h1>
+</div>
 
+{% assign people = site.data.past_speakers  %}
+{% for person in people %}
+
+  {% capture modulo %}{{ forloop.index | mod:2 }}{% endcapture %}
+  
+  {% if modulo == '0' or forloop.first %}
+	<div class="row">
+  {% endif %}
+  <div class="small-6 columns">
+  	<div class="row">
+    	<div class="small-4 columns">
+            <img src="{{person.image-url}}" alt="" id="team-image">
+         </div>
+         <a class="anchor" id="{{person.name | slugify}}"></a>
+         <div class="small-8 columns">
+            <h3>{{ person.name }}</h3>
+            <medium><a href = "https://www.youtube.com/watch?v={{person.youtube}}">Click here to view the talk</a></medium>
+         </div>
+      </div>
+  </div>
+
+  {% if modulo == '0' or forloop.last %}
+ </div>
+  {% endif %}
+{% endfor %}
+</div>
 
 <div class="row">
 	<div class="large-12 columns">
@@ -87,9 +115,8 @@ TEDxTufts, more than anything, is about Tufts: we want to showcase innovative an
 
 </div>
 
-
 <div class="tedx-billboard-small background-img">
-	<h1 class="centered-text">TEDx Selected Past Speakers</h1>
+	<h1 class="centered-text">TEDxTufts Past Talks</h1>
 </div>
 
 <div class="videos">

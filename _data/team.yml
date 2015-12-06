@@ -158,11 +158,6 @@
    bio: Stephanie is a junior double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
    image-url: /public/team_images/stephanie_kim.png
 
- - name: Gio Nikolaishvili
-   title: Sponsorship & Finance.
-   bio: Gio is a freshman from Tbilisi, Georgia. He is most likely majoring in Economics and minoring in Entrepreneurial Leadership Studies. He enjoys listening to jazz, playing guitar, and analyzing Plato's works while hanging out at the library.
-   image-url: /public/team_images/gio_nikolaishvili.jpg
-
  - name: Emily North
    title: Sponsorship & Finance.
    bio: Emily is a Freshman from San Diego, California majoring in International Relations. Her interests include trail mix, Birkenstocks, and hiding from cold weather.
@@ -177,11 +172,6 @@
    title: Sponsorship & Finance.
    bio: Nikita is a junior majoring in International Relations and Economics. She loves talking, meeting new people, and Reeses.  
    image-url: /public/team_images/nikita_shukla.jpg
-
- - name: Noah Wise
-   title: Sponsorship & Finance.
-   bio: Noah is a junior Biopsychology major from the Chicago area with strong interests in hiking, live music, and tennis.
-   image-url: /public/team_images/noah_wise.jpg
 
    # If no photo, put this as photo
    # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
