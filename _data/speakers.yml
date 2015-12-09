@@ -1,12 +1,15 @@
+ # If no photo given, copy and paste the png below and it will display generic TEDxTufts photo
+ # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
+
  - name: Ameya Naik
    sort-order: 0
    image-url: /public/speaker_images/ameya_naik.jpg
    bio: Ameya is a graduate student at The Fletcher School of Law and Diplomacy, studying international relations and international law. A psychologist, lawyer, and policy analyst by training, he is interested in how identities influence the acquisition, use, or rejection of new information about the world.
 
- # - name: Cristina Rosa
- #   sort-order: 0
- #   image-url: /public/speaker_images/cristina_rosa.jpg
- #   bio: 
+ - name: Cristina F Rosa
+   sort-order: 0
+   image-url: /public/speaker_images/cristina_rosa.jpg
+   bio: Cristina F. Rosa is a full-time lecturer at Tufts University’s Drama and Dance department, where she teaches dance studio classes and seminars. Her research interests include the intersection of embodiment, knowledge production, and processes of identification.
 
  # - name: Howard Woolf
  #   sort-order: 0
@@ -28,10 +31,10 @@
    image-url: /public/speaker_images/jordin_metz.jpg
    bio: Jordin Metz is a senior majoring in chemistry. He loves dancing, learning, and sleeping, and thinks that keeping an open mind is the best way to grow.
 
- # - name: Laura Graham
- #   sort-order: 0
- #   image-url: /public/speaker_images/laura_graham.jpg
- #   bio: 
+ - name: Laura Graham
+   sort-order: 0
+   image-url: /public/speaker_images/laura_graham.jpg
+   bio: Graham is a scholar of international conflict and peace processes. Her research focuses on the role of civil society in peacebuilding and post-conflict reconciliation.
 
  - name: Mahmoud Jabari
    twitter: mahmoudjabari
@@ -46,8 +49,7 @@
 
  - name: Neal Jawadekar
    sort-order: 1
-   image-url: https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
-   # /public/speaker_images/neal_jawadekar.jpg
+   image-url: /public/speaker_images/neal_jawadekar.jpg
    bio: Neal Jawadekar graduated with a BA/MPH from Tufts University in 2014, where he played on the tennis team and co-founded the Association of Multiracial People at Tufts. He is currently a Big Data Analyst at Predilytics, an advanced healthcare analytics company.
 
  # - name: Sam Weiser
