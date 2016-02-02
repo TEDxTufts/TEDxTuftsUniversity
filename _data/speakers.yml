@@ -56,8 +56,7 @@
 
  - name: Sam Weiser
    sort-order: 0
-   image-url: https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
- # /public/speaker_images/sam_weiser.jpg
+   image-url: /public/speaker_images/sam_weiser.jpg
    bio: Sam Weiser is an undergraduate student at Tufts University and the New England Conservatory pursuing degrees in both computer science and violin performance.
 
  - name: Soubhik Barari
