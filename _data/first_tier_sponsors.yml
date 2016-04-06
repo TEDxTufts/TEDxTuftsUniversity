@@ -1,0 +1,10 @@
+ - name: Tisch College
+   image-url: /public/sponsor_images/tisch_college.jpg
+   image_width: 400px
+   image_height: 275px
+   link-url: "http://activecitizen.tufts.edu/"
+ - name: Tufts Institute for Innovation
+   image-url:  /public/sponsor_images/innovation_small.jpg
+   image_width: 400px
+   image_height: 275px
+   link-url: "https://tii.tufts.edu/"

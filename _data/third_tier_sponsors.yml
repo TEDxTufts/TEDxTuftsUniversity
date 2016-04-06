@@ -1,0 +1,15 @@
+ - name: Tufts Community Relations
+   image-url: /public/sponsor_images/community.png
+   link-url: "http://communityrelations.tufts.edu/"
+   image_width: 275px
+   image_height: 125px
+ - name: Tufts Office for Fraternity and Sorority Life
+   image-url: /public/sponsor_images/greeklife.jpg
+   link-url: "http://uss.tufts.edu/studentAffairs/fraternitySororityLife/"
+   image_width: 275px
+   image_height: 125px
+ - name: Tufts Friedman School of Nutrition Science and Policy
+   image-url: /public/sponsor_images/nutrition.jpg
+   link-url: "http://uss.tufts.edu/studentAffairs/fraternitySororityLife/"
+   image_width: 275px
+   image_height: 125px

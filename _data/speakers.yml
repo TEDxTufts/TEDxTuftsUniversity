@@ -21,7 +21,7 @@
    twitter: jmperry06
    sort-order: 0
    image-url: /public/speaker_images/jen_perry.jpg
-   bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations. 
+   bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations.
 
  - name: Jimena Sanchez Gallego
    sort-order: 0
@@ -56,8 +56,13 @@
 
  - name: Sam Weiser
    sort-order: 0
-   image-url: /public/speaker_images/sam_weiser.jpg
+   image-url: /public/speaker_images/samuel.jpg
    bio: Sam Weiser is an undergraduate student at Tufts University and the New England Conservatory pursuing degrees in both computer science and violin performance.
+
+ - name: Sasha Chanoff
+   sort-order: 0
+   image-url: /public/speaker_images/sasha_chanoff.jpg
+   bio: "Sasha Chanoff is the founder and executive director of RefugePoint, a humanitarian organization that finds lasting solutions for the most at risk refugees. Recognized widely through media and social entrepreneurship accolades, RefugePoint was initially developed at Tufts where Sasha received his Master's in Humanitarian Assistance through the Fletcher and Nutrition Schools and guidance and instrumental support from the Institute for Global Leadership. Sasha's book, From Crisis to Calling: Finding Your Moral Center in the Toughest Decisions, will be published on June 6, 2016."
 
  - name: Soubhik Barari
    sort-order: 1
