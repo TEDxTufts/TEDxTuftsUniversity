@@ -39,7 +39,6 @@ permalink: /partners/
   {% endif %}
 {% endfor %}
 
-
 {% assign sponsors = site.data.second_tier_sponsors  %}
 {% for sponsor in sponsors %}
 
@@ -69,8 +68,9 @@ permalink: /partners/
     </div>
   {% endif %}
 {% endfor %}
+</div>
 <div>
-<br>
+  <br>
 </div>
 {% assign sponsors = site.data.third_tier_sponsors  %}
 {% for sponsor in sponsors %}
@@ -83,26 +83,29 @@ permalink: /partners/
   <div class="large-4 columns">
       <div class="row">
          <a target="_blank" href="{{sponsor.link-url}}">
-			<div class="small-12 image" >
-				<div  class="hcenter" style="height: {{sponsor.image_height}}; width: {{sponsor.image_width}}">
-					<img class="sponsor_img" src="{{sponsor.image-url}}">
-				</div>
-			</div>
-			</a>
-		</div>
-		<div class="row">
-			<div class="small-12">
-				<!-- <a target="_blank" href="{{sponsor.link-url}}"><p class="text-center sponsor-name">{{sponsor.name}}</p></a> -->
-			</div>
+      <div class="small-12 image" >
+        <div  class="hcenter" style="height: {{sponsor.image_height}}; width: {{sponsor.image_width}}">
+          <img class="sponsor_img" src="{{sponsor.image-url}}">
+        </div>
+      </div>
+      </a>
+    </div>
+    <div class="row">
+      <div class="small-12">
+        <!-- <a target="_blank" href="{{sponsor.link-url}}"><p class="text-center sponsor-name">{{sponsor.name}}</p></a> -->
+      </div>
       </div>
   </div>
 
   {% if modulo == '0' or forloop.last %}
+  <div>
+    <br>
+  </div>
     </div>
   {% endif %}
+{% endfor %}
+ </div>
 
-{% endfor %} 
-</div>
 <!-- </ul> -->
 <!-- </div> -->
 </div>
