@@ -13,11 +13,11 @@ permalink: /partners/
 <h2 class="text-center" style="margin-bottom: 40px">Making TEDxTufts Possible.</h2>
 {% assign sponsors = site.data.first_tier_sponsors  %}
 {% for sponsor in sponsors %}
-  {% capture modulo %}{{ forloop.index | mod:2 }}{% endcapture %}
+  {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
   {% if modulo == '0' or forloop.first %}
     <div class="row">
   {% endif %}
-  <div class="large-6 columns">
+  <div class="large-4 columns">
       <div class="row">
          <a target="_blank" href="{{sponsor.link-url}}">
 			<div class="large-12 image" >
@@ -70,6 +70,8 @@ permalink: /partners/
 {% endfor %}
 </div>
 <div>
+  <br> 
+  <br>
   <br>
 </div>
 {% assign sponsors = site.data.third_tier_sponsors  %}

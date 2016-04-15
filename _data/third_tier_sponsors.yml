@@ -13,3 +13,44 @@
    link-url: "http://uss.tufts.edu/studentAffairs/fraternitySororityLife/"
    image_width: 275px
    image_height: 125px
+ - name: Tufts PreMed
+   image-url: /public/sponsor_images/premed.jpg
+   link-url: "http://tuftspremedical.strikingly.com/"
+   image_width: 275px
+   image_height: 125px
+ - name: Flatbread
+   image-url: /public/sponsor_images/flatbread.jpg
+   link-url: "http://www.flatbreadcompany.com/"
+   image_width: 275px
+   image_height: 125px
+ - name: Anna’s Taqueria
+   image-url: /public/sponsor_images/annas.png
+   link-url: "http://annastaqueria.com/"
+   image_width: 275px
+   image_height: 125px
+ - name: JP Licks
+   image-url: /public/sponsor_images/jp_licks.jpg
+   link-url: "http://www.jplicks.com/"
+   image_width: 275px
+   image_height: 125px
+ - name: Chipotle
+   image-url: /public/sponsor_images/chipotle.png
+   link-url: "https://www.chipotle.com/"
+   image_width: 275px
+   image_height: 125px
+ - name: Orangeleaf
+   image-url: /public/sponsor_images/orange_leaf.jpg
+   link-url: "http://www.orangeleafyogurt.com/"
+   image_width: 275px
+   image_height: 125px
+# PLACE HOLDER
+ - name: Taza
+   # image-url: /public/sponsor_images/taza.png
+   link-url: "https://www.tazachocolate.com/"
+   image_width: 275px
+   image_height: 125px
+ - name: Taza
+   image-url: /public/sponsor_images/taza.png
+   link-url: "https://www.tazachocolate.com/"
+   image_width: 275px
+   image_height: 125px
