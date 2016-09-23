@@ -34,10 +34,11 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 	<h1 class="centered-text">TEDxTufts Speakers</h1>
 </div>
 
-<!-- <div style="padding-top: .5em" class="row">
+<!-- Nominate and apply to speak banners -->
+<div style="padding-top: .5em" class="row">
 	<div class="small-6 columns"><a href="http://goo.gl/forms/NloDMjs6Oy" class="button alert" style="width: 100%	">Nominate a Speaker.</a></div>
-	<div class="small-6 columns"><a href="http://goo.gl/forms/psxxgHNW9U" class="button alert" style="width: 100%	">Apply to Speak.</a></div>
-</div> -->
+	<div class="small-6 columns"><a href="https://docs.google.com/forms/d/e/1FAIpQLScGIQm1jGeEjbDqX0uJu442RVRWaZpv1uDTTAuIlOD75jiogA/viewform" class="button alert" style="width: 100%	">Apply to Speak.</a></div>
+</div>
 
 {% assign people = site.data.speakers  %}
 {% for person in people %}
@@ -47,7 +48,7 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
   <div class="row">
 	  <div class="small-12 columns">
 	      <div class="row">
-	         <div class="small-3 columns">
+	<!--          <div class="small-3 columns">
 	            <img src="{{person.image-url}}" alt="" id="team-image">
 	         </div>
 	         <a class="anchor" id="{{person.name | slugify}}"></a>
@@ -58,16 +59,16 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 				{% endif %}
 	            </h3> 
 	            <p> {{person.bio}} </p> 
-	         </div>
+	         </div> -->
 	      </div>
 	  </div>
   </div>
 
 {% endfor %}
 
-<div class="tedx-billboard-small background-img">
+<!-- <div class="tedx-billboard-small background-img">
 	<h1 class="centered-text">TEDxTufts Past Speakers</h1>
-</div>
+</div> -->
 
 {% assign people = site.data.past_speakers  %}
 {% for person in people %}
@@ -122,24 +123,24 @@ TEDxTufts, more than anything, is about Tufts: we want to showcase innovative an
 	<div class="row">
 		<div class="large-6 columns">
 			<div class="flex-video">
-				<iframe width="560" height="315" src="//www.youtube.com/embed/qaqW0eOZNEQ" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="//www.youtube.com/embed/BSCQ6v1T704" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="large-6 columns">
 			<div class="flex-video">
-				<iframe src="//www.youtube.com/embed/Xta27SQkA_U" frameborder="0" allowfullscreen></iframe>
+				<iframe src="//www.youtube.com/embed/Ny1rIRxC-go" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
 	<div class="row">
 		<div class="large-6 columns">
 			<div class="flex-video">
-				<iframe width="560" height="315" src="////www.youtube.com/embed/Awi_GYUDpGM" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="//www.youtube.com/embed/3LhNRJkh87w" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="large-6 columns">
 			<div class="flex-video">
-				<iframe width="560" height="315" src="//www.youtube.com/embed/9c3rDfsPT7c" frameborder="0" allowfullscreen></iframe>
+				<iframe width="560" height="315" src="//www.youtube.com/embed/qaaf7sgw_5g" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>

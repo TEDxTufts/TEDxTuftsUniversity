@@ -1,47 +1,42 @@
  - name: Slide Kelly
-   title: Curator.
-   bio: Slide is a junior majoring in Urban Policy, Planning and Design from Denver, Colorado. He loves innovative and equitable design, mountain sports, and bringing out the creative spark in others.
+   title: Organizer.
+   bio: Slide is a senior majoring in Urban Policy, Planning and Design from Denver, Colorado. He loves innovative and equitable design, mountain sports, and bringing out the creative spark in others.
    image-url: /public/team_images/slide_kelly.jpg
 
- - name: Stephanie Cleland
-   title: Organizer.
-   bio: Stephanie is a senior double majoring in Computer Science and Community Health. She likes coffee, design, TED talks, Settlers of Catan, folk music, and the great outdoors.
-   image-url: /public/team_images/steph.jpg
+ - name: Akshat Rajan
+   title: Curator.
+   bio: Akshat is a second year, from Bombay, India, who will probably major in International Relations. He's been involved with TEDx for 4 years and loves theatre, people and traveling.
+   image-url: /public/team_images/akshat_rajan.jpg
 
- - name: Mallory Feldman
+ - name: Mika Sanger
+   title: Lead Speaker Coaching.
+   bio: Mika is a senior from Los Angeles, double majoring in Economics and Film / Media Studies. She loves anything cinema, coloring books, stickers, and stories, but most of all working with other passionate people.
+   image-url: /public/team_images/mika_sanger.jpg
+
+ - name: Kate Sienko
    title: Lead Marketing & Publicity.
-   bio: Mallory Feldman is a shower diva, peanut-butter loving, and mountain climbing senior studying Psychology & Peace and Justice studies. 
-   image-url: /public/team_images/mallory_feldman.jpg
+   bio: Kate Sienko is a senior from New Providence, New Jersey majoring in English and loves being behind the camera, storytelling, and all things nautical.
+   image-url: /public/team_images/kate_sienko.jpg
 
- - name: Dani Kupfer
+ - name: Stephanie Kim
    title: Lead Sponsorship & Finance.
-   bio: Dani is a sophomore from Chevy Chase, MD majoring in Computer Science. She loves the beach, the Pittsburgh Steelers, ice cream, and traveling anywhere & everywhere.
-   image-url: /public/team_images/dani_kupfer.jpg
+   bio: Stephanie is a senior double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
+   image-url: /public/team_images/stephanie_kim.png
 
  - name: Ramone Brown
    title: Lead Production.
-   bio: Ramone is a second year student who is interested in neuroscience and the humanities.
+   bio: Ramone is a third year student who is interested in neuroscience and the humanities.
    image-url: /public/team_images/ramone_brown.jpg
 
  - name: Cat Armistead
    title: Lead Design.
-   bio: Catherine Armistead is a junior majoring in Engineering Psychology and enrolled in the Dual Degree Program with the School of the Museum of Fine Arts, and she is really into minimalist design, unique mark-making, and houseplants.
+   bio: Catherine Armistead is a senior majoring in Engineering Psychology and enrolled in the Dual Degree Program with the School of the Museum of Fine Arts, and she is really into minimalist design, unique mark-making, and houseplants.
    image-url: /public/team_images/cat_armistead.jpg
 
  - name: Rachael Robinson
    title: Lead Web.
-   bio: Rachael Robinson is junior from Seattle majoring in Computer Science. She enjoys the outdoors as well as photography and can name the five major types of pacific salmon. 
+   bio: Rachael Robinson is senior from Seattle majoring in Computer Science. She enjoys the outdoors as well as photography and can name the five major types of pacific salmon. 
    image-url: /public/team_images/RachaelRobinson.jpg
-
- - name: Kit McDonnell
-   title: Senior Advisor.
-   bio: Kit is a senior majoring in Biology. She tends to embody the "but first, coffee" mentality and enjoys biological design/biomimicry, anthropology, yoga, chocolate, and the Oxford comma. Kit is a co-founder of TEDxTufts and was one of the bridges in the transition from the Tufts Idea Exchange.
-   image-url: /public/team_images/kit_mcdonnell.jpg
- 
- - name: Annahstasia Enuke
-   title: Production.
-   bio: Annahstasia Enuke is from Los Angeles, CA. She is a junior at Tufts University studying political science and studio art.
-   image-url: /public/team_images/annahstasia_enuke.jpg
 
  - name: Robert Hrabchak
    title: Production.
@@ -50,127 +45,87 @@
 
  - name: Julie Jiang
    title: Production.
-   bio: Julie is a Canadian girl from China. She is a freshman at Tufts looking to double major in Applied Math and Quantitative Economics. She loves snapchatting. It's a crime.
+   bio: Julie is a Canadian girl from China. She is a sophomore at Tufts looking to double major in Applied Math and Quantitative Economics. She loves snapchatting. It's a crime.
    image-url: /public/team_images/julie_jiang.jpg
-
- - name: Annie Lye
-   title: Production.
-   bio: Annie is a junior who hails from what is known as the "fragrant harbour" but you may know it as Hong Kong. She finds inspiration in every detail and her camera is permanently at her side documenting all her inconspicuous pleasures.
-   image-url: /public/team_images/annie_lye.jpg
 
  - name: Tommy Tang
    title: Production.
-   bio: Tommy is a sophomore engineer from Beijing, China. He is a computer science major and an economics minor. He loves programming and reading.
-   image-url: /public/team_images/tommy_tang.jpg   
+   bio: Tommy is a junior engineer from Beijing, China. He is a computer science major and an economics minor. He loves programming and reading.
+   image-url: /public/team_images/tommy_tang.jpg
+
+ - name: Jane Acker
+   title: Speaker Coaching.
+   bio: Jane is a senior majoring in Quantitative Economics with concentrations in Philosophy and Dance, seeking the connection between systems of numbers, movement and speech.
+   image-url: /public/team_images/jane_acker.jpg
 
  - name: Peter Bae
    title: Speaker Coaching.
-   bio: Peter is a sophomore from Milford, Massachusetts; he enjoys reading and playing the cello and guitar, and he is currently thinking about majoring in Community Health, Biology, and/or Spanish.
+   bio: Peter is a junior from Milford, Massachusetts; he enjoys reading and playing the cello and guitar, and he is currently thinking about majoring in Community Health, Biology, and/or Spanish.
    image-url: /public/team_images/peter_bae.jpg
-
- - name: Andrew Goldblatt
-   title: Speaker Coaching.
-   bio: Andrew is a freshman from Chicago, IL. He is passionate about using art to better the world. He loves singing, the Chicago Bulls, and traveling anywhere & everywhere.
-   image-url: /public/team_images/andrew_goldblatt.jpg
 
  - name: Adriana Guardans-Godo
    title: Speaker Coaching.
-   bio: Adriana is a junior from Barcelona, Spain majoring in International Relations who is passionate about people, loves to travel and enjoys frolicking outside.
+   bio: Adriana is a senior from Barcelona, Spain majoring in International Relations who is passionate about people, loves to travel and enjoys frolicking outside.
    image-url: /public/team_images/adriana_guardans_godo.jpg
-
- - name: Miriam Hauptman
-   title: Speaker Coaching.
-   bio: Miriam is a first-year student who is interested in studying Child Development and German. She loves chocolate, marimbas, and public speaking.
-   image-url: /public/team_images/miriam_hauptman.jpg
 
  - name: Teddy Laurita
    title: Speaker Coaching.
-   bio: Teddy is a freshman planning on majoring in computer science. Teddy loves history, hiking, skiing, and snow! Teddy lectured for two years at the Hope Elephants organization, and is now excited to be coaching at TedxTufts!
+   bio: Teddy is a sophomore planning on majoring in computer science. Teddy loves history, hiking, skiing, and snow! Teddy lectured for two years at the Hope Elephants organization, and is now excited to be coaching at TedxTufts!
    image-url: /public/team_images/teddy_laurita.jpg
-
- - name: Abby Lord
-   title: Speaker Coaching.
-   bio: Abby Lord is a junior majoring in anthropology and architectural studies. She believes in the power of storytelling and is thrilled to give a stage to these narratives by being a part of TedxTufts.
-   image-url: /public/team_images/abby_lord.jpg
-
- - name: Will Lorenzen
-   title: Speaker Coaching.
-   bio: Will is a senior majoring in International Relations. He is passionate about the power of words, different cultures, and of course, food.
-   image-url: /public/team_images/will_lorenzen.jpg
 
  - name: Jake Moran
    title: Speaker Coaching.
-   bio: Jake Moran is a sophomore interested in double majoring in Economics and Computer Science.
+   bio: Jake Moran is a junior interested in double majoring in Economics and Computer Science.
    image-url: /public/team_images/john_moran.jpg
- 
+
  - name: Asha Nidumolu
    title: Speaker Coaching.
-   bio: Asha is a junior majoring in Psychology from California and specifically interested in the socio-cognitive processes involved in racial discrimination. She loves hopping the globe, learning new languages, listening to other people's problems, singing, making coffee at The Rez and obsessing over Brazilian music.
+   bio: Asha is a senior majoring in Psychology from California and specifically interested in the socio-cognitive processes involved in racial discrimination. She loves hopping the globe, learning new languages, listening to other people's problems, singing, making coffee at The Rez and obsessing over Brazilian music.
    image-url: /public/team_images/asha_nidumolu.jpg
 
- - name: Akshat Rajan
-   title: Speaker Coaching.
-   bio: Akshat is a first year, from Bombay, India, who will probably major in International Relations. He's been involved with TEDx for 4 years and loves theatre, people and traveling.
-   image-url: /public/team_images/akshat_rajan.jpg
-
- - name: Mika Sanger
-   title: Speaker Coaching.
-   bio: Mika is a junior majoring in economics and film studies. She is passionate about music, film, the internet, and other passionate people.
-   image-url: /public/team_images/mika_sanger.jpg
- 
  - name: Catherine Sillari
    title: Speaker Coaching.
-   bio: Catherine is a sophomore from Lexington, MA studying biology and child development. She loves running, reading, and anything involving peanut butter.
+   bio: Catherine is a junior from Lexington, MA studying biology and child development. She loves running, reading, and anything involving peanut butter.
    image-url: /public/team_images/catherine_sillari.jpg
 
  - name: Katyana Wardhana
    title: Speaker Coaching.
-   bio: Katyana is a freshman from Indonesia double majoring in Economics and International Relations.  Her passions and interests are centralized around children's rights, demographic studies, economic development, baking and photography.
+   bio: Katyana is a sophomore from Indonesia double majoring in Economics and International Relations.  Her passions and interests are centralized around children's rights, demographic studies, economic development, baking and photography.
    image-url: /public/team_images/katyana_wardhana.jpg
- 
+
  - name: Ballard Blair
    title: Marketing & Publicity.
-   bio: Ballard is a sophomore from Fairfield, CT who hopes to major in computer science. He loves to explore the outdoors, cook, eat, and think.
+   bio: Ballard is a junior from Fairfield, CT who hopes to major in computer science. He loves to explore the outdoors, cook, eat, and think.
    image-url: /public/team_images/ballard_blair.jpg
- 
+
  - name: Maya Pace
    title: Marketing & Publicity.
-   bio: Maya is a sophomore (who is currently undecided on her life path) and finds joy in activities such as eating bananas, drinking tea, reading and having her mind blown by the wise words of TED folk. 
+   bio: Maya is a junior (who is currently undecided on her life path) and finds joy in activities such as eating bananas, drinking tea, reading and having her mind blown by the wise words of TED folk. 
    image-url: /public/team_images/maya_pace.jpg
 
- - name: Kate Sienko
-   title: Marketing & Publicity.
-   bio: Kate Sienko is a junior from New Providence, New Jersey majoring in English and loves being behind the camera, storytelling, and all things nautical.
-   image-url: /public/team_images/kate_sienko.jpg
- 
  - name: Amy Sokolow
    title: Marketing & Publicity.
-   bio: Amy Sokolow is a sophomore from Lynnfield, MA majoring in Film and Media Studies.  She gets really excited about good live music, peppermint stick ice cream, wandering through new cities, and well-timed naps.
+   bio: Amy Sokolow is a junior from Lynnfield, MA majoring in Film and Media Studies.  She gets really excited about good live music, peppermint stick ice cream, wandering through new cities, and well-timed naps.
    image-url: /public/team_images/amy_sokolow.jpg
- 
- - name: Jane Acker
-   title: Sponsorship & Finance.
-   bio: Jane is a junior majoring in Quantitative Economics with concentrations in Philosophy and Dance, seeking the connection between systems of numbers, movement and speech.
-   image-url: /public/team_images/jane_acker.jpg
 
- - name: Stephanie Kim
+ - name: Dani Kupfer
    title: Sponsorship & Finance.
-   bio: Stephanie is a junior double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
-   image-url: /public/team_images/stephanie_kim.png
+   bio: Dani is a junior from Chevy Chase, MD majoring in Computer Science. She loves the beach, the Pittsburgh Steelers, ice cream, and traveling anywhere & everywhere.
+   image-url: /public/team_images/dani_kupfer.jpg
 
  - name: Emily North
    title: Sponsorship & Finance.
-   bio: Emily is a Freshman from San Diego, California majoring in International Relations. Her interests include trail mix, Birkenstocks, and hiding from cold weather.
+   bio: Emily is a sophomore from San Diego, California majoring in International Relations. Her interests include trail mix, Birkenstocks, and hiding from cold weather.
    image-url: /public/team_images/emily_north.jpg
 
  - name: Kate Scheer
    title: Sponsorship & Finance.
-   bio: Kate is a junior majoring in Quantitative Economics and enjoys Victorian era period pieces, kale and rhyming.
+   bio: Kate is a senior majoring in Quantitative Economics and enjoys Victorian era period pieces, kale and rhyming.
    image-url: /public/team_images/kate_scheer.jpg
 
  - name: Nikita Shukla
    title: Sponsorship & Finance.
-   bio: Nikita is a junior majoring in International Relations and Economics. She loves talking, meeting new people, and Reeses.  
+   bio: Nikita is a senior majoring in International Relations and Economics. She loves talking, meeting new people, and Reeses.  
    image-url: /public/team_images/nikita_shukla.jpg
 
    # If no photo, put this as photo
