@@ -9,34 +9,44 @@
    image-url: /public/team_images/akshat_rajan.jpg
 
  - name: Mika Sanger
-   title: Lead Speaker Coaching.
+   title: Speaker Coaching Director.
    bio: Mika is a senior from Los Angeles, double majoring in Economics and Film / Media Studies. She loves anything cinema, coloring books, stickers, and stories, but most of all working with other passionate people.
    image-url: /public/team_images/mika_sanger.jpg
 
  - name: Kate Sienko
-   title: Lead Marketing & Publicity.
+   title: Marketing & Publicity Director.
    bio: Kate Sienko is a senior from New Providence, New Jersey majoring in English and loves being behind the camera, storytelling, and all things nautical.
    image-url: /public/team_images/kate_sienko.jpg
 
  - name: Stephanie Kim
-   title: Lead Sponsorship & Finance.
+   title: Sponsorship & Finance Director.
    bio: Stephanie is a senior double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
    image-url: /public/team_images/stephanie_kim.png
 
  - name: Ramone Brown
-   title: Lead Production.
+   title: Production Director.
    bio: Ramone is a third year student who is interested in neuroscience and the humanities.
    image-url: /public/team_images/ramone_brown.jpg
 
  - name: Cat Armistead
-   title: Lead Design.
+   title: Design Director.
    bio: Catherine Armistead is a senior majoring in Engineering Psychology and enrolled in the Dual Degree Program with the School of the Museum of Fine Arts, and she is really into minimalist design, unique mark-making, and houseplants.
    image-url: /public/team_images/cat_armistead.jpg
 
+ - name: Taylor Fasolo
+   title: Videographer.
+   bio: Taylor is a Junior at Tufts University and studying Film and Media Studies. He is a transfer student originally from the University of Richmond where he studied Economics and Computer Science. Taylor is passionate about ideas. Specifically, how ideas affect how people think and change. Through TEDx Tufts, Taylor can further explore this passion through the expansion of ideas that shift paradigms of thinking on the Tufts campus. As a filmmaker and a photographer, Taylor believes moments are everything. Moments are what make up our lives and therefore serve and the building block for all of our understanding and communication. TEDxTufts strives to create new moments in our lives, and therefore new experiences, new ways of thinking, and new potential for Tufts Students and the surrounding community.
+   image-url: /public/team_images/taylor_fasolo.jpg
+
  - name: Rachael Robinson
-   title: Lead Web.
+   title: Web Director.
    bio: Rachael Robinson is senior from Seattle majoring in Computer Science. She enjoys the outdoors as well as photography and can name the five major types of pacific salmon. 
    image-url: /public/team_images/RachaelRobinson.jpg
+
+ - name: Claire Freeman
+   title: Production.
+   bio: Claire is a first year from Singapore interested in biology and visual arts. She enjoys hiking, traveling, and playing the piano.
+   image-url: /public/team_images/claire_freeman.png
 
  - name: Robert Hrabchak
    title: Production.
@@ -45,8 +55,13 @@
 
  - name: Julie Jiang
    title: Production.
-   bio: Julie is a Canadian girl from China. She is a sophomore at Tufts looking to double major in Applied Math and Quantitative Economics. She loves snapchatting. It's a crime.
+   bio: Julie is a sophomore from China studying CS and math. She procrastinates on her math homework by doing her CS homework.
    image-url: /public/team_images/julie_jiang.jpg
+
+ - name: Zach Sebek
+   title: Production.
+   bio: Zach is a first year interested in Cognitive/Brain Science and International Relations. He loves photography, running, reading, and watching movies.
+   image-url: /public/team_images/zach_sebek.jpg
 
  - name: Tommy Tang
    title: Production.
@@ -63,14 +78,34 @@
    bio: Peter is a junior from Milford, Massachusetts; he enjoys reading and playing the cello and guitar, and he is currently thinking about majoring in Community Health, Biology, and/or Spanish.
    image-url: /public/team_images/peter_bae.jpg
 
+ - name: Sara Bass
+   title: Speaker Coaching.
+   bio: Sara is a third year from Seal Beach, CA, majoring in Clinical Psychology and is a proud speaker coach! To her, life is all about hearing enthusiastic people's stories and celebrating our passions together, especially when it includes a love for aged cheese.
+   image-url: /public/team_images/sara_bass.jpg
+
+ - name: Judy Chen
+   title: Speaker Coaching.
+   bio: Judy is a sophomore from Taiwan who grew up abroad in China, and is majoring in Cognitive & Brain Sciences. She cares deeply about human connection and human possibilities. She loves strangers.
+   image-url: /public/team_images/judy_chen.jpg
+
+ - name: Kate Golding
+   title: Speaker Coaching.
+   bio: Kate is a freshman from Los Angeles, California. Interested in majoring in English, Film and Media Studies, Peace and Justice Studies, or Political Science, she also loves cats and avocados.
+   #image-url: /public/team_images/adriana_guardans_godo.jpg
+
  - name: Adriana Guardans-Godo
    title: Speaker Coaching.
    bio: Adriana is a senior from Barcelona, Spain majoring in International Relations who is passionate about people, loves to travel and enjoys frolicking outside.
    image-url: /public/team_images/adriana_guardans_godo.jpg
 
+ - name: Kemma Kahn
+   title: Speaker Coaching.
+   bio: Kemma is a sophomore from New York City majoring in Economics and Psychology, Her interests include dancing (various types! folk dancing yay!), stand up comedy, Mock Trials, ukulele, doodling other things.
+   image-url: /public/team_images/kemma_kahn.jpg
+
  - name: Teddy Laurita
    title: Speaker Coaching.
-   bio: Teddy is a sophomore planning on majoring in computer science. Teddy loves history, hiking, skiing, and snow! Teddy lectured for two years at the Hope Elephants organization, and is now excited to be coaching at TedxTufts!
+   bio: Teddy is a sophomore from Camden, Maine. He's excited to return to the speaker coaching team and is majoring in Computer Science. Teddy loves hiking, snow, traveling, elephants, and eating! He loves tacos, sushi, and naan bread.
    image-url: /public/team_images/teddy_laurita.jpg
 
  - name: Jake Moran
@@ -88,6 +123,11 @@
    bio: Catherine is a junior from Lexington, MA studying biology and child development. She loves running, reading, and anything involving peanut butter.
    image-url: /public/team_images/catherine_sillari.jpg
 
+ - name: Emma Singleton
+   title: Speaker Coaching.
+   bio: Emma is a freshman from Salt Lake City, Utah hoping to major in Biopsychology and Spanish. She loves getting outside, dancing, and anything ice cream related.
+   image-url: /public/team_images/emma_singleton.jpg
+
  - name: Katyana Wardhana
    title: Speaker Coaching.
    bio: Katyana is a sophomore from Indonesia double majoring in Economics and International Relations.  Her passions and interests are centralized around children's rights, demographic studies, economic development, baking and photography.
@@ -98,25 +138,45 @@
    bio: Ballard is a junior from Fairfield, CT who hopes to major in computer science. He loves to explore the outdoors, cook, eat, and think.
    image-url: /public/team_images/ballard_blair.jpg
 
+ - name: Mitch Navetta
+   title: Marketing & Publicity.
+   bio: Mitch is a first-year from Groton, Massachusetts thinking of majoring in Political Science and Economics. He loves libraries, touching old things, and cheesecake.
+   image-url: /public/team_images/mitch_navetta.png
+
  - name: Maya Pace
    title: Marketing & Publicity.
-   bio: Maya is a junior (who is currently undecided on her life path) and finds joy in activities such as eating bananas, drinking tea, reading and having her mind blown by the wise words of TED folk. 
+   bio: Maya is a junior (who is currently undecided on her life path) and finds joy in activities such as eating bananas, drinking tea, reading and having her mind blown by the wise words of TED folk.
    image-url: /public/team_images/maya_pace.jpg
 
  - name: Amy Sokolow
    title: Marketing & Publicity.
-   bio: Amy Sokolow is a junior from Lynnfield, MA majoring in Film and Media Studies.  She gets really excited about good live music, peppermint stick ice cream, wandering through new cities, and well-timed naps.
+   bio: Amy Sokolow is a junior from Lynnfield, MA majoring in both Film and Media Studies and sociology and minoring in entrepreneurial leadership studies.  She gets really excited about good live music, peppermint stick ice cream, wandering through new cities, and well-timed naps.
    image-url: /public/team_images/amy_sokolow.jpg
+
+ - name: Andrew Castro
+   title: Sponsorship & Finance.
+   bio: Andrew is a first year from San Diego, CA planning to major in Economics. He shamelessly prides himself on being a musical theater geek, self-proclaimed food connoisseur, and amateur surfer.
+   image-url: /public/team_images/andrew_castro.png
 
  - name: Dani Kupfer
    title: Sponsorship & Finance.
    bio: Dani is a junior from Chevy Chase, MD majoring in Computer Science. She loves the beach, the Pittsburgh Steelers, ice cream, and traveling anywhere & everywhere.
    image-url: /public/team_images/dani_kupfer.jpg
 
+ - name: Boyce Myers
+   title: Sponsorship & Finance.
+   bio: She's originally from South Carolina, she's interested in IR (but we'll see how that goes)! Some facts about her include that she loves to talk (a lot) and she loves eating dessert so much that she started her own dessert account on insta.
+   image-url: /public/team_images/boyce_myers.jpg
+
  - name: Emily North
    title: Sponsorship & Finance.
    bio: Emily is a sophomore from San Diego, California majoring in International Relations. Her interests include trail mix, Birkenstocks, and hiding from cold weather.
    image-url: /public/team_images/emily_north.jpg
+
+ - name: Nidhi Rao
+   title: Sponsorship & Finance.
+   bio: Nidhi is a first year, and a third culture kid who has grown up in Shanghai, Baltimore and New Delhi. She has yet to declare a major, but is sure that it won't be anything in science. She enjoys traveling, eating cookies, playing the ukulele, and napping.
+   image-url: /public/team_images/nidhi_rao.jpg
 
  - name: Kate Scheer
    title: Sponsorship & Finance.
@@ -127,6 +187,16 @@
    title: Sponsorship & Finance.
    bio: Nikita is a senior majoring in International Relations and Economics. She loves talking, meeting new people, and Reeses.  
    image-url: /public/team_images/nikita_shukla.jpg
+
+ - name: Bianca Capretta
+   title: Web.
+   bio: Bianca is a Sophomore from just north of San Francisco and is excited to be apart of the Web team this year! She's majoring in Computer Science and Cognitive & Brain Sciences with a Music minor. She loves to sing and is currently apart of the a cappella group Shir Appeal and Tuft's Chamber Choir.
+   image-url: /public/team_images/bianca_capretta.jpeg
+
+ - name: Jia Wen Goh
+   title: Design.
+   bio: Jia Wen is a freshman from Singapore looking to major in Computer Science and/or Economics. He's really into tech, film, graphic design and Kit Kat. Especially Kit Kat.
+   image-url: /public/team_images/jia_wen_goh.jpg
 
    # If no photo, put this as photo
    # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
