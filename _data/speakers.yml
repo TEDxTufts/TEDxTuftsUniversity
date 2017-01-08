@@ -1,70 +1,55 @@
  # If no photo given, copy and paste the png below and it will display generic TEDxTufts photo
  # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
 
- - name: Ameya Naik
-   twitter: Kianayema
+ - name: Alyssa Rivas
+   # twitter: Kianayema
    sort-order: 0
-   image-url: /public/speaker_images/ameya_naik.jpg
-   bio: Ameya is a graduate student at The Fletcher School of Law and Diplomacy, studying international relations and international law. A psychologist, lawyer, and policy analyst by training, he is interested in how identities influence the acquisition, use, or rejection of new information about the world.
+   # image-url: /public/speaker_images/ameya_naik.jpg
+   # bio: Ameya is a graduate student at The Fletcher School of Law and Diplomacy, studying international relations and international law. A psychologist, lawyer, and policy analyst by training, he is interested in how identities influence the acquisition, use, or rejection of new information about the world.
 
- - name: Cristina F Rosa
+ - name: Atreyo Sinha
    sort-order: 0
-   image-url: /public/speaker_images/cristina_rosa.jpg
-   bio: Cristina F. Rosa is a full-time lecturer at Tufts University's Drama and Dance department, where she teaches dance studio classes and seminars. Her research interests include the intersection of embodiment, knowledge production, and processes of identification.
+   # image-url: /public/speaker_images/cristina_rosa.jpg
+   bio: Atreyo is a senior studying Economics and International Relations. Relentlessly inquisitive, he strives to understand the intricacies and nuances that influence popular culture. He also loves singing in the shower, watching sappy films, and screaming his lungs out for Arsenal Football Club.
 
- - name: Howard Woolf
+ - name: Eric Tytell
    sort-order: 0
-   image-url: /public/speaker_images/howard_woolf.jpg
-   bio: Howard Woolf is the Director of the Experimental College and an Associate Dean of Undergraduate Studies at Tufts University. In addition, he revitalized and currently overseas filmmaking at the university and recently produced, wrote, and directed a feature film titled Marranos.
+   # image-url: /public/speaker_images/howard_woolf.jpg
+   bio: Eric Tytell is an assistant professor of Biology at Tufts University, where he studies how fish swim, from the spinal cord of lampreys to the fluid flowing around sunfish. In his research, he aims to understand how fish bodies and brains work together so that they can swim stably and efficiently, even in flowing water with unpredictable turbulence.
 
- - name: Jennifer Perry
-   twitter: jmperry06
+ - name: Isabel Merrin
+   # twitter: jmperry06
    sort-order: 0
-   image-url: /public/speaker_images/jen_perry.jpg
-   bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations.
+   # image-url: /public/speaker_images/jen_perry.jpg
+   # bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations.
 
- - name: Jimena Sanchez Gallego
+ - name: Johathon Garlick
    sort-order: 0
-   image-url: /public/speaker_images/jimena_sanchez_gallego.jpg
-   bio: Jimena Sanchez Gallego is a senior triple majoring in International Relations, Community Health, and French. Originally from Mexico City, Jimena hopes that one day she will return to Mexico and apply this knowledge to help her homeland develop sustainably and achieve its full potential.
+   # image-url: /public/speaker_images/jimena_sanchez_gallego.jpg
+   # bio: Jimena Sanchez Gallego is a senior triple majoring in International Relations, Community Health, and French. Originally from Mexico City, Jimena hopes that one day she will return to Mexico and apply this knowledge to help her homeland develop sustainably and achieve its full potential.
 
- - name: Jordin Metz
+ - name: Justin Robbins
    sort-order: 1
-   image-url: /public/speaker_images/jordin_metz.jpg
-   bio: Jordin Metz is a senior majoring in chemistry. He loves dancing, learning, and sleeping, and thinks that keeping an open mind is the best way to grow.
+   # image-url: /public/speaker_images/jordin_metz.jpg
+   bio: Justin Robbins is a senior double majoring in biology and history. He is the co-founder and president of the Coalition for Autism Support at Tufts (CAST), a support and advocacy group by and for autistic students.
 
- - name: Laura Graham
+ - name: Manal Cheema
    sort-order: 0
-   image-url: /public/speaker_images/laura_graham.jpg
-   bio: Graham is a scholar of international conflict and peace processes. Her research focuses on the role of civil society in peacebuilding and post-conflict reconciliation.
+   # image-url: /public/speaker_images/laura_graham.jpg
+   bio: Manal Cheema is a senior majoring in Political Science in addition to pursuing a certificate in Ethics, Law, and Society and a minor in Cognitive and Brain Sciences. She is involved with ALLIES, the Union, and Writing Fellows at Tufts. For fun,she draws and relishes in sharing puns.
 
- - name: Mahmoud Jabari
-   twitter: mahmoudjabari
+ - name: Rachael Bonan
+   twitter: RachaelEBee
    sort-order: 1
-   image-url: /public/speaker_images/mahmoud_jabari.jpg
-   bio: Mahmoud Jabari is currently pursuing a Master of Arts in Law and Diplomacy with a focus on International Business Relations, at the Fletcher School at Tufts University. From 2012 to 2014, he was a Marketing Strategist at the Emergent Media Center at Champlain College where he co-designed the BREAKAWAY Summer Camps Initiative which was implemented in Palestine and in El Salvador. Mahmoud holds a BS in Communications from Champlain College.
+   # image-url: /public/speaker_images/mahmoud_jabari.jpg
+   bio: Rachael is a Ph.D. Candidate who studies honey bee nutritional ecology in the Starks Lab at Tufts University. She is interested in how seasonal changes in the distribution and abundance of flowers (i.e. honey bee food!) affect honey bee health and behavior. Rachael is also the President of the Boston Area Beekeepers Association and enjoys communicating her research and the importance of pollinator health to scientists, beekeepers, garden clubs, and the general public.
 
- - name: Max Bennett
+ - name: Sonja Spears
    sort-order: 0
-   image-url: /public/speaker_images/max_bennett.jpg
-   bio: Max is a senior at Tufts double majoring in Cognitive and Brain Science and in Computer Science. Researching topics in artificial intelligence and social robotics at Tufts' Human-Robot Interaction Lab for his third year, Max has developed a strong interest in shaping future human-robot encounters in positive ways. 
+   # image-url: /public/speaker_images/max_bennett.jpg
+   bio: Sonja M. Spears is a Tufts graduate and a retired judge with twelve years of judicial service. She is eternally hopeful and confident that upcoming generations will choose to create a future where equality, justice and compassion are priorities.
 
- - name: Neal Jawadekar
+ - name: Susan Napier
    sort-order: 1
-   image-url: /public/speaker_images/neal_jawadekar.jpg
-   bio: Neal Jawadekar graduated with a BA/MPH from Tufts University in 2014, where he played on the tennis team and co-founded the Association of Multiracial People at Tufts. He is currently a Big Data Analyst at Predilytics, an advanced healthcare analytics company.
-
- - name: Sam Weiser
-   sort-order: 0
-   image-url: /public/speaker_images/samuel.jpg
-   bio: Sam Weiser is an undergraduate student at Tufts University and the New England Conservatory pursuing degrees in both computer science and violin performance.
-
- - name: Sasha Chanoff
-   sort-order: 0
-   image-url: /public/speaker_images/sasha_chanoff.jpg
-   bio: "Sasha Chanoff is the founder and executive director of RefugePoint, a humanitarian organization that finds lasting solutions for the most at risk refugees. Recognized widely through media and social entrepreneurship accolades, RefugePoint was initially developed at Tufts where Sasha received his Master's in Humanitarian Assistance through the Fletcher and Nutrition Schools and guidance and instrumental support from the Institute for Global Leadership. Sasha's book, From Crisis to Calling: Finding Your Moral Center in the Toughest Decisions, will be published on June 6, 2016."
-
- - name: Soubhik Barari
-   sort-order: 1
-   image-url: /public/speaker_images/soubhik_barari.jpg
-   bio: Soubhik Barari is a Tufts senior who grew up in New England and is studying Mathematics and Computer Science. He is the founder of the Tufts Independent Data Journal and enjoys playing music during his off-hours as a student.
+   # image-url: /public/speaker_images/neal_jawadekar.jpg
+   bio: Susan Napier is Professor of Japanese Studies at Tufts University. Her most recent book. Miyazakiworld will be published in 2017. Her other books include From Impressionism to Anime&#58; Japan as Fantasy and Fan Culture in the Mind of the West, Anime from Akira to Howl's Moving Castle, and The Fantastic in Modern Japanese Literature. She has also published numerous scholarly articles ranging from discussions of the animated media to an analysis of the Harry Potter series as part of the British fantasy tradition. Besides teaching Japan-related courses on literature, gender, and popular culture, Professor Napier also teaches "Fantasy in World Culture," and "The Cinema of Apocalypse."
