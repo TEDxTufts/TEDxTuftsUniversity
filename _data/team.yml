@@ -1,6 +1,6 @@
  - name: Slide Kelly
-   title: Organizer.
-   bio: Slide is a senior majoring in Urban Policy, Planning and Design from Denver, Colorado. He loves innovative and equitable design, mountain sports, and bringing out the creative spark in others.
+   title: Executive Organizer.
+   bio: Slide is a senior majoring in Architectural Studies from Denver, Colorado. He loves all things design, mountain sports, circus arts, and bringing out the creative spark in others.
    image-url: /public/team_images/slide_kelly.jpg
 
  - name: Akshat Rajan
@@ -34,8 +34,8 @@
    image-url: /public/team_images/cat_armistead.jpg
 
  - name: Taylor Fasolo
-   title: Videographer.
-   bio: Taylor is a Junior at Tufts University and studying Film and Media Studies. He is a transfer student originally from the University of Richmond where he studied Economics and Computer Science. Taylor is passionate about ideas. Specifically, how ideas affect how people think and change. Through TEDx Tufts, Taylor can further explore this passion through the expansion of ideas that shift paradigms of thinking on the Tufts campus. As a filmmaker and a photographer, Taylor believes moments are everything. Moments are what make up our lives and therefore serve and the building block for all of our understanding and communication. TEDxTufts strives to create new moments in our lives, and therefore new experiences, new ways of thinking, and new potential for Tufts Students and the surrounding community.
+   title: Video Director.
+   bio: Taylor is a Junior at Tufts studying Film and Media Studies originally from Pennington, NJ. As a filmmaker and a photographer, Taylor believes that moments are everything. Moments are what make up our lives and therefore serve and the building block for all of our understanding and communication.
    image-url: /public/team_images/taylor_fasolo.jpg
 
  - name: Rachael Robinson
@@ -57,6 +57,16 @@
    title: Production.
    bio: Julie is a sophomore from China studying CS and math. She procrastinates on her math homework by doing her CS homework.
    image-url: /public/team_images/julie_jiang.jpg
+
+ - name: Olivia Jones
+   title: Production.
+   bio: Olivia is a Junior from Dallas, Texas majoring in Film and Media Studies with a focus in global media. Having lived in Florence, Italy for two years, she is passionate about exploring new cultures, and using language to understand the common ground between them. Other passions include - but are not limited to - scented candles, Zoo Tycoon 2, and Ina Garten.
+   image-url: /public/team_images/olivia_jones.jpg
+
+ - name: Nalisha Men
+   title: Production.
+   bio: Nalisha Men is a senior double majoring in International Relations and Architectural Studies, and continuously discovers the relation between these two. She loves urban sketching.
+   image-url: /public/team_images/nalisha_men.jpg
 
  - name: Zach Sebek
    title: Production.
@@ -91,12 +101,17 @@
  - name: Kate Golding
    title: Speaker Coaching.
    bio: Kate is a freshman from Los Angeles, California. Interested in majoring in English, Film and Media Studies, Peace and Justice Studies, or Political Science, she also loves cats and avocados.
-   #image-url: /public/team_images/adriana_guardans_godo.jpg
+   image-url: /public/team_images/kate_golding.jpg
 
  - name: Adriana Guardans-Godo
    title: Speaker Coaching.
    bio: Adriana is a senior from Barcelona, Spain majoring in International Relations who is passionate about people, loves to travel and enjoys frolicking outside.
    image-url: /public/team_images/adriana_guardans_godo.jpg
+
+ - name: Daisy Hu
+   title: Speaker Coaching.
+   bio: Daisy is a freshman from Hangzhou, China. She's on the speaker coaching team. She is generally undecided but is considering major in philosophy or history. She enjoys sitting on the grass reading, and chatting/debating with people. She likes vanilla ice cream and crazy ideas.
+   image-url: /public/team_images/daisy_hu.jpg
 
  - name: Kemma Kahn
    title: Speaker Coaching.
@@ -138,6 +153,11 @@
    bio: Ballard is a junior from Fairfield, CT who hopes to major in computer science. He loves to explore the outdoors, cook, eat, and think.
    image-url: /public/team_images/ballard_blair.jpg
 
+ - name: Frances DeFreitas
+   title: Marketing & Publicity.
+   bio: Frances is a sophomore from San Francisco, California majoring in biology. She enjoys a well-cut trout filet, the human brain, and anything (and everything) cinnamon, but her one true love is the Sierra Nevada.
+   image-url: /public/team_images/frances_defreitas.jpg
+
  - name: Mitch Navetta
    title: Marketing & Publicity.
    bio: Mitch is a first-year from Groton, Massachusetts thinking of majoring in Political Science and Economics. He loves libraries, touching old things, and cheesecake.
@@ -147,6 +167,11 @@
    title: Marketing & Publicity.
    bio: Maya is a junior (who is currently undecided on her life path) and finds joy in activities such as eating bananas, drinking tea, reading and having her mind blown by the wise words of TED folk.
    image-url: /public/team_images/maya_pace.jpg
+
+ - name: Talia Smith
+   title: Marketing & Publicity.
+   bio: Talia is a first-year student from Minneapolis, MN who loves archaeology and hopes to major in it. She also loves lakes, drawing, cooking with friends, and thinking bout outer space.
+   image-url: /public/team_images/talia_smith.jpg
 
  - name: Amy Sokolow
    title: Marketing & Publicity.
@@ -188,10 +213,10 @@
    bio: Nikita is a senior majoring in International Relations and Economics. She loves talking, meeting new people, and Reeses.  
    image-url: /public/team_images/nikita_shukla.jpg
 
- - name: Bianca Capretta
-   title: Web.
-   bio: Bianca is a Sophomore from just north of San Francisco and is excited to be apart of the Web team this year! She's majoring in Computer Science and Cognitive & Brain Sciences with a Music minor. She loves to sing and is currently apart of the a cappella group Shir Appeal and Tuft's Chamber Choir.
-   image-url: /public/team_images/bianca_capretta.jpeg
+ - name: Rhea Montgomery-Walsh
+   title: Design.
+   bio: Rhea is a sophomore from Catonsville, Maryland, majoring in Engineering Psychology. She enjoys oil painting, dancing, and watching tasty videos.
+   image-url: /public/team_images/rhea_montgomery_walsh.png
 
  - name: Jia Wen Goh
    title: Design.
