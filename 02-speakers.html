@@ -29,6 +29,9 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5nqa&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /></noscript>
 <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6020043221567&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
 
+<div class="">
+	<img src=""
+</div>
 
 <div class="tedx-billboard-small background-img">
 	<h1 class="centered-text">TEDxTufts Speakers</h1>
@@ -66,33 +69,34 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 
 {% endfor %}
 
-<div class="tedx-billboard-small background-img">
-	<h1 class="centered-text">TEDxTufts Past Speakers</h1>
-</div>
+<h1 class="centered-text">TEDxTufts Past Speakers</h1>
 
 {% assign people = site.data.past_speakers  %}
 {% for person in people %}
 
-  {% capture modulo %}{{ forloop.index | mod:2 }}{% endcapture %}
+  {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
   
   {% if modulo == '0' or forloop.first %}
 	<div class="row">
   {% endif %}
-  <div class="small-6 columns">
+  <div class="small-4 columns">
   	<div class="row">
-    	<div class="small-4 columns">
+    	<div class="small-9 columns">
             <img src="{{person.image-url}}" alt="" id="team-image">
-         </div>
-         <a class="anchor" id="{{person.name | slugify}}"></a>
-         <div class="small-8 columns">
-            <h3>{{ person.name }}</h3>
-            <medium><a href = "https://www.youtube.com/watch?v={{person.youtube}}">Click here to view the talk</a></medium>
-         </div>
-      </div>
+         	<a class="anchor" id="{{person.name | slugify}}"></a>
+         	<div class="small-12 columns">
+            	<center>
+            		<h6>{{ person.name }}</h6>
+            		<medium><a href = "https://www.youtube.com/watch?v={{person.youtube}}">Click here to view the talk</a></medium>
+            	</center>
+         	</div>
+      	</div>
+ 	</div>
   </div>
 
   {% if modulo == '0' or forloop.last %}
  </div>
+ <br>
   {% endif %}
 {% endfor %}
 </div>
@@ -100,7 +104,7 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 <div class="row">
 	<div class="large-12 columns">
 		<div class="row">
-			<div class="small-12 small-centered columns" data-equalizer-watch> 
+			<div class="small-8 small-centered columns" data-equalizer-watch> 
 				<h2 style="text-align: center">Nominate Someone.</h2>	
 				<p style="text-align:center" >We need your help to find bright and inspiring minds across campus and beyond.
 TEDxTufts, more than anything, is about Tufts: we want to showcase innovative and inspiring ideas that come from our university. If you know a student, teacher, or alumni with an amazing idea, let us know!</p>
@@ -115,9 +119,7 @@ TEDxTufts, more than anything, is about Tufts: we want to showcase innovative an
 
 </div>
 
-<div class="tedx-billboard-small background-img">
-	<h1 class="centered-text">TEDxTufts Past Talks</h1>
-</div>
+<h1 class="centered-text">TEDxTufts Past Talks</h1>
 
 <div class="videos">
 	<div class="row">
