@@ -36,7 +36,6 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 <div class="tedx-top">
 	<h1 class="centered-text tedx-top-text">TEDxTufts 2017 Speakers</h1>
 	<img class="tedx-top-img" src="/public/speakers_home.jpg">
-	<div class="overlay"/>
 </div>
 
 <!-- Nominate and apply to speak banners -->
@@ -55,14 +54,16 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 	      <div class="row">
 	         <div class="small-4 columns">
 	            <img src="{{person.image-url}}" alt="" id="team-image">
-	         </div>
-	         <a class="anchor" id="{{person.name | slugify}}"></a>
-	         <div class="small-8 columns">
-	            <h3> {{ person.name }} 
+	            <center>
+	            	<h3> {{ person.name }} 
 				{% if person.twitter %}
 	            <small><a href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></small>
 				{% endif %}
 	            </h3> 
+	            </center>
+	         </div>
+	         <a class="anchor" id="{{person.name | slugify}}"></a>
+	         <div class="small-8 columns">
 	            <p> {{person.bio}} </p> 
 	         </div>
 	      </div>
