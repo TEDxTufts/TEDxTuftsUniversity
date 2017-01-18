@@ -29,13 +29,15 @@
     font-weight: 300;
 }
 #partner-text{
-	margin-top: 0.5rem; 
+	margin-top: -5rem; 
+	font-size: 7.7em;
+	padding-bottom: 6.8vw;
 }
 #partner-body{
 	background: white;
 }
 #speaker-space{
-	padding: 15vw;
+	padding: 12vw;
 }
 .tedx-billboard{
 	padding-top: 40px;
