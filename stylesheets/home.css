@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$topbar-bg".
-        on line 12 of /Users/Rachael/Documents/TEDXTufts/TEDxTuftsUniversity/scss/home.scss
+        on line 12 of /Users/Rachael/Documents/TEDxTufts2016/TEDxTuftsUniversity/scss/home.scss
 
 7: 	
 8: 	text-align: center;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$topbar-bg".
 17: #header-img{
 
 Backtrace:
-/Users/Rachael/Documents/TEDXTufts/TEDxTuftsUniversity/scss/home.scss:12
+/Users/Rachael/Documents/TEDxTufts2016/TEDxTuftsUniversity/scss/home.scss:12
 /usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
@@ -69,4 +69,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$topbar-bg\".\A         on line 12 of /Users/Rachael/Documents/TEDXTufts/TEDxTuftsUniversity/scss/home.scss\A \A 7: 	\A 8: 	text-align: center;\A 9: }\A 10: \A 11: #footer{\A 12: 	background-color: $topbar-bg;\A 13: 	height: 200px;\A 14: 	padding-top: 20px;\A 15: }\A 16: \A 17: #header-img{"; }
+  content: "Error: Undefined variable: \"$topbar-bg\".\A         on line 12 of /Users/Rachael/Documents/TEDxTufts2016/TEDxTuftsUniversity/scss/home.scss\A \A 7: 	\A 8: 	text-align: center;\A 9: }\A 10: \A 11: #footer{\A 12: 	background-color: $topbar-bg;\A 13: 	height: 200px;\A 14: 	padding-top: 20px;\A 15: }\A 16: \A 17: #header-img{"; }

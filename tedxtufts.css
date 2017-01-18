@@ -8,6 +8,8 @@
 .tedx-top{
 	background-size: cover;
 	display: inline-block;
+	width: 100%;
+	height: auto;
 }
 .tedx-top-img{
 	opacity: 0.5;
@@ -38,6 +40,11 @@
 #partner-body{
 	background: white;
 }
+#about-head{
+	font-size: 8rem;
+	font-weight: 200;
+	text-align: center;
+}
 .tedx-billboard{
 	padding-top: 40px;
 }
@@ -48,9 +55,9 @@
 }
 
 .tedx-billboard-small{
-	padding-top:20px;
-	height: 100px;
-	margin-bottom: 20px;
+	/*padding-top:20px;*/
+	height: 3em;
+	/*margin-bottom: 1em;*/
 }
 .tedx-billboard-small h1{
 	color: white;
