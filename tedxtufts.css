@@ -39,6 +39,17 @@
 #speaker-space{
 	padding: 12vw;
 }
+#team-space{
+	padding: 16vw;
+}
+#see-bio{
+	cursor: pointer;
+}
+#see-bio:hover{
+	#team-bio{
+		display: inline;
+	}
+}
 .tedx-billboard{
 	padding-top: 40px;
 }

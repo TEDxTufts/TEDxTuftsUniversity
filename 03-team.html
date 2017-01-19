@@ -6,8 +6,16 @@ permalink: /team/
 
 ---
 
-<div class="tedx-billboard-small background-img">
-	<h1 class="centered-text">Meet the Team</h1>
+<div class="tedx-billboard-small">
+  <img class="tedx-top-img" src="/public/team_home.jpg">
+</div>
+<br>
+<div class="row">
+  <div class="large-12 small-centered columns">
+    <h1 class="head-text">Meet the TEDxTufts Team</h1>
+  </div>
+</div>
+<div class="row" id="team-space">
 </div>
 
 <!-- <div style="padding-top: 2em","font-size: 3em" class="row">
@@ -17,22 +25,25 @@ permalink: /team/
 {% assign people = site.data.team  %}
 {% for person in people %}
 
-  {% capture modulo %}{{ forloop.index | mod:2 }}{% endcapture %}
+  {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
 
   {% if modulo == '0' or forloop.first %}
     <div class="row">
   {% endif %}
-  <div class="small-6 columns">
+  <div class="small-4 columns">
       <div class="row">
-         <div class="small-4 columns">
+         <div class="small-12 columns" id="see-bio">
             <img src="{{person.image-url}}" alt="" id="team-image">
+            <center>
+              <a class="anchor" id="{{person.name | slugify}}"></a>
+              <div class="small-12 columns">
+                <h3> {{ person.name }}</h3>
+                <p id = "team-title">{{person.title}}</p> 
+                <p id="team-bio" class="spoiler"> {{person.bio}} </p> 
+              </div>
+            </center>
          </div>
-         <a class="anchor" id="{{person.name | slugify}}"></a>
-         <div class="small-8 columns">
-            <h3> {{ person.name }}</h3>
-            <p id = "team-title">{{person.title}}</p> 
-            <p> {{person.bio}} </p> 
-         </div>
+         
       </div>
   </div>
 
