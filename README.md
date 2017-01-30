@@ -6,8 +6,11 @@ This is the code that runs behind the [TEDxTuftsUniversity](http://www.tedxtufts
 
 ### Getting Started
 We use [Grunt](http://gruntjs.com) to automate many of the tasks that go into building the website. Make sure you have Grunt [installed](http://gruntjs.com/getting-started). Make sure you have [Jekyll](https://jekyllrb.com/) installed as well. If not, you can install it by running `gem install jekyll bundler` (you might need `sudo gem install jekyll bundler` if you get an error about permissions).
+
 1. Clone the git repository and navigate into the cloned directory.
+
 2. Run `bower install` and `npm install` to download dependencies.
+
 3. Run `grunt` to compile everything and start a local server. If you want, you can open a new terminal window/tab and run `grunt watch` so that your SCSS files will be recompiled whenever you make a change. Point your browser to http://localhost:4000 to see the compiled site.
 
 ### How To Edit Pages
