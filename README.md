@@ -5,7 +5,10 @@
 This is the code that runs behind the [TEDxTuftsUniversity](http://www.tedxtuftsuniversity) website. It is a statically-generated site, built with [Foundation](http://foundation.zurb.com/docs/) and [Jekyll](http://jekyllrb.com/docs/home/). Foundation is a wonderful grid-based {S}CSS framework that makes designing the site a breeze. The plans are for static hosting via Amazon S3, but we might look for a Tufts-hosted solution if possible. A statically-generated site is one that requires nothing more than a simple HTTP server to serve pre-generated pages. Jekyll, a powerful static site generator, allows for template reuse and simple data management, perfect for this application.
 
 ### Getting Started
-We use [Grunt](http://gruntjs.com) to automate many of the tasks that go into building the website. Make sure you have Grunt [installed](http://gruntjs.com/getting-started). Make sure you have [Jekyll](https://jekyllrb.com/) installed as well. If not, you can install it by running `gem install jekyll bundler` (you might need `sudo gem install jekyll bundler` if you get an error about permissions). Clone the git repository and navigate into the cloned directory. Run `bower install` and `npm install` to download dependencies. Then run `grunt` to compile everything and start a local server. If you want, you can open a new terminal window/tab and run `grunt watch` so that your SCSS files will be recompiled whenever you make a change. Point your browser to http://localhost:4000 to see the compiled site.
+We use [Grunt](http://gruntjs.com) to automate many of the tasks that go into building the website. Make sure you have Grunt [installed](http://gruntjs.com/getting-started). Make sure you have [Jekyll](https://jekyllrb.com/) installed as well. If not, you can install it by running `gem install jekyll bundler` (you might need `sudo gem install jekyll bundler` if you get an error about permissions).
+1. Clone the git repository and navigate into the cloned directory.
+2. Run `bower install` and `npm install` to download dependencies.
+3. Run `grunt` to compile everything and start a local server. If you want, you can open a new terminal window/tab and run `grunt watch` so that your SCSS files will be recompiled whenever you make a change. Point your browser to http://localhost:4000 to see the compiled site.
 
 ### How To Edit Pages
 Each page on the TEDxTuftsUniversity site has its own `.html` file. To edit the content on a page (not the header or footer), open the desired `.html` file and edit the content within it. For example, to add a biography to a team member, open `team.html` and edit it. You might be thinking that these `.html` files look a little different than what you expect––that's because they use YAML, a markup language that Jekyll uses. This allows us to create clean, easy-to-maintain code for the pages without writing much HTML. Let's take the example of adding another team member. Here's the YAML portion of `team.html`:
@@ -48,7 +51,7 @@ This works because of the HTML below the YAML:
         </div>
     </div>
 
-Notice the `{% for person in page.people %}` lines––these are `for` loops in the Liquid templating language. Jekyll looks up the `people` variable in the YAML (referenced using Jekyll's `page` variable) and iterates over its members. 
+Notice the `{% for person in page.people %}` lines––these are `for` loops in the Liquid templating language. Jekyll looks up the `people` variable in the YAML (referenced using Jekyll's `page` variable) and iterates over its members.
 
 Make sure to use `git` to make your changes persistent across all versions of the site's repository.
 
