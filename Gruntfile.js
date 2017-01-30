@@ -1,12 +1,12 @@
 /*
-  Grunt configuration file for TEDxTuftsUniversity site. 
-  Grunt is used to automate tasks relevant to this site. 
+  Grunt configuration file for TEDxTuftsUniversity site.
+  Grunt is used to automate tasks relevant to this site.
   Tony Cannistra, 2015
 */
 
 /* Specifies which files to upload to remote server */
 static_fileobject =  [
-  // Delete from s3 all files that are not in _/site 
+  // Delete from s3 all files that are not in _/site
   { cwd: "_site/", dest: "/", action: 'delete'},
   // Upload to s3 those files that do not exist or have changed
   { expand: true, cwd: '_site/', src: "**", dest: "/", action: 'upload'}
@@ -24,7 +24,6 @@ module.exports = function(grunt) {
     console.log("Warning, no aws-s3-config.json file configured. Deployment disabled.");
   };
 
-
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -33,7 +32,8 @@ module.exports = function(grunt) {
         dev: {                    // Another target
           options: {
             sassDir: 'scss',
-            cssDir: 'stylesheets'
+            cssDir: 'stylesheets',
+            specify: 'scss/app.scss'
           }
         }
     },
@@ -63,14 +63,14 @@ module.exports = function(grunt) {
         options : {
           bucket : '<%= aws.AWSBucketName_staging %>',
           differential: true
-        },  
+        },
         files : static_fileobject
       },
       deploy_production : {
         options : {
           bucket : '<%= aws.AWSBucketName_production %>',
           differential: true
-        },  
+        },
         files : static_fileobject
       },
 
@@ -79,6 +79,8 @@ module.exports = function(grunt) {
 
   // Load the plugin that provides the "compass" task.
   grunt.loadNpmTasks('grunt-contrib-compass');
+  // load plugin for live sass compiling.
+  grunt.loadNpmTasks('grunt-contrib-watch');
   // load shell task runner
   grunt.loadNpmTasks('grunt-shell');
   // load AWS S3 interface tasks
@@ -98,5 +100,4 @@ module.exports = function(grunt) {
   // default tasks
   grunt.registerTask('default', ['compass', 'shell:jekyllServe']);
 
-
-};  
+};
