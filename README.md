@@ -15,7 +15,7 @@ We use [Grunt](http://gruntjs.com) to automate many of the tasks that go into bu
 
 4. If you want, you can open a new terminal window/tab and run `grunt watch` so that your SCSS files will be recompiled whenever you make a change.
 
-5. Point your browser to http://localhost:4000 to see the compiled site.
+5. Point your browser to `http://localhost:4000` to see the compiled site.
 
 ### How To Edit Pages
 Each page on the TEDxTuftsUniversity site has its own `.html` file. To edit the content on a page (not the header or footer), open the desired `.html` file and edit the content within it. For example, to add a biography to a team member, open `team.html` and edit it. You might be thinking that these `.html` files look a little different than what you expect––that's because they use YAML, a markup language that Jekyll uses. This allows us to create clean, easy-to-maintain code for the pages without writing much HTML. Let's take the example of adding another team member. Here's the YAML portion of `team.html`:
