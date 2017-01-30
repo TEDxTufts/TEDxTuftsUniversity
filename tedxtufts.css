@@ -28,9 +28,14 @@
     padding-right: 5rem;
     font-weight: 300;
 }
+.top-text{
+	font-size: 6rem;
+	font-weight: 200;
+	text-align: center;
+}
 #partner-text{
 	margin-top: -5rem; 
-	font-size: 7.7em;
+	font-size: 6em;
 	padding-bottom: 6.8vw;
 }
 #partner-body{
