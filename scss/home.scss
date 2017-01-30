@@ -14,14 +14,19 @@
 	padding-top: 20px;
 }
 
-
-
 .top-bar {
-    height: 6rem;
-    line-height: 6rem;
+    height: $topbar-height;
+    line-height: $topbar-height;
 
     .top-bar-section ul li>a {
         font-size: 1rem;
+        line-height: $topbar-height;
+    }
+
+    @media only screen and (min-width: 40.063em) {
+        .top-bar-section li:not(.has-form) a:not(.button) {
+            line-height: $topbar-height;
+        }
     }
 
     #header-img{
