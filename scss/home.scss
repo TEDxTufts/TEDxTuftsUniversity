@@ -14,13 +14,21 @@
 	padding-top: 20px;
 }
 
-#header-img{
-	padding-top: 25px;
-    width: 230px;
-}
 
-.top-bar-section ul li>a {
-    font-size: 1rem;
+
+.top-bar {
+    height: 6rem;
+    line-height: 6rem;
+
+    .top-bar-section ul li>a {
+        font-size: 1rem;
+    }
+
+    #header-img{
+        padding-top: 25px;
+        width: 230px;
+    }
+
 }
 
 .mission{
