@@ -2,6 +2,7 @@
 Grunt configuration file for TEDxTuftsUniversity site.
 Grunt is used to automate tasks relevant to this site.
 Tony Cannistra, 2015
+Jackson Clawson, 2017
 */
 
 /* Specifies which files to upload to remote server */
@@ -37,7 +38,8 @@ module.exports = function(grunt) {
                 tasks: 'compass:dev'
             }
         },
-        compass: {                  // Task
+        // Compile scss
+        compass: {
             foundation: {
                 options: {
                     sassDir: 'bower_components/foundation/scss',
@@ -45,23 +47,13 @@ module.exports = function(grunt) {
                     sourcemap: true
                 }
             },
-            dev: {                    // Another target
+            dev: {
                 options: {
                     sassDir: 'scss',
                     cssDir: 'stylesheets',
                     specify: 'scss/app.scss',
                     sourcemap: true
                 }
-            }
-        },
-        // Run Jekyll (taken from https://gist.github.com/decthomas/5336734)
-        jekyll: {
-            server: {
-                // auto: true,
-                server: true,
-                server_port: 4000,
-                exclude: ['node_modules', 'bower_components', 'less'],
-                dest: '.'
             }
         },
         // configure jekyll build and serve tasks
@@ -108,7 +100,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-compass');
     // load plugin for live sass compiling.
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-jekyll');
     // load shell task runner
     grunt.loadNpmTasks('grunt-shell');
     // load AWS S3 interface tasks

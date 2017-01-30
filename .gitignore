@@ -2,3 +2,6 @@
 aws-s3-config.json
 .sass-cache/*
 _site/*
+node_modules
+bower_components
+stylesheets
