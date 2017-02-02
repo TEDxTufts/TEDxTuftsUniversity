@@ -24,8 +24,8 @@
     margin: 0;
     margin-top: 8rem; /* 1/2 height */
     font-size: 8rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     font-weight: 300;
 }
 .top-text{
@@ -33,19 +33,11 @@
 	font-weight: 200;
 	text-align: center;
 }
-#partner-text{
-	margin-top: -5rem; 
-	font-size: 6em;
-	padding-bottom: 6.8vw;
-}
 #partner-body{
 	background: white;
 }
 #speaker-space{
 	padding: 12vw;
-}
-#team-space{
-	padding: 16vw;
 }
 #see-bio{
 	cursor: pointer;
