@@ -58,6 +58,21 @@ a.anchor{display: block; position: relative; top: -$topbar-height; visibility: h
 }
 .head-text{
 	font-size: 8rem;
-	font-weight: 200;
+	font-weight: 100;
 	text-align: center;
+}
+
+body{
+	background-color: $body-bg;
+	color: $body-font-color;
+}
+h1, h2, h3{
+	color: $body-font-color;
+}
+button {
+	background-color: $button-bg-color;
+}
+
+#about-buttons{
+	padding-top: 5rem;
 }
