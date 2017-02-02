@@ -1,35 +1,22 @@
-#team-image {
-	position: absolute;
+.team-image {
 	display: block;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
 	background: #FFF;
-	border: 3px solid #FFF;
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	top: 0px;
+    width: 100%;
+	border: 2px solid #FFF;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
 	position: relative;
     overflow:hidden;
     text-align:center;
 }
 
 #team-list{
-	text-align: right;
-	border-right: thin solid red;
-	height: 100%;
-}
-#team-list p{
-	line-height: 10px;
+    margin: 0 auto;
 }
 
-#team-container{
-	margin-bottom: 10px;
-}
-
-#team-title{
-	color: $oil;
+.team-title{
+	opacity: 0.6;
 }
 #team-space{
 	padding-top: 20vw;
@@ -38,7 +25,7 @@
 	padding-top: 30vw;
 }
 #partner-top{
-	margin-top: -4rem; 
+	margin-top: -4rem;
 	font-size: 7em;
 	// padding-bottom: 6.8vw;
 	font-weight: 100;
