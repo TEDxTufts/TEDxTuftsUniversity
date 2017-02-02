@@ -2,7 +2,7 @@
 > Static web presence, built with Jekyll.
 
 ### What Is This?
-This is the code that runs behind the [TEDxTuftsUniversity](http://www.tedxtuftsuniversity) website. It is a statically-generated site, built with [Foundation](http://foundation.zurb.com/docs/) and [Jekyll](http://jekyllrb.com/docs/home/). Foundation is a wonderful grid-based {S}CSS framework that makes designing the site a breeze. The plans are for static hosting via Amazon S3, but we might look for a Tufts-hosted solution if possible. A statically-generated site is one that requires nothing more than a simple HTTP server to serve pre-generated pages. Jekyll, a powerful static site generator, allows for template reuse and simple data management, perfect for this application.
+This is the code that runs behind the [TEDxTuftsUniversity](http://www.tedxtuftsuniversity) website. It is a statically-generated site, built with [Foundation 5.5.3](http://foundation.zurb.com/sites/docs/v/5.5.3/) and [Jekyll](http://jekyllrb.com/docs/home/). Foundation is a wonderful grid-based {S}CSS framework that makes designing the site a breeze. The plans are for static hosting via Amazon S3, but we might look for a Tufts-hosted solution if possible. A statically-generated site is one that requires nothing more than a simple HTTP server to serve pre-generated pages. Jekyll, a powerful static site generator, allows for template reuse and simple data management, perfect for this application.
 
 ### Getting Started
 We use [Grunt](http://gruntjs.com) to automate many of the tasks that go into building the website. Make sure you have Grunt [installed](http://gruntjs.com/getting-started). Make sure you have [Jekyll](https://jekyllrb.com/) installed as well. If not, you can install it by running `gem install jekyll bundler` (you might need `sudo gem install jekyll bundler` if you get an error about permissions).
@@ -77,7 +77,7 @@ Underneath the final `---`, write the HTML for the page as desired. You can writ
 
 Please familiarize yourself with the other HTML files I've written in this repository to get a feel for how Jekyll works. You can read documentation on Jekyll templating [here](http://jekyllrb.com/docs/templates/).
 
-If you need CSS, please look through the `scss` directory beforehand. Many styles there might suit you. To write your own styles, create a new file in `scss` with `<html-file-name>.scss`, matching the HTML file you just created. __Always use the Foundation Grid when designing your page!!!__ It's beautiful and works wonders on mobile. If you don't know what I mean, check out the [docs](http://foundation.zurb.com/docs/components/grid.html).
+If you need CSS, please look through the `scss` directory beforehand. Many styles there might suit you. To write your own styles, create a new file in `scss` with `<html-file-name>.scss`, matching the HTML file you just created. __Always use the Foundation Grid when designing your page!!!__ It's beautiful and works wonders on mobile. If you don't know what I mean, check out the [docs](http://foundation.zurb.com/sites/docs/v/5.5.3/components/grid.html).
 
 To see your developments, run `grunt` or `grunt build` and navigate to `http://localhost:4000`. If you're changing styles, you'll need to run `grunt build` each time you change a style. If you're just changing the HTML file, `grunt build` will rebuild the site with each file change--just reload your browser to see your HTML/YAML changes.
 

@@ -1,8 +1,8 @@
 ---
 layout: base
-title: TEDx Team 
+title: TEDx Team
 permalink: /team/
- 
+
 
 ---
 
@@ -18,37 +18,32 @@ permalink: /team/
 <div class="row" id="team-space">
 </div>
 
+
+
 <!-- <div style="padding-top: 2em","font-size: 3em" class="row">
   <div class="small-12 columns"><a href="https://docs.google.com/forms/d/e/1FAIpQLScbSPuHQooDkoB9gKfHml4PPAkI6O_fhihY6FNFMBCKWfQ3Yg/viewform" class="button alert" style="width: 100% ">Apply to the Team.</a></div>
 </div> -->
 
+
 {% assign people = site.data.team  %}
-{% for person in people %}
+<ul class="row small-block-grid-2 medium-block-grid-3 large-block-grid-4" id="team-list">
 
-  {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
-
-  {% if modulo == '0' or forloop.first %}
-    <div class="row">
-  {% endif %}
-  <div class="small-4 columns">
-      <div class="row">
-         <div class="small-12 columns" id="see-bio">
-            <img src="{{person.image-url}}" alt="" id="team-image">
-            <center>
-              <a class="anchor" id="{{person.name | slugify}}"></a>
-              <div class="small-12 columns">
+    {% for person in people %}
+    <li class="see-bio">
+        <img src="{{person.image-url}}" alt="" class="team-image">
+        <center>
+            <a class="anchor" id="{{person.name | slugify}}"></a>
+            <div class="small-12 columns">
                 <h3> {{ person.name }}</h3>
-                <p id = "team-title">{{person.title}}</p> 
-                <p id="team-bio" class="spoiler"> {{person.bio}} </p> 
-              </div>
-            </center>
-         </div>
-         
-      </div>
-  </div>
+                <p class="team-title">{{person.title}}</p>
+                <p class="team-bio spoiler"> {{person.bio}} </p>
+            </div>
+        </center>
+    </li>
+    {% endfor %}
+</ul>
 
-  {% if modulo == '0' or forloop.last %}
-    </div>
-  {% endif %}
-{% endfor %}
+
+
+
 </div>
