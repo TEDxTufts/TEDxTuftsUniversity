@@ -224,5 +224,20 @@
       bio: Jia Wen is a freshman from Singapore looking to major in Computer Science and/or Economics. He's really into tech, film, graphic design and Kit Kat. Especially Kit Kat.
       image-url: /public/team_images/jia_wen_goh.jpg
 
+ - name: Web
+   people:
+    - name: Rachael Robinson
+      title: Web Director
+      bio: Rachael Robinson is senior from Seattle majoring in Computer Science. She enjoys the outdoors as well as photography and can name the five major types of pacific salmon.
+      image-url: /public/team_images/RachaelRobinson.jpg
+
+    - name: Jackson Clawson
+      bio:
+      image-url: /public/team_images/jackson_clawson.jpg
+
+    - name: Julie Jiang
+      bio: Julie is a sophomore from China studying CS and math. She procrastinates on her math homework by doing her CS homework.
+      image-url: /public/team_images/julie_jiang.jpg
+
    # If no photo, put this as photo
    # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png

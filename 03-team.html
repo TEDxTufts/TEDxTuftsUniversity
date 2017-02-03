@@ -39,8 +39,8 @@ permalink: /team/
 {% for group in groups %}
 
     {% capture modulo %}{{ forloop.index | mod:2 }}{% endcapture %}
-<div class="section{% if modulo == '0' %} odd {% endif %}">
-    <div class="row" id="{{group.name | slugify}}">
+<div class="section{% if modulo == '0' %} odd {% endif %}" id="{{group.name | slugify}}">
+    <div class="row">
         <div class="large-10 columns">
             <h1 class="team-section-title">{{group.name}}</h1>
             <ul class="row small-block-grid-2 medium-block-grid-3 large-block-grid-4">
