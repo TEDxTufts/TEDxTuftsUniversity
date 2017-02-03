@@ -1,22 +1,20 @@
 $(document).ready(function() {
+    // only works for one sticky element
     var sticky = $(".sticky");
+    var stickytop = sticky.position().top;
 
     if (sticky.length) {
-        var top = sticky.position().top;
-        $(document).on("scroll", function(e) {
-            if ($(this).scrollTop() > top) {
-                sticky.addClass("sticky-fix");
-            } else {
-                sticky.removeClass("sticky-fix");
-            }
 
+        $(document).on("scroll", function(e) {
+            onScrollSticky(sticky, stickytop);
         });
+
     }
 
     var sideNav = $(".side-nav.side-nav-single-page");
 
     if (sideNav.length) {
-        $(document).on("scroll", onScroll);
+        $(document).on("scroll", onScrollSideNav);
 
         //smoothscroll
         sideNav.find('a').each(function() {
@@ -31,14 +29,13 @@ $(document).ready(function() {
                 })
                 parent.addClass('active');
 
-                var target = this.hash,
-                    menu = target;
+                var target = this.hash;
                 $target = $(target);
                 $('html, body').stop().animate({
                     'scrollTop': $target.offset().top+2
                 }, 500, 'swing', function () {
                     window.location.hash = target;
-                    $(document).on("scroll", onScroll);
+                    $(document).on("scroll", onScrollSideNav);
                 });
             })
         })
@@ -46,9 +43,17 @@ $(document).ready(function() {
 
     }
 
+    function onScrollSticky(sticky, initTop) {
+        if ($(this).scrollTop() > initTop) {
+            sticky.addClass("sticky-fix");
+        } else {
+            sticky.removeClass("sticky-fix");
+        }
+    }
 
+    function onScrollSideNav(event){
+        onScrollSticky(sticky, stickytop);
 
-    function onScroll(event){
         var scrollPos = $(document).scrollTop();
         $('.side-nav a').each(function () {
             var currLink = $(this);
