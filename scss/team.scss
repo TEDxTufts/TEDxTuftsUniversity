@@ -16,8 +16,39 @@
     margin: 0 auto;
 }
 
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &.odd {
+        background: rgba(255,255,255,.2);
+    }
+}
+
+.team-section-title {
+    margin-bottom: 30px;
+}
+
+.side-nav-right {
+    float: right;
+    text-align: right;
+}
+
+.sticky-fix {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.team-name {
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+
 .team-title{
 	opacity: 0.6;
+    font-size: 1rem;
+    margin-bottom: 0;
 }
 #team-space{
 	padding-top: 20vw;

@@ -5,7 +5,7 @@ permalink: /team/
 
 
 ---
-
+<div id="team" class="page-with-sticky">
 <div class="tedx-billboard-small">
   <img class="tedx-top-img" src="/public/team_home.jpg">
 </div>
@@ -24,24 +24,45 @@ permalink: /team/
   <div class="small-12 columns"><a href="https://docs.google.com/forms/d/e/1FAIpQLScbSPuHQooDkoB9gKfHml4PPAkI6O_fhihY6FNFMBCKWfQ3Yg/viewform" class="button alert" style="width: 100% ">Apply to the Team.</a></div>
 </div> -->
 
+{% assign groups = site.data.team  %}
+<!-- <div class="side-nav">
+{% for group in groups %}
 
-{% assign people = site.data.team  %}
-<ul class="row small-block-grid-2 medium-block-grid-3 large-block-grid-4" id="team-list">
-
-    {% for person in people %}
-    <li class="see-bio">
-        <img src="{{person.image-url}}" alt="" class="team-image">
-        <center>
-            <a class="anchor" id="{{person.name | slugify}}"></a>
-            <div class="small-12 columns">
-                <h3> {{ person.name }}</h3>
-                <p class="team-title">{{person.title}}</p>
-                <p class="team-bio spoiler"> {{person.bio}} </p>
-            </div>
-        </center>
-    </li>
+{% endfor %}
+</div> -->
+<ul class="side-nav side-nav-right side-nav-single-page sticky" role="navigation" title="Link List">
+    {% for group in groups %}
+    <li role="menuitem"><a href="#{{group.name | slugify}}">{{group.name}}</a></li>
     {% endfor %}
 </ul>
+
+{% for group in groups %}
+
+    {% capture modulo %}{{ forloop.index | mod:2 }}{% endcapture %}
+<div class="section{% if modulo == '0' %} odd {% endif %}">
+    <div class="row" id="{{group.name | slugify}}">
+        <div class="large-10 columns">
+            <h1 class="team-section-title">{{group.name}}</h1>
+            <ul class="row small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+
+                {% for person in group.people %}
+                    <li class="see-bio">
+                        <img src="{{person.image-url}}" alt="" class="team-image">
+                        <center>
+                            <a class="anchor" id="{{person.name | slugify}}"></a>
+                            <div class="small-12 columns">
+                                <p class="team-name"> {{ person.name }}</p>
+                                <p class="team-title">{{person.title}}</p>
+                                <!-- <p class="team-bio spoiler"> {{person.bio}} </p> -->
+                            </div>
+                        </center>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endfor %}
 
 
 
