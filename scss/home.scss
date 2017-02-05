@@ -18,13 +18,9 @@
     height: $topbar-height;
     line-height: $topbar-height;
 
-    .top-bar-section ul li>a {
-        font-size: 1rem;
-        line-height: $topbar-height;
-    }
-
-    @media only screen and (min-width: 40.063em) {
-        .top-bar-section li:not(.has-form) a:not(.button) {
+    .top-bar-section {
+        ul li>a {
+            font-size: 1rem;
             line-height: $topbar-height;
         }
     }
@@ -33,6 +29,33 @@
         padding-top: 25px;
         width: 230px;
     }
+
+    @media #{$small-only} {
+        height: 3rem;
+        line-height: 3rem;
+
+        .top-bar-section li:not(.has-form) a:not(.button) {
+            line-height: 3rem;
+        }
+
+        &:not(.expanded) .top-bar-section .right {
+            display: none;
+        }
+
+        #header-img {
+            padding-top: 10px;
+            width: 130px;
+        }
+    }
+
+    @media #{$large-up} {
+        .top-bar-section li:not(.has-form) a:not(.button) {
+            line-height: $topbar-height;
+        }
+    }
+
+
+
 
 
 
