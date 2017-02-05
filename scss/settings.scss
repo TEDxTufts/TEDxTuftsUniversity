@@ -1428,7 +1428,9 @@ $topbar-link-font-size: rem-calc(13);
 // $topbar-transition-speed: 300ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
 // $topbar-breakpoint: #{lower-bound($medium-range)}; // Change to 9999px for always mobile layout
-$topbar-media-query: "only screen and (min-width: 1130px)";
+$topbar-breakpoint: 56.25em;
+$topbar-media-query-small-only: "#{$screen} and (max-width: #{$topbar-breakpoint})";
+$topbar-media-query-up: "only screen and (min-width: #{$topbar-breakpoint})";
 
 // Divider Styles
 // $topbar-divider-border-bottom: solid 1px  scale-color($topbar-bg-color, $lightness: 13%);
