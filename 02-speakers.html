@@ -74,43 +74,9 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
   <br>
 
 {% endfor %}
+
 <br>
-<h1 class="centered-text">TEDxTufts Past Speakers</h1>
-<br><br>
-
-{% assign people = site.data.past_speakers  %}
-<ul class="row small-block-grid-2 large-block-grid-3" id="past-speakers">
-
-{% for person in people %}
-    <li>
-        <img src="{{person.image-url}}" alt="">
-        <a class="anchor" id="{{person.name | slugify}}"></a>
-        <h6>{{ person.name }}</h6>
-        <a href="https://www.youtube.com/watch?v={{person.youtube}}" class="button">View the talk</a>
-    </li>
-
-{% endfor %}
-</ul>
-
-<div class="row">
-	<div class="large-12 columns">
-		<div class="row">
-			<div class="small-8 small-centered columns" data-equalizer-watch>
-				<h2 style="text-align: center">Nominate Someone.</h2>
-				<p style="text-align:center" >We need your help to find bright and inspiring minds across campus and beyond.
-TEDxTufts, more than anything, is about Tufts: we want to showcase innovative and inspiring ideas that come from our university. If you know a student, teacher, or alumni with an amazing idea, let us know!</p>
-			</div>
-			<div class="small-8 small-centered columns">
-				<a target="_blank" href="http://goo.gl/forms/NloDMjs6Oy">
-					<button style="width: 100%">Nominate Now</button>
-				</a>
-			</div>
-		</div>
-	</div>
-
-</div>
-<br><br>
-<h1 class="centered-text">TEDxTufts Past Talks</h1>
+<h1 class="centered-text">Featured Past Talks</h1>
 
 <div class="videos">
 	<div class="row">
@@ -138,3 +104,35 @@ TEDxTufts, more than anything, is about Tufts: we want to showcase innovative an
 		</div>
 	</div>
 </div>
+
+
+<h1 class="centered-text">Past Speakers</h1>
+<br><br>
+
+{% assign people = site.data.past_speakers  %}
+<ul class="row small-block-grid-1 medium-block-grid-2" id="past-speakers">
+
+{% for person in people %}
+    <li>
+        <img src="{{person.image-url}}" alt="">
+        <a class="anchor" id="{{person.name | slugify}}"></a>
+        <a href="https://www.youtube.com/watch?v={{person.youtube}}"><h5>{{person.talk-title}}</h5></a>
+        <p class="secondary-text">{{ person.name }}</p>
+
+    </li>
+
+{% endfor %}
+</ul>
+
+<br>
+<br>
+<div class="row">
+    <div class="medium-8 medium-centered columns">
+        <h2 style="text-align: center">Nominate Someone.</h2>
+        <p style="text-align:center" >We need your help to find bright and inspiring minds across campus and beyond.
+            TEDxTufts, more than anything, is about Tufts: we want to showcase innovative and inspiring ideas that come from our university. If you know a student, teacher, or alumni with an amazing idea, let us know!</p>
+        <a target="_blank" href="http://goo.gl/forms/NloDMjs6Oy" class="button expand">Nominate Now</a>
+    </div>
+</div>
+
+<br><br>
