@@ -51,11 +51,6 @@
 
     }
 
-//     @media only screen and (min-width: 40.0625em)
-// .top-bar .toggle-topbar {
-//     display: none;
-// }
-
     @media #{$topbar-media-query-up} {
         .top-bar-section li:not(.has-form) a:not(.button) {
             line-height: $topbar-height;
