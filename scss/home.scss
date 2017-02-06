@@ -96,8 +96,11 @@ body{
 h1, h2, h3{
 	color: $body-font-color;
 }
-button {
+button, .button {
 	background-color: $button-bg-color;
+    &:hover, &:focus {
+        background-color: $button-bg-hover;
+    }
 }
 
 #about-buttons{
