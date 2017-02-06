@@ -24,13 +24,16 @@ permalink: /team/
   <div class="small-12 columns"><a href="https://docs.google.com/forms/d/e/1FAIpQLScbSPuHQooDkoB9gKfHml4PPAkI6O_fhihY6FNFMBCKWfQ3Yg/viewform" class="button alert" style="width: 100% ">Apply to the Team.</a></div>
 </div> -->
 
-{% assign groups = site.data.team  %}
+{% assign team_data = site.data.team  %}
+{% assign groups = team_data.groups %}
 <!-- <div class="side-nav">
 {% for group in groups %}
 
 {% endfor %}
 </div> -->
-<ul class="side-nav side-nav-right side-nav-single-page sticky" role="navigation" title="Link List">
+
+
+<ul class="side-nav side-nav-right side-nav-single-page smooth-scroll sticky" role="navigation" title="Link List">
     {% for group in groups %}
     <li role="menuitem"><a href="#{{group.name | slugify}}">{{group.name}}</a></li>
     {% endfor %}
@@ -45,14 +48,19 @@ permalink: /team/
             <h1 class="team-section-title">{{group.name}}</h1>
             <ul class="row small-block-grid-2 medium-block-grid-3 large-block-grid-4">
 
-                {% for person in group.people %}
+                {% for p in group.people %}
+                    {% assign person = p.info %}
                     <li class="see-bio">
                         <img src="{{person.image-url}}" alt="" class="team-image">
                         <center>
                             <a class="anchor" id="{{person.name | slugify}}"></a>
                             <div class="small-12 columns">
                                 <p class="team-name"> {{ person.name }}</p>
-                                <p class="team-title">{{person.title}}</p>
+                                {% if person.link-to %}
+                                    <a href="#{{person.link-to | slugify}}" class="smooth-scroll"><p class="team-title">{{person.title}}</p></a>
+                                {% else %}
+                                    <p class="team-title">{{person.title}}</p>
+                                {% endif %}
                                 <!-- <p class="team-bio spoiler"> {{person.bio}} </p> -->
                             </div>
                         </center>

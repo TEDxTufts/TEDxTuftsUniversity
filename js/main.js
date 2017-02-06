@@ -15,9 +15,12 @@ $(document).ready(function() {
 
     if (sideNav.length) {
         $(document).on("scroll", onScrollSideNav);
+    }
 
-        //smoothscroll
-        sideNav.find('a').each(function() {
+    var smoothScroll = $(".smooth-scroll");
+
+    if (smoothScroll.length) {
+        smoothScroll.find('a').addBack('a').each(function() {
             var a = $(this);
             a.on('click', function(e) {
                 var parent = $(this).parent();
@@ -39,8 +42,6 @@ $(document).ready(function() {
                 });
             })
         })
-
-
     }
 
     function onScrollSticky(sticky, initTop) {
