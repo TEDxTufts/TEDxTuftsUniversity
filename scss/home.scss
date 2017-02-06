@@ -7,6 +7,13 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+a {
+    color: $anchor-font-color;
+    &:hover {
+        color: $anchor-font-color-hover;
+    }
+}
+
 .centered-text{
 	text-align: center;
 }
