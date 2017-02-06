@@ -57,16 +57,16 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 	         <div class="small-4 columns">
 	            <img src="{{person.image-url}}" alt="" id="team-image">
 	            <center>
-	            	<h3> {{ person.name }} 
+	            	<h3> {{ person.name }}
 				{% if person.twitter %}
 	            <small><a href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></small>
 				{% endif %}
-	            </h3> 
+	            </h3>
 	            </center>
 	         </div>
 	         <a class="anchor" id="{{person.name | slugify}}"></a>
 	         <div class="small-8 columns">
-	            <p> {{person.bio}} </p> 
+	            <p> {{person.bio}} </p>
 	         </div>
 	      </div>
 	  </div>
@@ -79,44 +79,28 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 <br><br>
 
 {% assign people = site.data.past_speakers  %}
+<ul class="row small-block-grid-2 large-block-grid-3" id="past-speakers">
+
 {% for person in people %}
+    <li>
+        <img src="{{person.image-url}}" alt="">
+        <a class="anchor" id="{{person.name | slugify}}"></a>
+        <h6>{{ person.name }}</h6>
+        <a href="https://www.youtube.com/watch?v={{person.youtube}}" class="button">View the talk</a>
+    </li>
 
-  {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
-  
-  {% if modulo == '0' or forloop.first %}
-	<div class="row">
-  {% endif %}
-  <div class="small-4 columns">
-  	<div class="row">
-    	<div class="small-9 columns">
-            <img src="{{person.image-url}}" alt="" id="team-image">
-         	<a class="anchor" id="{{person.name | slugify}}"></a>
-         	<div class="small-12 columns">
-            	<center>
-            		<h6>{{ person.name }}</h6>
-            		<medium><a href = "https://www.youtube.com/watch?v={{person.youtube}}">Click here to view the talk</a></medium>
-            	</center>
-         	</div>
-      	</div>
- 	</div>
-  </div>
-
-  {% if modulo == '0' or forloop.last %}
- </div>
- <br>
-  {% endif %}
 {% endfor %}
-</div>
+</ul>
 
 <div class="row">
 	<div class="large-12 columns">
 		<div class="row">
-			<div class="small-8 small-centered columns" data-equalizer-watch> 
-				<h2 style="text-align: center">Nominate Someone.</h2>	
+			<div class="small-8 small-centered columns" data-equalizer-watch>
+				<h2 style="text-align: center">Nominate Someone.</h2>
 				<p style="text-align:center" >We need your help to find bright and inspiring minds across campus and beyond.
 TEDxTufts, more than anything, is about Tufts: we want to showcase innovative and inspiring ideas that come from our university. If you know a student, teacher, or alumni with an amazing idea, let us know!</p>
 			</div>
-			<div class="small-8 small-centered columns"> 
+			<div class="small-8 small-centered columns">
 				<a target="_blank" href="http://goo.gl/forms/NloDMjs6Oy">
 					<button style="width: 100%">Nominate Now</button>
 				</a>
