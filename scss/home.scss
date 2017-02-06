@@ -3,9 +3,27 @@
 	max-width: none !important
 }
 
-.centered-text{
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
 
+a {
+    color: $anchor-font-color;
+    &:hover {
+        color: $anchor-font-color-hover;
+    }
+}
+
+.centered-text{
 	text-align: center;
+}
+
+.secondary-text {
+    opacity: 0.5;
+}
+
+.margin-centered {
+    margin: 0 auto;
 }
 
 #footer{
@@ -18,13 +36,9 @@
     height: $topbar-height;
     line-height: $topbar-height;
 
-    .top-bar-section ul li>a {
-        font-size: 1rem;
-        line-height: $topbar-height;
-    }
-
-    @media only screen and (min-width: 40.063em) {
-        .top-bar-section li:not(.has-form) a:not(.button) {
+    .top-bar-section {
+        ul li>a {
+            font-size: 1rem;
             line-height: $topbar-height;
         }
     }
@@ -33,6 +47,37 @@
         padding-top: 25px;
         width: 230px;
     }
+
+    @media #{$small-only} {
+        &:not(.expanded) .top-bar-section .right {
+            display: none;
+        }
+    }
+
+    @media #{$topbar-media-query-small-only} {
+        #header-img {
+            padding-top: 10px;
+            width: 130px;
+        }
+
+        height: 3rem;
+        line-height: 3rem;
+
+        .top-bar-section li:not(.has-form) a:not(.button) {
+            line-height: 3rem;
+        }
+
+    }
+
+    @media #{$topbar-media-query-up} {
+        .top-bar-section li:not(.has-form) a:not(.button) {
+            line-height: $topbar-height;
+        }
+
+    }
+
+
+
 
 
 
@@ -69,10 +114,9 @@ body{
 h1, h2, h3{
 	color: $body-font-color;
 }
-button {
+button, .button {
 	background-color: $button-bg-color;
-}
-
-#about-buttons{
-	padding-top: 5rem;
+    &:hover, &:focus {
+        background-color: $button-bg-hover;
+    }
 }
