@@ -49,7 +49,7 @@ permalink: /team/
             <ul class="row small-block-grid-2 medium-block-grid-3 large-block-grid-4">
 
                 {% for p in group.people %}
-                    {% assign person = p.info %}
+                    {% assign person = p.person %}
                     <li class="see-bio">
                         <img src="{{person.image-url}}" alt="" class="team-image">
                         <center>

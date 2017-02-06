@@ -2,6 +2,7 @@ people:
   - id: &slide_kelly
       name: Slide Kelly
       title: Executive Organizer
+      link-to: Organizers
       bio: Slide is a senior majoring in Architectural Studies from Denver, Colorado. He loves all things design, mountain sports, circus arts, and bringing out the creative spark in others.
       image-url: /public/team_images/slide_kelly.jpg
 
@@ -247,77 +248,77 @@ people:
 groups:
   - name: Organizers
     people:
-      - info: *slide_kelly
-      - info: *akshat_rajan
-      - info: *mika_sanger
-      - info: *kate_sienko
-      - info: *stephanie_kim
-      - info: *ramone_brown
-      - info: *cat_armistead
-      - info: *taylor_fasolo
-      - info: *rachael_robinson
+      - person: *slide_kelly
+      - person: *akshat_rajan
+      - person: *mika_sanger
+      - person: *kate_sienko
+      - person: *stephanie_kim
+      - person: *ramone_brown
+      - person: *cat_armistead
+      - person: *taylor_fasolo
+      - person: *rachael_robinson
 
   - name: Production
     people:
-      - info: *ramone_brown
-      - info: *claire_freeman
-      - info: *robert_hrabchak
-      - info: *julie_jiang
-      - info: *olivia_jones
-      - info: *nalisha_men
-      - info: *zach_sebek
-      - info: *tommy_tang
+      - person: *ramone_brown
+      - person: *claire_freeman
+      - person: *robert_hrabchak
+      - person: *julie_jiang
+      - person: *olivia_jones
+      - person: *nalisha_men
+      - person: *zach_sebek
+      - person: *tommy_tang
 
   - name: Speaker Coaching
     people:
-      - info: *mika_sanger
-      - info: *jane_acker
-      - info: *peter_bae
-      - info: *sara_bass
-      - info: *judy_chen
-      - info: *kate_golding
-      - info: *adriana_guardans_godo
-      - info: *daisy_hu
-      - info: *kemma_kahn
-      - info: *teddy_laurita
-      - info: *jake_moran
-      - info: *asha_nidumolu
-      - info: *catherine_sillari
-      - info: *emma_singleton
-      - info: *katyana_wardhana
+      - person: *mika_sanger
+      - person: *jane_acker
+      - person: *peter_bae
+      - person: *sara_bass
+      - person: *judy_chen
+      - person: *kate_golding
+      - person: *adriana_guardans_godo
+      - person: *daisy_hu
+      - person: *kemma_kahn
+      - person: *teddy_laurita
+      - person: *jake_moran
+      - person: *asha_nidumolu
+      - person: *catherine_sillari
+      - person: *emma_singleton
+      - person: *katyana_wardhana
 
   - name: Marketing & Publicity
     people:
-      - info: *kate_sienko
-      - info: *ballard_blair
-      - info: *frances_de_freitas
-      - info: *mitch_navetta
-      - info: *maya_pace
-      - info: *talia_smith
-      - info: *amy_sokolow
+      - person: *kate_sienko
+      - person: *ballard_blair
+      - person: *frances_de_freitas
+      - person: *mitch_navetta
+      - person: *maya_pace
+      - person: *talia_smith
+      - person: *amy_sokolow
 
   - name: Sponsorship & Finance
     people:
-      - info: *stephanie_kim
-      - info: *andrew_castro
-      - info: *dani_kupfer
-      - info: *boyce_myers
-      - info: *emily_north
-      - info: *nidhi_rao
-      - info: *kate_scheer
-      - info: *nikita_shukla
+      - person: *stephanie_kim
+      - person: *andrew_castro
+      - person: *dani_kupfer
+      - person: *boyce_myers
+      - person: *emily_north
+      - person: *nidhi_rao
+      - person: *kate_scheer
+      - person: *nikita_shukla
 
   - name: Design
     people:
-      - info: *cat_armistead
-      - info: *rhea_montgomery_walsh
-      - info: *jia_wen_goh
+      - person: *cat_armistead
+      - person: *rhea_montgomery_walsh
+      - person: *jia_wen_goh
 
   - name: Web
     people:
-      - info: *rachael_robinson
-      - info: *jackson_clawson
-      - info: *julie_jiang
+      - person: *rachael_robinson
+      - person: *jackson_clawson
+      - person: *julie_jiang
 
     # If no photo, put this as photo
     # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
