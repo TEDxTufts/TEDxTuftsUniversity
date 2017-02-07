@@ -7,7 +7,7 @@
 		position: relative;
 		top: 50%;
 		-webkit-transform: translateY(-40%);
-} 
+}
 
 .hcenter{
 	margin-left: auto;
@@ -34,7 +34,7 @@
 	height: 500px;
   	vertical-align: middle;
   	margin-right: -0.25em; /* Adjusts for spacing */
-    
+
 }
 .centered {
   display: inline-block;
@@ -43,20 +43,3 @@
   padding: 10px 15px;
   border: #a0a0a0 solid 1px;
  }
-#partner-text{
-	margin-left: -7rem;
-	margin-right: -7rem;
-}
-#thanks-tag{
-	text-align: center;
-	font-size: 300%;
-	font-weight: 100;
-}
-#partner-space{
-	padding-top: 24vw;
-}
-#partner-body{
-	z-index: 3;
-	background: white;
-	margin: 0;
-}
