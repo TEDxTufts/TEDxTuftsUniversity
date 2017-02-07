@@ -5,23 +5,26 @@ permalink: /partners/
  
 
 ---
+
 <div class="tedx-billboard-small">
   <img class="tedx-top-img" src="/public/partners_home.jpg">
 </div>
 <br>
 <div class="row">
   <div class="large-12 small-centered columns">
-    <h1 class="head-text" id="partner-top">Thank You to Our Partners <br> for Making TEDxTufts 2016 Possible</h1>
-  </div>
+    <h1 class="head-text" id="partner-text">Thank You Partners</h1> 
+    <p id="thanks-tag">Thank You to Our Partners for Helping Make TEDxTufts 2016 Possible</p>
 </div>
-<!-- <div class="row" id="speaker-space">
-</div> -->
+</div>
 
+<div class="row" id="partner-space">
+</div>
+<div id="partner-body">
 <!-- <div class="tedx-top">
   <h1 class="centered-text tedx-top-text" id="partner-text">Thank You to Our Partners for Making TEDxTufts 2016 Possible</h1>
   <img class="tedx-top-img" src="/public/partners_home.jpg">
 </div> -->
-<div id="partner-body">
+
 {% assign sponsors = site.data.first_tier_sponsors  %}
 {% for sponsor in sponsors %}
   {% capture modulo %}{{ forloop.index | mod:3 }}{% endcapture %}
