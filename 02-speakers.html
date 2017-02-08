@@ -29,17 +29,13 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5nqa&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /></noscript>
 <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6020043221567&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
 
-<div class="tedx-billboard-small">
-	<img class="tedx-top-img" src="/public/speakers_home.jpg">
-</div>
-<br>
-<div class="row">
-	<div class="large-12 small-centered columns">
+<div class="row head-row">
+	<div class="large-12 small-centered columns header-cont">
 		<h1 class="head-text">TEDxTufts 2017 Speakers</h1>
 	</div>
+	<img class="tedx-top-img" src="/public/speakers_home.jpg">
 </div>
-<div class="row" id="speaker-space">
-</div>
+
 <!-- Nominate and apply to speak banners -->
 <!-- <div style="padding-top: .5em" class="row">
 	<div class="small-6 columns"><a href="http://goo.gl/forms/NloDMjs6Oy" class="button alert" style="width: 100%	">Nominate a Speaker.</a></div>
@@ -55,7 +51,7 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 	  <div class="small-12 columns">
 	      <div class="row">
 	         <div class="small-4 columns">
-	            <img src="{{person.image-url}}" alt="" class="team-image">
+	            <img src="{{person.image-url}}" alt="" id="team-image">
 	            <center>
 	            	<h3> {{ person.name }}
 				{% if person.twitter %}

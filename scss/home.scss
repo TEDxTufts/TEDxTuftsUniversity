@@ -75,12 +75,6 @@ a {
         }
 
     }
-
-
-
-
-
-
 }
 
 #icon{
@@ -96,9 +90,12 @@ a.anchor{display: block; position: relative; top: -$topbar-height; visibility: h
 	font-weight: 100;
 }
 .head-text{
-	font-size: 8rem;
+	font-size: 8vw;
 	font-weight: 200;
-	text-align: center;
+	padding-top: 16vw;
+	// text-align: center;
+	// position: absolute;
+	// z-index: 1;
 }
 
 body{
@@ -113,4 +110,34 @@ button, .button {
     &:hover, &:focus {
         background-color: $button-bg-hover;
     }
+}
+
+.tedx-top-img{
+	opacity: 0.4;
+}
+#about-img{
+	opacity: 0.5;
+}
+#about-text{
+	font-size: 8rem;
+	font-weight: 200;
+	text-align: center;
+}
+.head-row{
+	max-width: 100%;
+	text-align: center;
+}
+#partner-body{
+	background-color: $white;
+}
+#thank-text{
+	font-weight: 100;
+	font-size: 4vw;
+
+}
+.header-cont{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
 }
