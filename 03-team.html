@@ -50,11 +50,13 @@ permalink: /team/
 
                 {% for p in group.people %}
                     {% assign person = p.person %}
-                    <li class="see-bio flip-container">
-                        <div class="flipper">
-                            <div class="front"><img src="{{person.image-url}}" alt="" class="team-image"></div>
-                            <div class="back">
-                                <p class="team-bio"> {{person.bio}} </p>
+                    <li class="see-bio">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front"><img src="{{person.image-url}}" alt="" class="team-image"></div>
+                                <div class="back">
+                                    <p class="team-bio"> {{person.bio}} </p>
+                                </div>
                             </div>
                         </div>
                         <a class="anchor" id="{{person.name | slugify}}"></a>
