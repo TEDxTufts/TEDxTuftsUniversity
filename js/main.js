@@ -1,4 +1,13 @@
 $(document).ready(function() {
+
+    var flipContainer = $('.flip-container');
+    flipContainer.click(function() {
+        $('.flip-container').not($(this)).removeClass('flip');
+        $(this).toggleClass('flip');
+    })
+
+
+
     // only works for one sticky element
     var sticky = $(".sticky");
     var stickytop = sticky.position().top;

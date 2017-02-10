@@ -1,12 +1,91 @@
+.flip-container {
+    cursor: pointer;
+    padding-top: 10px;
+    text-align: center;
+
+    perspective: 1000px;
+    position: relative;
+
+    &.flip {
+        .flipper {
+            transform: rotateY(180deg);
+
+            .team-bio {
+                display: block;
+            }
+
+        }
+
+        // .team-info {
+        //     top: 0;
+        // }
+    }
+
+
+    .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+
+        backface-visibility: hidden;
+
+        // position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+
+    .front, .back {
+        backface-visibility: hidden;
+
+        // position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .front {
+        z-index: 2;
+        /* for firefox 31 */
+        transform: rotateY(0deg);
+    }
+
+    /* back, initially hidden pane */
+    .back {
+        transform: rotateY(180deg);
+        position: absolute;
+    }
+
+    .team-bio {
+        font-size: 0.875rem;
+    }
+
+    // .team-info {
+    //     position: absolute;
+    //     left: 0;
+    //     right: 0;
+    //     transition: top 1s;
+    // }
+
+    // &.selected {
+    //     background: red;
+    //     border-radius: 5px;
+    //
+    //     .team-bio {
+    //         display: block;
+    //     }
+    // }
+}
+
 .team-image {
 	display: block;
 	background: #FFF;
     width: 100%;
     height: auto;
-	// border: 2px solid #FFF;
-	border-radius: 100%;
+	// border-radius: 100%;
 
-    // border-radius: 6px;
+    border-radius: 6px;
 
 
 	position: relative;

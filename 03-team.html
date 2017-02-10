@@ -50,20 +50,22 @@ permalink: /team/
 
                 {% for p in group.people %}
                     {% assign person = p.person %}
-                    <li class="see-bio">
-                        <img src="{{person.image-url}}" alt="" class="team-image">
-                        <center>
-                            <a class="anchor" id="{{person.name | slugify}}"></a>
-                            <div class="small-12 columns">
-                                <p class="team-name"> {{ person.name }}</p>
-                                {% if person.link-to %}
-                                    <a href="#{{person.link-to | slugify}}" class="smooth-scroll"><p class="team-title">{{person.title}}</p></a>
-                                {% else %}
-                                    <p class="team-title">{{person.title}}</p>
-                                {% endif %}
-                                <!-- <p class="team-bio spoiler"> {{person.bio}} </p> -->
+                    <li class="see-bio flip-container">
+                        <div class="flipper">
+                            <div class="front"><img src="{{person.image-url}}" alt="" class="team-image"></div>
+                            <div class="back">
+                                <p class="team-bio"> {{person.bio}} </p>
                             </div>
-                        </center>
+                        </div>
+                        <a class="anchor" id="{{person.name | slugify}}"></a>
+                        <div class="team-info">
+                            <p class="team-name"> {{ person.name }}</p>
+                            {% if person.link-to %}
+                                <a href="#{{person.link-to | slugify}}" class="smooth-scroll"><p class="team-title">{{person.title}}</p></a>
+                            {% else %}
+                                <p class="team-title">{{person.title}}</p>
+                            {% endif %}
+                        </div>
                     </li>
                 {% endfor %}
             </ul>
