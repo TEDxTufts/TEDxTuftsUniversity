@@ -2,10 +2,9 @@
  # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
 
  - name: Alyssa Rivas
-   # twitter: Kianayema
    sort-order: 0
-   image-url: /public/speaker_images/basic.jpg
-   # bio: Ameya is a graduate student at The Fletcher School of Law and Diplomacy, studying international relations and international law. A psychologist, lawyer, and policy analyst by training, he is interested in how identities influence the acquisition, use, or rejection of new information about the world.
+   image-url: /public/speaker_images/alyssa_rivas.jpg
+   bio: "Alyssa Rivas is a junior majoring in Interdisciplinary Studies; she created the major Youth Development, Ethnic Idea and Media Socialization. She will graduate in May and is working on a thesis concerning Positive Interventions in Ethno-Racial Identity Development. Alyssa currently serves as a Gerald Gill Fellow at the Center for the Study of Race and Democracy; her talk will be an extension of the research she has been conducting for the past year. She is the Co-Founder of Athletes of Color, an organization that supports and builds community for student-athletes of color. As a freelance photographer she works to support movements for social change working through the lens as a woman of color. Alyssa is interested in creative storytelling, reading, all of Netflix's new series, and good food."
 
  - name: Atreyo Sinha
    sort-order: 0
@@ -14,19 +13,18 @@
 
  - name: Eric Tytell
    sort-order: 0
-   image-url: /public/speaker_images/basic.jpg
+   image-url: /public/speaker_images/eric_tytell.jpg
    bio: Eric Tytell is an assistant professor of Biology at Tufts University, where he studies how fish swim, from the spinal cord of lampreys to the fluid flowing around sunfish. In his research, he aims to understand how fish bodies and brains work together so that they can swim stably and efficiently, even in flowing water with unpredictable turbulence.
 
  - name: Isabel Merrin
-   # twitter: jmperry06
    sort-order: 0
-   image-url: /public/speaker_images/basic.jpg
-   # bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations.
+   image-url: /public/speaker_images/isabel_merrin.png
+   bio: Isabel is a senior studying Art History.  Aside from her passion for hospice care, she is a Tisch Scholar, interning for The Conversation Project, the leader of Moral Voices, a social justice initiative, and a campus tour guide.  In her spare time, she enjoys creative writing and baking.
 
- - name: Johnathon Garlick
+ - name: Jonathon Garlick
    sort-order: 0
-   image-url: /public/speaker_images/basic.jpg
-   # bio: Jimena Sanchez Gallego is a senior triple majoring in International Relations, Community Health, and French. Originally from Mexico City, Jimena hopes that one day she will return to Mexico and apply this knowledge to help her homeland develop sustainably and achieve its full potential.
+   image-url: /public/speaker_images/jonathan_garlick.jpg
+   bio: Jonathan Garlick is a stem cell scientist who teaches that learning about sciences issues through a personal, reflective lens can inspire empathy, moral responsibility and civic action. He deeply believes that we can build trust, dignity and humility through open-minded dialogue across divisive societal issues by being genuinely curious about each other. He believes that rapping helps, too.
 
  - name: Justin Robbins
    sort-order: 1
@@ -36,7 +34,7 @@
  - name: Manal Cheema
    sort-order: 0
    image-url: /public/speaker_images/manal_cheema.jpg
-   bio: Manal Cheema is a senior majoring in Political Science in addition to pursuing a certificate in Ethics, Law, and Society and a minor in Cognitive and Brain Sciences. She is involved with ALLIES, the Union, and Writing Fellows at Tufts. For fun,she draws and relishes in sharing puns.
+   bio: Manal Cheema is a senior majoring in Political Science in addition to pursuing a certificate in Ethics, Law, and Society and a minor in Cognitive and Brain Sciences. She is involved with ALLIES, the Union, and Writing Fellows at Tufts. For fun, she draws and relishes in sharing puns.
 
  - name: Rachael Bonoan
    twitter: RachaelEBee
@@ -52,4 +50,4 @@
  - name: Susan Napier
    sort-order: 1
    image-url: /public/speaker_images/susan_napier.jpg
-   bio: Susan Napier is Professor of Japanese Studies at Tufts University. Her most recent book. Miyazakiworld will be published in 2017. Her other books include From Impressionism to Anime&#58; Japan as Fantasy and Fan Culture in the Mind of the West, Anime from Akira to Howl's Moving Castle, and The Fantastic in Modern Japanese Literature. She has also published numerous scholarly articles ranging from discussions of the animated media to an analysis of the Harry Potter series as part of the British fantasy tradition. Besides teaching Japan-related courses on literature, gender, and popular culture, Professor Napier also teaches "Fantasy in World Culture," and "The Cinema of Apocalypse."
+   bio: Susan Napier is Professor of Japanese Studies at Tufts University. Her most recent book Miyazakiworld will be published in 2017. Her other books include From Impressionism to Anime&#58; Japan as Fantasy and Fan Culture in the Mind of the West, Anime from Akira to Howl's Moving Castle, and The Fantastic in Modern Japanese Literature. She has also published numerous scholarly articles ranging from discussions of the animated media to an analysis of the Harry Potter series as part of the British fantasy tradition. Besides teaching Japan-related courses on literature, gender, and popular culture, Professor Napier also teaches "Fantasy in World Culture," and "The Cinema of Apocalypse."
