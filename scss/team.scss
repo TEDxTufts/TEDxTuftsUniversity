@@ -1,4 +1,5 @@
 .see-bio {
+    cursor: pointer;
     text-align: center;
 }
 
@@ -8,7 +9,7 @@
     perspective: 1000px;
     position: relative;
 
-    &.flip {
+    &.flip, &:hover {
         .flipper {
             transform: rotateY(180deg);
 
