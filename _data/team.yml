@@ -118,7 +118,7 @@ people:
   - id: &kate_golding
       name: Kate Golding
       bio: "Kate is a freshman from Los Angeles, California. Interested in majoring in English, Film and Media Studies, Peace and Justice Studies, or Political Science, she also loves cats and avocados."
-      image-url: /public/team_images/kate_golding.jpg
+      image-url: /public/team_images/kate_golding.JPG
 
   - id: &adriana_guardans_godo
       name: Adriana Guardans-Godo
@@ -242,7 +242,7 @@ people:
 
   - id: &jackson_clawson
       name: Jackson Clawson
-      bio: ""Jackson is a senior from San Francisco double majoring in Human Factors Engineering and Computer Science. In his free time, he plays keyboard and accordion in a range of genres from funk and gospel music to Celtic folk.""
+      bio: "Jackson is a senior from San Francisco double majoring in Human Factors Engineering and Computer Science. In his free time, he plays keyboard and accordion in a range of genres from funk and gospel music to Celtic folk."
       image-url: /public/team_images/jackson_clawson.jpg
 
 groups:
