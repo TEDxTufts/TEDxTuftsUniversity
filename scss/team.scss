@@ -1,24 +1,129 @@
+.see-bio {
+    cursor: pointer;
+    text-align: center;
+}
+
+.flip-container {
+    padding-top: 10px;
+
+    perspective: 1000px;
+    position: relative;
+
+    &.flip, &:hover {
+        .flipper {
+            transform: rotateY(180deg);
+
+            .team-bio {
+                display: block;
+            }
+        }
+    }
+
+    .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+
+        backface-visibility: hidden;
+
+        top: 0;
+        left: 0;
+    }
+
+    .front, .back {
+        backface-visibility: hidden;
+
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .front {
+        z-index: 2;
+        transform: rotateY(0deg);
+    }
+
+    .back {
+        transform: rotateY(180deg);
+        position: absolute;
+    }
+
+    .team-bio {
+        font-size: 0.875rem;
+    }
+
+}
+
 .team-image {
 	display: block;
 	background: #FFF;
     width: 100%;
     height: auto;
-	border: 2px solid #FFF;
-	border-radius: 100%;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
+
+    border-radius: 6px;
+
+
 	position: relative;
     overflow:hidden;
     text-align:center;
+    margin-bottom: 6px;
 }
 
 #team-list{
     margin: 0 auto;
 }
 
-.team-title{
-	opacity: 0.6;
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &.odd {
+        background: rgba(255,255,255,.2);
+    }
 }
+
+.team-section-title {
+    margin-bottom: 30px;
+}
+
+.side-nav {
+    display: none;
+    @media #{$large-up} {
+        display: block;
+    }
+}
+
+.side-nav-right {
+    float: right;
+    text-align: right;
+}
+
+.sticky-fix {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.team-info {
+    .team-name {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin-bottom: 4px;
+    }
+
+    .team-title{
+        font-size: 1rem;
+        line-height: 1.3rem;
+        margin-bottom: 0;
+    }
+
+    > .team-title {
+        opacity: 0.6;
+    }
+}
+
+
 #team-space{
 	padding-top: 20vw;
 }
