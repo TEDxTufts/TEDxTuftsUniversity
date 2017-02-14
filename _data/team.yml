@@ -44,7 +44,7 @@ people:
       name: Cat Armistead
       title: Design Director
       link-to: Design
-      bio: Catherine Armistead is a senior majoring in Engineering Psychology and enrolled in the Dual Degree Program with the School of the Museum of Fine Arts, and she is really into minimalist design, unique mark-making, and houseplants.
+      bio: Catherine Armistead is a senior majoring in Engineering Psychology and enrolled in the Dual Degree Program with the SMFA, where she focuses on metalsmithing and papermaking.
       image-url: /public/team_images/cat_armistead.jpg
 
   - id: &taylor_fasolo
@@ -220,11 +220,6 @@ people:
       bio: Nidhi is a first year, and a third culture kid who has grown up in Shanghai, Baltimore and New Delhi. She has yet to declare a major, but is sure that it won't be anything in science. She enjoys traveling, eating cookies, playing the ukulele, and napping.
       image-url: /public/team_images/nidhi_rao.jpg
 
-  - id: &kate_scheer
-      name: Kate Scheer
-      bio: Kate is a senior majoring in Quantitative Economics and enjoys Victorian era period pieces, kale and rhyming.
-      image-url: /public/team_images/kate_scheer.jpg
-
   - id: &nikita_shukla
       name: Nikita Shukla
       bio: Nikita is a senior majoring in International Relations and Economics. She loves talking, meeting new people, and Reeses.
@@ -305,7 +300,6 @@ groups:
       - person: *boyce_myers
       - person: *emily_north
       - person: *nidhi_rao
-      - person: *kate_scheer
       - person: *nikita_shukla
 
   - name: Design
