@@ -1,46 +1,64 @@
 ---
 layout: base
-title: TEDx Team 
+title: TEDx Team
 permalink: /team/
- 
-
 ---
-<div class="row head-row">
-  <div class="large-12 small-centered columns header-cont">
-    <h1 class="head-text">Meet the TEDxTufts Team</h1>     
-  </div>
-   <img class="tedx-top-img" src="/public/team_home.jpg">
-</div>
+
+<div id="team" class="page-with-sticky">
+
+    <div class="row head-row">
+        <div class="large-12 small-centered columns header-cont">
+            <h1 class="head-text">Meet the TEDxTufts Team</h1>
+        </div>
+        <img class="tedx-top-img" src="/public/team_home.jpg">
+    </div>
 
 
-<!-- <div class="row head-row">
-  <div class="large-12 small-centered columns">
-    <h3 id="thanks-text">Meet the TEDxTufts Team</h3>     
-  </div>
-  
-</div> -->
+{% assign team_data = site.data.team  %}
+{% assign groups = team_data.groups %}
 
-<!-- <div style="padding-top: 2em","font-size: 3em" class="row">
-  <div class="small-12 columns"><a href="https://docs.google.com/forms/d/e/1FAIpQLScbSPuHQooDkoB9gKfHml4PPAkI6O_fhihY6FNFMBCKWfQ3Yg/viewform" class="button alert" style="width: 100% ">Apply to the Team.</a></div>
-</div> -->
-
-{% assign people = site.data.team  %}
-<ul class="row small-block-grid-2 medium-block-grid-3 large-block-grid-4" id="team-list">
-
-    {% for person in people %}
-    <li class="see-bio">
-        <img src="{{person.image-url}}" alt="" class="team-image">
-        <center>
-            <a class="anchor" id="{{person.name | slugify}}"></a>
-            <div class="small-12 columns">
-                <h3> {{ person.name }}</h3>
-                <p class="team-title">{{person.title}}</p>
-                <p class="team-bio spoiler"> {{person.bio}} </p>
-            </div>
-        </center>
-    </li>
+<ul class="side-nav side-nav-right side-nav-single-page smooth-scroll sticky" role="navigation" title="Link List">
+    {% for group in groups %}
+    <li role="menuitem"><a href="#{{group.name | slugify}}">{{group.name}}</a></li>
     {% endfor %}
 </ul>
+
+{% for group in groups %}
+
+    {% capture modulo %}{{ forloop.index | mod:2 }}{% endcapture %}
+<div class="section{% if modulo == '0' %} odd {% endif %}" id="{{group.name | slugify}}">
+    <div class="row">
+        <div class="large-10 columns">
+            <h1 class="team-section-title">{{group.name}}</h1>
+            <ul class="row small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+
+                {% for p in group.people %}
+                    {% assign person = p.person %}
+                    <li class="see-bio">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <div class="front"><img src="{{person.image-url}}" alt="" class="team-image"></div>
+                                <div class="back">
+                                    <p class="team-bio"> {{person.bio}} </p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="anchor" id="{{person.name | slugify}}"></a>
+                        <div class="team-info">
+                            <p class="team-name"> {{ person.name }}</p>
+                            {% if person.link-to %}
+                                <a href="#{{person.link-to | slugify}}" class="smooth-scroll"><p class="team-title">{{person.title}}</p></a>
+                            {% else %}
+                                <p class="team-title">{{person.title}}</p>
+                            {% endif %}
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endfor %}
 
 
 
