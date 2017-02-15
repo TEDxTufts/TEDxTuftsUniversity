@@ -28,8 +28,8 @@ people:
 
   - id: &stephanie_kim
       name: Stephanie Kim
-      title: Sponsorship & Finance Director
-      link-to: Sponsorship & Finance
+      title: Parthnerships Director
+      link-to: Parthnerships
       bio: Stephanie is a senior double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
       image-url: /public/team_images/stephanie_kim.png
 
@@ -41,7 +41,7 @@ people:
       image-url: /public/team_images/ramone_brown.jpg
 
   - id: &cat_armistead
-      name: Cat Armistead
+      name: Catherine Armistead
       title: Design Director
       link-to: Design
       bio: Catherine Armistead is a senior majoring in Engineering Psychology and enrolled in the Dual Degree Program with the SMFA, where she focuses on metalsmithing and papermaking.
@@ -192,7 +192,7 @@ people:
 
   - id: &amy_sokolow
       name: Amy Sokolow
-      bio: Amy Sokolow is a junior from Lynnfield, MA majoring in both Film and Media Studies and sociology and minoring in entrepreneurial leadership studies.  She gets really excited about good live music, peppermint stick ice cream, wandering through new cities, and well-timed naps.
+      bio: Amy Sokolow is a junior from Lynnfield, MA majoring in Film and Media Studies and Sociology and minoring in Entrepreneurial Leadership Studies.  Talk to her about ice cream, music, media theory, or dogs.
       image-url: /public/team_images/amy_sokolow.jpg
 
   - id: &andrew_castro
@@ -292,7 +292,7 @@ groups:
       - person: *talia_smith
       - person: *amy_sokolow
 
-  - name: Sponsorship & Finance
+  - name: Parthnerships
     people:
       - person: *stephanie_kim
       - person: *andrew_castro
