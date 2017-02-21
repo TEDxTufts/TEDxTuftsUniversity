@@ -30,7 +30,7 @@ people:
       name: Stephanie Kim
       title: Parthnerships Director
       link-to: Parthnerships
-      bio: Stephanie is a senior double majoring in Economics and Political Science, and is from the sunny state of California. She is passionate about the TED Talk stage (her life motto being that "everyone has a story"), oversized sweaters, and The Food Network.
+      bio: Stephanie is a senior majoring in Economics, and is from the sunny state of California.
       image-url: /public/team_images/stephanie_kim.png
 
   - id: &ramone_brown
@@ -50,7 +50,7 @@ people:
   - id: &taylor_fasolo
       name: Taylor Fasolo
       title: Video Director
-      bio: Taylor is a Junior at Tufts studying Film and Media Studies originally from Pennington, NJ. As a filmmaker and a photographer, Taylor believes that moments are everything. Moments are what make up our lives and therefore serve and the building block for all of our understanding and communication.
+      bio: Taylor is a Junior at Tufts studying Film and Media Studies originally from Pennington, NJ. As a filmmaker and a photographer, Taylor believes that moments are everything.
       image-url: /public/team_images/taylor_fasolo.jpg
 
   - id: &rachael_robinson
@@ -77,7 +77,7 @@ people:
 
   - id: &olivia_jones
       name: Olivia Jones
-      bio: Olivia is a Junior from Dallas, Texas majoring in Film and Media Studies with a focus in global media. Having lived in Florence, Italy for two years, she is passionate about exploring new cultures, and using language to understand the common ground between them. Other passions include - but are not limited to - scented candles, Zoo Tycoon 2, and Ina Garten.
+      bio: Olivia is a Junior from Dallas majoring in Film and Media Studies with a focus in global media. She is passionate about exploring new cultures, and using language to understand the common ground between them.
       image-url: /public/team_images/olivia_jones.jpg
 
   - id: &nalisha_men
@@ -95,11 +95,6 @@ people:
       bio: Tommy is a junior engineer from Beijing, China. He is a computer science major and an economics minor. He loves programming and reading.
       image-url: /public/team_images/tommy_tang.jpg
 
-  - id: &jane_acker
-      name: Jane Acker
-      bio: Jane is a senior majoring in Quantitative Economics with concentrations in Philosophy and Dance, seeking the connection between systems of numbers, movement and speech.
-      image-url: /public/team_images/jane_acker.jpg
-
   - id: &peter_bae
       name: Peter Bae
       bio: Peter is a junior from Milford, Massachusetts; he enjoys reading and playing the cello and guitar, and he is currently thinking about majoring in Community Health, Biology, and/or Spanish.
@@ -107,7 +102,7 @@ people:
 
   - id: &sara_bass
       name: Sara Bass
-      bio: Sara is a third year from Seal Beach, CA, majoring in Clinical Psychology and is a proud speaker coach! To her, life is all about hearing enthusiastic people's stories and celebrating our passions together, especially when it includes a love for aged cheese.
+      bio: Sara is a third year from Seal Beach, CA, majoring in Psychology and English, and is a proud speaker coach! She values sharing stories and unique passions, especially when it includes a love for aged cheese.
       image-url: /public/team_images/sara_bass.jpg
 
   - id: &judy_chen
@@ -127,7 +122,7 @@ people:
 
   - id: &daisy_hu
       name: Daisy Hu
-      bio: Daisy is a freshman from Hangzhou, China. She's on the speaker coaching team. She is generally undecided but is considering major in philosophy or history. She enjoys sitting on the grass reading, and chatting/debating with people. She likes vanilla ice cream and crazy ideas.
+      bio: Daisy is a freshman from Hangzhou, China. She's on the speaker coaching team. She is considering major in philosophy. She enjoys sitting on the grass reading and chatting with people.
       image-url: /public/team_images/daisy_hu.jpg
 
   - id: &kemma_kahn
@@ -137,7 +132,7 @@ people:
 
   - id: &teddy_laurita
       name: Teddy Laurita
-      bio: Teddy is a sophomore from Camden, Maine. He's excited to return to the speaker coaching team and is majoring in Computer Science. Teddy loves hiking, snow, traveling, elephants, and eating! He loves tacos, sushi, and naan bread.
+      bio: Teddy is a sophomore studying computer science and history. He's very excited to be a part of the speaker coaching team again this year. He likes hiking, traveling, knitting, and all you can eat sushi.
       image-url: /public/team_images/teddy_laurita.jpg
 
   - id: &jake_moran
@@ -147,7 +142,7 @@ people:
 
   - id: &asha_nidumolu
       name: Asha Nidumolu
-      bio: Asha is a senior majoring in Psychology from California and specifically interested in the socio-cognitive processes involved in racial discrimination. She loves hopping the globe, learning new languages, listening to other people's problems, singing, making coffee at The Rez and obsessing over Brazilian music.
+      bio: Asha is a senior majoring in Psychology from California and specifically interested in the socio-cognitive processes involved in racial discrimination.
       image-url: /public/team_images/asha_nidumolu.jpg
 
   - id: &catherine_sillari
@@ -162,7 +157,7 @@ people:
 
   - id: &katyana_wardhana
       name: Katyana Wardhana
-      bio: Katyana is a sophomore from Indonesia double majoring in Economics and International Relations.  Her passions and interests are centralized around children's rights, demographic studies, economic development, baking and photography.
+      bio: Katyana is a sophomore from Indonesia double majoring in Economics and International Relations. She is passionate about children's rights, developmental economics, and photography.
       image-url: /public/team_images/katyana_wardhana.jpg
 
   - id: &ballard_blair
@@ -207,7 +202,7 @@ people:
 
   - id: &boyce_myers
       name: Boyce Myers
-      bio: She's originally from South Carolina, she's interested in IR (but we'll see how that goes)! Some facts about her include that she loves to talk (a lot) and she loves eating dessert so much that she started her own dessert account on insta.
+      bio: She's originally from South Carolina, she's interested in IR (but we'll see how that goes)! Some facts about her include that she loves to talk (a lot) and she loves eating dessert.
       image-url: /public/team_images/boyce_myers.jpg
 
   - id: &emily_north
@@ -217,7 +212,7 @@ people:
 
   - id: &nidhi_rao
       name: Nidhi Rao
-      bio: Nidhi is a first year, and a third culture kid who has grown up in Shanghai, Baltimore and New Delhi. She has yet to declare a major, but is sure that it won't be anything in science. She enjoys traveling, eating cookies, playing the ukulele, and napping.
+      bio: Nidhi is a first year, and a third culture kid who has grown up in Shanghai, Baltimore and New Delhi. She has yet to declare a major, but is sure that it won't be anything in science.
       image-url: /public/team_images/nidhi_rao.jpg
 
   - id: &nikita_shukla
@@ -267,7 +262,6 @@ groups:
   - name: Speaker Coaching
     people:
       - person: *mika_sanger
-      - person: *jane_acker
       - person: *peter_bae
       - person: *sara_bass
       - person: *judy_chen
