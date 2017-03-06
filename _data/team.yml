@@ -28,8 +28,8 @@ people:
 
   - id: &stephanie_kim
       name: Stephanie Kim
-      title: Parthnerships Director
-      link-to: Parthnerships
+      title: Partnerships Director
+      link-to: Partnerships
       bio: Stephanie is a senior majoring in Economics, and is from the sunny state of California.
       image-url: /public/team_images/stephanie_kim.png
 
@@ -286,7 +286,7 @@ groups:
       - person: *talia_smith
       - person: *amy_sokolow
 
-  - name: Parthnerships
+  - name: Partnerships
     people:
       - person: *stephanie_kim
       - person: *andrew_castro
