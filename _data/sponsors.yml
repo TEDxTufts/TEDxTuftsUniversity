@@ -1,11 +1,11 @@
 levels:
- - name: gold
- - name: silver
+ # - name: gold
+ - name: Silver Tier
    sponsors:
    - name: ExCollege
      image-url: /public/sponsor_images/tufts-ex-college.png
      link-url: "http://www.excollege.tufts.edu/"
- - name: bronze
+ - name: Bronze Tier
    sponsors:
    - name: Friedman School of Nutrition
      image-url: /public/sponsor_images/tufts-friedman-school.png
@@ -16,7 +16,7 @@ levels:
    - name: Tufts Admissions
      image-url: /public/sponsor_images/tufts-undergrad-admissions.png
      link-url:
- - name: other
+ - name: Other Sponsors
    sponsors:
    - name: ALLIES
      image-url: /public/sponsor_images/allies.png
@@ -33,11 +33,11 @@ levels:
    - name: Tufts International Center
      image-url: /public/sponsor_images/tufts-international-center.png
      link-url:
- - name: food
-   sponsors:
    - name: Best Bees
      image-url: /public/sponsor_images/best-bees.png
      link-url:
+ - name: Food Sponsors
+   sponsors:
    - name: Shake Shack
      image-url: /public/sponsor_images/shake-shack.png
      link-url:
@@ -48,7 +48,7 @@ levels:
      image-url: /public/sponsor_images/yoshis.png
      link-url:
    - name: Flatbreads
-     image-url: /public/sponsor_images/flatbreads.png
+     image-url: /public/sponsor_images/flatbread.png
      link-url:
    - name: Oath Pizzas
      image-url: /public/sponsor_images/oath.png

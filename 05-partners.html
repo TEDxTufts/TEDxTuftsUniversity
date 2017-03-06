@@ -8,61 +8,19 @@ permalink: /partners/
 <div class="row head-row">
   <div class="large-12 small-centered columns header-cont">
     <h1 class="head-text">Thank You Partners</h1>
-    <h3 id="thank-text">Thank You to Our Partners for Helping <br> Make TEDxTufts2016 Possible</h3>     
+    <h3 id="thank-text">Thank You to Our Partners for Helping <br> Make TEDxTufts2016 Possible</h3>
   </div>
    <img class="tedx-top-img" src="/public/partners_home.jpg"/>
 </div>
 
-<div id="partner-body">
-{% assign sponsors = site.data.first_tier_sponsors  %}
-<ul class="row small-block-grid-1 medium-block-grid-2 large-block-grid-3 margin-centered" id="first-tier-sponsors">
-{% for sponsor in sponsors %}
-    <li>
-        <a target="_blank" href="{{sponsor.link-url}}">
-            <div class="large-12 image" >
-                <div  class="hcenter" style="height: {{sponsor.image_height}}; width: {{sponsor.image_width}}">
-                    <img class="sponsor_img" src="{{sponsor.image-url}}">
-                </div>
-            </div>
-        </a>
-    </li>
+{% assign levels = site.data.sponsors.levels %}
+{% for level in levels %}
+    <h3 class="sponsor-header">{{level.name}}</h3>
+    <ul class="row sponsor-table">
+        {% for sponsor in level.sponsors %}
+            <li>
+                <img class="sponsor_img" src="{{sponsor.image-url}}">
+            </li>
+        {% endfor %}
+    </ul>
 {% endfor %}
-</ul>
-
-{% assign sponsors = site.data.second_tier_sponsors  %}
-<ul class="row small-block-grid-1 medium-block-grid-2 large-block-grid-3 margin-centered" id="second-tier-sponsors">
-{% for sponsor in sponsors %}
-  <li>
-      <a target="_blank" href="{{sponsor.link-url}}">
-          <div class="small-12 image" >
-              <div  class="hcenter" style="height: {{sponsor.image_height}}; width: {{sponsor.image_width}}">
-                  <img class="sponsor_img" src="{{sponsor.image-url}}">
-              </div>
-          </div>
-      </a>
-  </li>
-
-{% endfor %}
-</ul>
-  <br>
-  <br>
-  <br>
-{% assign sponsors = site.data.third_tier_sponsors  %}
-<ul class="row small-block-grid-1 medium-block-grid-2 large-block-grid-3 margin-centered" id="third-tier-sponsors">
-{% for sponsor in sponsors %}
-    <li>
-        <a target="_blank" href="{{sponsor.link-url}}">
-            <div class="small-12 image" >
-                <div  class="hcenter" style="height: {{sponsor.image_height}}; width: {{sponsor.image_width}}">
-                    <img class="sponsor_img" src="{{sponsor.image-url}}">
-                </div>
-            </div>
-        </a>
-    </li>
-{% endfor %}
-</ul>
- </div>
-<!-- </div> -->
-<!-- </ul> -->
-<!-- </div> -->
-<!-- </div> -->
