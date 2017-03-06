@@ -9,65 +9,65 @@ levels:
    sponsors:
    - name: Friedman School of Nutrition
      image-url: /public/sponsor_images/tufts-friedman-school.png
-     link-url:
+     link-url: "https://nutrition.tufts.edu/"
    - name: TSR
      image-url: /public/sponsor_images/TSR.png
-     link-url:
+     link-url: "http://www.tuftsstudentresources.com/"
    - name: Tufts Admissions
      image-url: /public/sponsor_images/tufts-undergrad-admissions.png
-     link-url:
+     link-url: "http://admissions.tufts.edu/"
  - name: Other Sponsors
    sponsors:
    - name: ALLIES
      image-url: /public/sponsor_images/allies.png
-     link-url:
+     link-url: ""
    - name: Office of Fraternity and Sorority
      image-url: /public/sponsor_images/tufts-office-of-greek-life.png
-     link-url:
-   - name: Tufts International Faith
+     link-url: "http://students.tufts.edu/student-affairs/what-we-help/living-campus/fraternity-and-sorority-life"
+   - name: Tufts Interfaith
      image-url: /public/sponsor_images/tufts-chaplaincy.png
-     link-url:
+     link-url: "http://chaplaincy.tufts.edu/"
    - name: Tufts Community Relations
      image-url: /public/sponsor_images/tufts-community-relations.png
-     link-url:
+     link-url: "http://communityrelations.tufts.edu/"
    - name: Tufts International Center
      image-url: /public/sponsor_images/tufts-international-center.png
-     link-url:
+     link-url: "http://ase.tufts.edu/icenter/"
    - name: Best Bees
      image-url: /public/sponsor_images/best-bees.png
-     link-url:
+     link-url: "https://bestbees.com/"
  - name: Food Sponsors
    sponsors:
    - name: Shake Shack
      image-url: /public/sponsor_images/shake-shack.png
-     link-url:
+     link-url: "https://www.shakeshack.com/"
    - name: Soundbites
      image-url: /public/sponsor_images/soundbites.png
-     link-url:
+     link-url: "http://soundbitescafe.com/"
    - name: Yoshis
      image-url: /public/sponsor_images/yoshis.png
-     link-url:
-   - name: Flatbreads
+     link-url: "http://yoshis.net/"
+   - name: Flatbread
      image-url: /public/sponsor_images/flatbread.png
-     link-url:
+     link-url: "http://www.flatbreadcompany.com/"
    - name: Oath Pizzas
      image-url: /public/sponsor_images/oath.png
-     link-url:
+     link-url: "http://oathpizza.com/"
    - name: Chipotle
      image-url: /public/sponsor_images/chipotle.png
-     link-url:
+     link-url: "https://chipotle.com/"
    - name: Oat Shop
      image-url: /public/sponsor_images/oat-shop.png
-     link-url:
+     link-url: "http://oatshopboston.com/"
    - name: Pho'n Rice
      image-url: /public/sponsor_images/pho-n-rice.png
-     link-url:
+     link-url: "http://phonrice.com/"
    - name: Anna's Taqueria
      image-url: /public/sponsor_images/annas-taqueria.png
-     link-url:
+     link-url: "http://annastaqueria.com/"
    - name: JP Licks
      image-url: /public/sponsor_images/JP-licks.png
-     link-url:
+     link-url: "http://www.jplicks.com/"
    - name: Helen's Pizza
      image-url: /public/sponsor_images/helens.png
-     link-url:
+     link-url: "http://www.helenspizzeria.com/"

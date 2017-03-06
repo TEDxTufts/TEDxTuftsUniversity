@@ -19,7 +19,7 @@ permalink: /partners/
     <ul class="row sponsor-table">
         {% for sponsor in level.sponsors %}
             <li>
-                <img class="sponsor_img" src="{{sponsor.image-url}}">
+                <a href="{{sponsor.link-url}}"><img class="sponsor_img" src="{{sponsor.image-url}}"></a>
             </li>
         {% endfor %}
     </ul>
