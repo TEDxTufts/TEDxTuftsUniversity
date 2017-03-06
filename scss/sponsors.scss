@@ -1,12 +1,27 @@
-.sponsor_img{
-		display:block;
-		max-height: 80%;
-		width: auto;
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		top: 50%;
-		-webkit-transform: translateY(-40%);
+.sponsor-table {
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+
+    li {
+        padding: 20px 30px;
+        text-align: center;
+    }
+}
+
+.sponsor-header {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.sponsor_img {
+    max-width: 200px;
+    max-height: 100px;
 }
 
 .hcenter{
