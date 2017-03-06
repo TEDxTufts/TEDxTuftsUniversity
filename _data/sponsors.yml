@@ -1,1 +1,73 @@
-
+levels:
+ - name: gold
+ - name: silver
+   sponsors:
+   - name: ExCollege
+     image-url: /public/sponsor_images/tufts-ex-college.png
+     link-url: "http://www.excollege.tufts.edu/"
+ - name: bronze
+   sponsors:
+   - name: Friedman School of Nutrition
+     image-url: /public/sponsor_images/tufts-friedman-school.png
+     link-url:
+   - name: TSR
+     image-url: /public/sponsor_images/TSR.png
+     link-url:
+   - name: Tufts Admissions
+     image-url: /public/sponsor_images/tufts-undergrad-admissions.png
+     link-url:
+ - name: other
+   sponsors:
+   - name: ALLIES
+     image-url: /public/sponsor_images/allies.png
+     link-url:
+   - name: Office of Fraternity and Sorority
+     image-url: /public/sponsor_images/tufts-office-of-greek-life.png
+     link-url:
+   - name: Tufts International Faith
+     image-url: /public/sponsor_images/tufts-chaplaincy.png
+     link-url:
+   - name: Tufts Community Relations
+     image-url: /public/sponsor_images/tufts-community-relations.png
+     link-url:
+   - name: Tufts International Center
+     image-url: /public/sponsor_images/tufts-international-center.png
+     link-url:
+ - name: food
+   sponsors:
+   - name: Best Bees
+     image-url: /public/sponsor_images/best-bees.png
+     link-url:
+   - name: Shake Shack
+     image-url: /public/sponsor_images/shake-shack.png
+     link-url:
+   - name: Soundbites
+     image-url: /public/sponsor_images/soundbites.png
+     link-url:
+   - name: Yoshis
+     image-url: /public/sponsor_images/yoshis.png
+     link-url:
+   - name: Flatbreads
+     image-url: /public/sponsor_images/flatbreads.png
+     link-url:
+   - name: Oath Pizzas
+     image-url: /public/sponsor_images/oath.png
+     link-url:
+   - name: Chipotle
+     image-url: /public/sponsor_images/chipotle.png
+     link-url:
+   - name: Oat Shop
+     image-url: /public/sponsor_images/oat-shop.png
+     link-url:
+   - name: Pho'n Rice
+     image-url: /public/sponsor_images/pho-n-rice.png
+     link-url:
+   - name: Anna's Taqueria
+     image-url: /public/sponsor_images/annas-taqueria.png
+     link-url:
+   - name: JP Licks
+     image-url: /public/sponsor_images/JP-licks.png
+     link-url:
+   - name: Helen's Pizza
+     image-url: /public/sponsor_images/helens.png
+     link-url:
