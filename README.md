@@ -38,7 +38,7 @@ Each page on the TEDxTuftsUniversity site has its own `.html` file. To edit the 
              image-url: /public/sponsor_images/tufts-undergrad-admissions.png
              link-url: "http://admissions.tufts.edu/"
 
- It describes the layout used to build the page from scratch (`layout: base`, checkout `_layouts/base.html` to see it), the page's title (`title: TEDx Team`) and the URL to the page (`permalink: /team/`). `layout`, `title`, and `permalink` are variables. I've created a new variable called `levels` which describes the multiple tiers of partners. Each level has a name and a list of sponsors. We specify that levels is a list by including dashes (`-`) to start each item, and indenting each list item the same amount. Each sponsor has its own `name`, `image-url`, and `link-url`. Because of the specification of YAML, you can only use spaces (__no tabs!__). Adding another level or sponsor in this way will format it automatically and add it to the page next time the website is built.
+ I've created a new variable called `levels` which describes the multiple tiers of partners. Each level has a name and a list of sponsors. We specify that `levels` is a list by including dashes (`-`) to start each item, and indenting each list item the same amount. Each sponsor has its own `name`, `image-url`, and `link-url`. Because of the specification of YAML, you can only use spaces (__no tabs!__). Adding another level or sponsor in this way will format it automatically and add it to the page next time the website is built.
 
 This works because of the HTML on the `05-partners.html` page:
 
