@@ -1,82 +1,73 @@
- - name: Tufts Observer
-   image-url: /public/sponsor_images/observer.jpg
-   link-url: "http://www.tuftsobserver.org"
-   image_width: 300px
-   image_height: 150px
- - name: Tisch College
-   image-url: /public/sponsor_images/tisch_college.jpg
-   image_width: 300px
-   image_height: 150px
-   link-url: "http://activecitizen.tufts.edu/"
- - name: Tufts Experimental College
-   image-url: /public/sponsor_images/excollege.jpg
-   link-url: "http://www.excollege.tufts.edu/"
-   image_width: 300px
-   image_height: 150px
- - name: Tufts Admissions
-   image-url: /public/sponsor_images/tufts_admissions.jpg
-   link-url: "http://admissions.tufts.edu"
-   image_width: 250px
-   image_height: 100px
- - name: Tufts Gordon Institute
-   image-url: "/public/sponsor_images/tufts_gordon.jpg"
-   image_width: 250px
-   link-url: "http://gordon.tufts.edu/"
-   image_height: 100px
- - name: President Anthony Monaco
-   image_width: 250px
-   image_height: 100px
-   image-url: /public/sponsor_images/president.jpg
-   link-url: "http://president.tufts.edu"
-   image_width: 250px
-   image_height: 100px
- - name: Tufts Athletics
-   image-url: /public/sponsor_images/tufts_athletics.jpg
-   link-url: "http://www.gotuftsjumbos.com"
-   image_width: 250px
-   image_height: 100px
- - name: Tufts Office for Fraternity and Sorority Life
-   image-url: /public/sponsor_images/greeklife.jpg
-   link-url: "http://uss.tufts.edu/studentAffairs/fraternitySororityLife/"
-   image_width: 250px
-   image_height: 100px
- - name: Tufts Programming Board
-   image-url: http://ocl.tufts.edu/wp-content/uploads/JPEG-Logo.jpg
-   image_width: 250px
-   image_height: 100px
- - name: Tufts Student Resources
-   image-url: /public/sponsor_images/tsr.jpg
-   link-url: "http://www.tuftsstudentresources.com/"
-   image_width: 250px
-   image_height: 100px
- - name: Tufts Career Center
-   image-url: /public/sponsor_images/tufts_career_center.jpg
-   link-url: "http://career.tufts.edu"
-   image_width: 250px
-   image_height: 70px
- - name: Tufts Premedical Society
-   image-url: /public/sponsor_images/tufts_premed.jpg
-   link-url: "http://tuftspremedical.strikingly.com/"
-   image_width: 250px
-   image_height: 70px 
- - name: Tufts ALLIES
-   image-url: http://www.alliescivmil.org/wp-content/uploads/2014/01/ALLIES-Letterhead-BW.png
-   image_width: 250px
-   image_height: 70px
-   link-url: http://www.alliescivmil.org/
- - name: Espresso Pizzeria
-   link-url: "http://www.espressopizzaofmedford.com/index.php"
-   image_width: 250px
-   image_height: 100px
- - name: Yoshi's Sushi
-   link-url: "http://yoshis.net/"
-   image_width: 250px
-   image_height: 100px
- - name: Orange Leaf 
-   link-url: "http://www.orangeleafyogurt.com/"
-   image_width: 250px
-   image_height: 100px
- - name: Helen's Pizzeria
-   link-url: "http://helenspizzeria.com/"
-   image_width: 250px
-   image_height: 100px
+levels:
+ # - name: gold
+ - name: Silver Tier
+   sponsors:
+   - name: ExCollege
+     image-url: /public/sponsor_images/tufts-ex-college.png
+     link-url: "http://www.excollege.tufts.edu/"
+ - name: Bronze Tier
+   sponsors:
+   - name: Friedman School of Nutrition
+     image-url: /public/sponsor_images/tufts-friedman-school.png
+     link-url: "https://nutrition.tufts.edu/"
+   - name: TSR
+     image-url: /public/sponsor_images/TSR.png
+     link-url: "http://www.tuftsstudentresources.com/"
+   - name: Tufts Admissions
+     image-url: /public/sponsor_images/tufts-undergrad-admissions.png
+     link-url: "http://admissions.tufts.edu/"
+ - name: Other Sponsors
+   sponsors:
+   - name: ALLIES
+     image-url: /public/sponsor_images/allies.png
+     link-url: ""
+   - name: Office of Fraternity and Sorority
+     image-url: /public/sponsor_images/tufts-office-of-greek-life.png
+     link-url: "http://students.tufts.edu/student-affairs/what-we-help/living-campus/fraternity-and-sorority-life"
+   - name: Tufts Interfaith
+     image-url: /public/sponsor_images/tufts-chaplaincy.png
+     link-url: "http://chaplaincy.tufts.edu/"
+   - name: Tufts Community Relations
+     image-url: /public/sponsor_images/tufts-community-relations.png
+     link-url: "http://communityrelations.tufts.edu/"
+   - name: Tufts International Center
+     image-url: /public/sponsor_images/tufts-international-center.png
+     link-url: "http://ase.tufts.edu/icenter/"
+   - name: Best Bees
+     image-url: /public/sponsor_images/best-bees.png
+     link-url: "https://bestbees.com/"
+ - name: Food Sponsors
+   sponsors:
+   - name: Shake Shack
+     image-url: /public/sponsor_images/shake-shack.png
+     link-url: "https://www.shakeshack.com/"
+   - name: Soundbites
+     image-url: /public/sponsor_images/soundbites.png
+     link-url: "http://soundbitescafe.com/"
+   - name: Yoshis
+     image-url: /public/sponsor_images/yoshis.png
+     link-url: "http://yoshis.net/"
+   - name: Flatbread
+     image-url: /public/sponsor_images/flatbread.png
+     link-url: "http://www.flatbreadcompany.com/"
+   - name: Oath Pizzas
+     image-url: /public/sponsor_images/oath.png
+     link-url: "http://oathpizza.com/"
+   - name: Chipotle
+     image-url: /public/sponsor_images/chipotle.png
+     link-url: "https://chipotle.com/"
+   - name: Oat Shop
+     image-url: /public/sponsor_images/oat-shop.png
+     link-url: "http://oatshopboston.com/"
+   - name: Pho'n Rice
+     image-url: /public/sponsor_images/pho-n-rice.png
+     link-url: "http://phonrice.com/"
+   - name: Anna's Taqueria
+     image-url: /public/sponsor_images/annas-taqueria.png
+     link-url: "http://annastaqueria.com/"
+   - name: JP Licks
+     image-url: /public/sponsor_images/JP-licks.png
+     link-url: "http://www.jplicks.com/"
+   - name: Helen's Pizza
+     image-url: /public/sponsor_images/helens.png
+     link-url: "http://www.helenspizzeria.com/"
