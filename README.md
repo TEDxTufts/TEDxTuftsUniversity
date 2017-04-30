@@ -18,47 +18,84 @@ We use [Grunt](http://gruntjs.com) to automate many of the tasks that go into bu
 5. Point your browser to `http://localhost:4000` to see the compiled site.
 
 ### How To Edit Pages
-Each page on the TEDxTuftsUniversity site has its own `.html` file. To edit the content on a page (not the header or footer), open the desired `.html` file and edit the content within it. For example, to add a biography to a team member, open `team.html` and edit it. You might be thinking that these `.html` files look a little different than what you expect––that's because they use YAML, a markup language that Jekyll uses. This allows us to create clean, easy-to-maintain code for the pages without writing much HTML. Let's take the example of adding another team member. Here's the YAML portion of `team.html`:
+Each page on the TEDxTuftsUniversity site has its own `.html` file. To edit the content on a page (not the header or footer), open the desired `.html` file and edit the content within it. For example, to add a biography to a team member, open `team.html` and edit it. You might be thinking that these `.html` files look a little different than what you expect––that's because they use YAML, a markup language that Jekyll uses. This allows us to create clean, easy-to-maintain code for the pages without writing much HTML. Let's take the example of adding another team member. Here's some of the YAML data for `05-partners.html`, which is under `data/partners.yml`:
 
-        ---
-        layout: base
-        title: TEDx Team
-        permalink: /team/
+        levels:
+         - name: Silver Tier
+           sponsors:
+           - name: ExCollege
+             image-url: /public/sponsor_images/tufts-ex-college.png
+             link-url: "http://www.excollege.tufts.edu/"
+         - name: Bronze Tier
+           sponsors:
+           - name: Friedman School of Nutrition
+             image-url: /public/sponsor_images/tufts-friedman-school.png
+             link-url: "https://nutrition.tufts.edu/"
+           - name: TSR
+             image-url: /public/sponsor_images/TSR.png
+             link-url: "http://www.tuftsstudentresources.com/"
+           - name: Tufts Admissions
+             image-url: /public/sponsor_images/tufts-undergrad-admissions.png
+             link-url: "http://admissions.tufts.edu/"
 
-        people:
-         - name: John Smith
-           title: Curator
-           bio: He's a cool person.
-           image-url: http://placehold.it/400
-        ---
+ It describes the layout used to build the page from scratch (`layout: base`, checkout `_layouts/base.html` to see it), the page's title (`title: TEDx Team`) and the URL to the page (`permalink: /team/`). `layout`, `title`, and `permalink` are variables. I've created a new variable called `levels` which describes the multiple tiers of partners. Each level has a name and a list of sponsors. We specify that levels is a list by including dashes (`-`) to start each item, and indenting each list item the same amount. Each sponsor has its own `name`, `image-url`, and `link-url`. Because of the specification of YAML, you can only use spaces (__no tabs!__). Adding another level or sponsor in this way will format it automatically and add it to the page next time the website is built.
 
-The YAML portion of the page is in between the `---` lines, and the HTML (written using Liquid templates) comes after. It describes the layout used to build the page from scratch (`layout: base`, checkout `_layouts/base.html` to see it), the page's title (`title: TEDx Team`) and the URL to the page (`permalink: /team/`). `layout`, `title`, and `permalink` are variables. I've created a new variable called `people` which describes the people on the TEDx Team. Each person in people starts with ` - name: <name>`. Because of the specification of YAML, you can only use spaces (__no tabs!__). Adding another person in this way will format it automatically and add it to the page next time the website is built.
+This works because of the HTML on the `05-partners.html` page:
 
-This works because of the HTML below the YAML:
-
-    <div class="row" id="team-container" data-equalizer>
-        <div class="large-2 columns show-for-large-up" id="team-list" data-equalizer-watch>
-            {% for person in page.people %}
-            <p><a href="#{{person.name | slugify }}">{{person.name}}</a></p>
-            {% endfor %}
-        </div>
-        <div class="large-10 columns" data-equalizer-watch>
-            {% for person in page.people %}
-            <div class="row">
-                <div class="small-4 columns">
-                    <img src="{{person.image-url}}" alt="" id="team-image">
-                </div>
-                <a class="anchor" id="{{person.name | slugify}}"></a>
-                <div class="small-8 columns">
-                    <h3> {{ person.name }} <small>{{person.title}}</small></h3>
-                    <p> {{person.bio}} </p>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
+    <div class="row head-row">
+      <div class="large-12 small-centered columns header-cont">
+        <h1 class="head-text">Thank You Partners</h1>
+        <h3 id="thank-text">Thank You to Our Partners for Helping <br> Make TEDxTufts2017 Possible</h3>
+      </div>
+       <img class="tedx-top-img" src="/public/partners_home.jpg"/>
     </div>
 
-Notice the `{% for person in page.people %}` lines––these are `for` loops in the Liquid templating language. Jekyll looks up the `people` variable in the YAML (referenced using Jekyll's `page` variable) and iterates over its members.
+    {% assign levels = site.data.partners.levels %}
+    {% for level in levels %}
+        <h3 class="sponsor-header">{{level.name}}</h3>
+        <ul class="row sponsor-table">
+            {% for sponsor in level.sponsors %}
+                <li>
+                    <a href="{{sponsor.link-url}}"><img class="sponsor_img" src="{{sponsor.image-url}}"></a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+
+Notice the `{% assign levels = site.data.partners.levels %}` line. The Liquid templating language knows about variables, and is able to look up the data from the `partners` YAML page (referenced using Jekyll's `page` variable), and can find the `levels` variable we created. Notice the `{% for level in levels %}` lines––these are `for` loops in Liquid. Jekyll iterates over the members of levels. It does the same for the sponsors in each level, looping over each sponsor and generating HTML for each one.
+
+Our `team.yml` data is a little more complicated. Here's a snippet:
+
+    people:
+      - id: &slide_kelly
+          name: Slide Kelly
+          title: Executive Organizer
+          link-to: Organizers
+          bio: Slide is a senior majoring in Architectural Studies from Denver, Colorado. He loves all things design, mountain sports, circus arts, and bringing out the creative spark in others.
+          image-url: /public/team_images/slide_kelly.jpg
+
+      - id: &akshat_rajan
+          name: Akshat Rajan
+          title: Curator
+          bio: Akshat is a second year, from Bombay, India, who will probably major in International Relations. He's been involved with TEDx for 4 years and loves theatre, people and traveling.
+          image-url: /public/team_images/akshat_rajan.jpg
+
+We create a `people` list, and each person has an id that starts with an `&`, as well as a bunch of other data. Since we specify an id for each person, we are then able to reference the data from that person in separate YML variables:
+
+    groups:
+      - name: Organizers
+        people:
+          - person: *slide_kelly
+          - person: *akshat_rajan
+          - person: *mika_sanger
+          - person: *kate_sienko
+          - person: *stephanie_kim
+          - person: *ramone_brown
+          - person: *cat_armistead
+          - person: *taylor_fasolo
+          - person: *rachael_robinson
+
+We reference the person's id using a `*`. This way, we are able to put people into multiple groups without having to copy and paste their personal information multiple times.
 
 Make sure to use `git` to make your changes persistent across all versions of the site's repository.
 
