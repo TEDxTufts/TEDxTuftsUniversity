@@ -1,0 +1,38 @@
+---
+layout: base
+title: FAQ
+permalink: /faq/
+
+
+---
+<div class="row head-row">
+  <div class="large-12 small-centered columns header-cont">
+    <h1 class="head-text">Frequently Asked <br> Questions</h1>
+    <!-- <h3 id="thank-text">Thank You to Our Partners for Helping <br> Make TEDxTufts2017 Possible</h3> -->
+  </div>
+   <img class="tedx-top-img" src="/public/faq_home.jpg"/>
+</div>
+
+<!-- {% assign questions = site.data.faq %}
+{% for q in questions %}
+	<h4>{{q.question}}</h4>
+	<p>{{q.answer}}</p>
+{% endfor %} -->
+
+
+{% assign questions = site.data.faq  %}
+{% for q in questions %}
+
+
+
+  <div class="row">
+	  <div class="small-12 columns">
+	      <div class="row">
+	      	<h2>{{q.question}}</h2>
+	      	<p>{{q.answer}}</p>
+	  	  </div>
+	  </div>
+  </div>
+  <br>
+
+{% endfor %}
