@@ -35,6 +35,7 @@ permalink: /team/
                 {% for p in group.people %}
                     {% assign person = p.person %}
                     <li class="see-bio">
+                        <!-- inspired by https://davidwalsh.name/css-flip -->
                         <div class="flip-container">
                             <div class="flipper">
                                 <div class="front"><img src="{{person.image-url}}" alt="" class="team-image"></div>
