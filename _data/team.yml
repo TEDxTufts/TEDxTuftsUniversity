@@ -308,5 +308,8 @@ groups:
       - person: *jackson_clawson
       - person: *julie_jiang
 
+  - name: Video
+    people:
+
     # If no photo, put this as photo
     # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
