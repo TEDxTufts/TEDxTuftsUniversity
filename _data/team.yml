@@ -326,13 +326,9 @@ groups:
 
   - name: Web
     people:
-<<<<<<< HEAD
       - person: *jessie_lan
-
-=======
       - person: *james_garijo_garde
       - person: *tommy_tang
->>>>>>> JAMES
 
   - name: Video
     people:
