@@ -1,10 +1,4 @@
 people:
-  - id: &slide_kelly
-      name: Slide Kelly
-      title: Executive Organizer
-      link-to: Organizers
-      bio: Slide is a senior majoring in Architectural Studies from Denver, Colorado. He loves all things design, mountain sports, circus arts, and bringing out the creative spark in others.
-      image-url: /public/team_images/slide_kelly.jpg
 
   - id: &akshat_rajan
       name: Akshat Rajan
@@ -26,13 +20,6 @@ people:
       bio: Kate Sienko is a senior from New Providence, New Jersey majoring in English and loves being behind the camera, storytelling, and all things nautical.
       image-url: /public/team_images/kate_sienko.jpg
 
-  - id: &stephanie_kim
-      name: Stephanie Kim
-      title: Partnerships Director
-      link-to: Partnerships
-      bio: Stephanie is a senior majoring in Economics, and is from the sunny state of California.
-      image-url: /public/team_images/stephanie_kim.png
-
   - id: &ramone_brown
       name: Ramone Brown
       title: Production Director
@@ -40,25 +27,12 @@ people:
       bio: Ramone is a third year student who is interested in neuroscience and the humanities.
       image-url: /public/team_images/ramone_brown.jpg
 
-  - id: &cat_armistead
-      name: Catherine Armistead
-      title: Design Director
-      link-to: Design
-      bio: Catherine Armistead is a senior majoring in Engineering Psychology and enrolled in the Dual Degree Program with the SMFA, where she focuses on metalsmithing and papermaking.
-      image-url: /public/team_images/cat_armistead.jpg
-
   - id: &taylor_fasolo
       name: Taylor Fasolo
       title: Video Director
       bio: Taylor is a Junior at Tufts studying Film and Media Studies originally from Pennington, NJ. As a filmmaker and a photographer, Taylor believes that moments are everything.
       image-url: /public/team_images/taylor_fasolo.jpg
 
-  - id: &rachael_robinson
-      name: Rachael Robinson
-      title: Web Director
-      link-to: Web
-      bio: Rachael Robinson is senior from Seattle majoring in Computer Science. She enjoys the outdoors as well as photography and can name the five major types of pacific salmon.
-      image-url: /public/team_images/RachaelRobinson.jpg
 
   - id: &claire_freeman
       name: Claire Freeman
@@ -152,7 +126,7 @@ people:
 
   - id: &emma_singleton
       name: Emma Singleton
-      bio: Emma is a freshman from Salt Lake City, Utah hoping to major in Biopsychology and Spanish. She loves getting outside, dancing, and anything ice cream related.
+      bio: Emma is a sophomore from Salt Lake City, Utah studying biopsychology and religion on the pre-med track. She is a lover of good food, hiking in the mountains, and long conversations in coffee shops.
       image-url: /public/team_images/emma_singleton.jpg
 
   - id: &katyana_wardhana
@@ -268,27 +242,24 @@ people:
   - id: &sarah_minster
       name: Sarah Minster
       bio: Sarah is a first-year from Deerfield, Illinois, and is currently undecided as to what she wants to major in. She loves sunshine, eating ice cream, exploring the outdoors, and engaging with passionate people.
-      image-url: /public/team_images/sarah_minster.jp
+      image-url: /public/team_images/sarah_minster.jpg
 
   - id: &sid_hillwig
       name: Sid Hillwig
       bio: Sid Hillwig is a freshman from Sunset Beach, North Carolina intending to major in Chemical Engineering and loves creating visual art and poetry. Sid's free time is filled with knitting socks for friends and appreciating math.
-      image-url: /public/team_images/sid_hillwig.jp
+      image-url: /public/team_images/sid_hillwig.jpg
 
 
 
 groups:
   - name: Organizers
     people:
-      - person: *slide_kelly
+
       - person: *akshat_rajan
       - person: *mika_sanger
       - person: *kate_sienko
-      - person: *stephanie_kim
       - person: *ramone_brown
-      - person: *cat_armistead
       - person: *taylor_fasolo
-      - person: *rachael_robinson
 
   - name: Production
     people:
@@ -351,7 +322,7 @@ groups:
 
   - name: Web
     people:
-      - person: *rachael_robinson
+
       - person: *jackson_clawson
       - person: *julie_jiang
 
