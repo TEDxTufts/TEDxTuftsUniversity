@@ -85,7 +85,7 @@ people:
 
   - id: &kate_golding
       name: Kate Golding
-      bio: Kate Golding is a sophomore from Los Angeles, California. Thinking about picking a major stresses her out, but imagining her dream life as a Hollywood executive calms her down. She loves movies about high school, her two cats Minnie and Gus, and arguing.
+      bio: Kate Golding is a sophomore from Los Angeles, California. Thinking about picking a major stresses her out, but imagining her dream life as a Hollywood executive calms her down. She loves movies about high school, her two cats, and arguing.
       image-url: /public/team_images/kate_golding.JPG
 
   - id: &daisy_hu
@@ -210,7 +210,7 @@ people:
   
   - id: &yanelle_cruz_bonilla
       name: Yanelle Cruz Bonilla
-      bio: Yanelle Cruz is a junior studying Sociology and Latino Studies. She's from Tegucigalpa, Honduras but considers Washington, DC her home away from home & likes to believe she was from DC in another life. She loves dancing, social theory, traveling, theatre (especially Broadway!), dogs, naps and wine (especially rosé).
+      bio: Yanelle Cruz is a junior studying Sociology and Latino Studies. She's from Tegucigalpa, Honduras but considers Washington, DC her home. She loves dancing, social theory, traveling, theatre, dogs, naps and wine.
       image-url: /public/team_images/yanelle_bonilla.JPG
   
   - id: &hermes_suen
@@ -230,7 +230,7 @@ people:
 
   - id: &saherish_surani
       name: Saherish Surani
-      bio: Saherish is a freshman from Corpus Christi, Texas majoring in Political Science and Community Health. She loves Steve Jobs, peanut butter & jelly cupcakes (actually, all cupcakes), excessively napping, binge watching documentaries, and taking way too many plandids (planned candids)!
+      bio: Saherish is a freshman from Corpus Christi, Texas majoring in Political Science and Community Health. She loves Steve Jobs, peanut butter & jelly cupcakes, napping, binge watching documentaries, and taking too many planned candids!
       image-url: /public/team_images/saherish_surani.jpg
 
   - id: &joe_barbaro
