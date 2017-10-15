@@ -9,20 +9,20 @@ people:
   - id: &akshat_rajan
       name: Akshat Rajan
       title: Curator
-      bio: Akshat is a second year, from Bombay, India, who will probably major in International Relations. He's been involved with TEDx for 4 years and loves theatre, people and traveling.
+      bio: Akshat is a third year, from Bombay, India, who will probably major in International Relations. He's been involved with TEDx for 4 years and loves theatre, people and traveling.
       image-url: /public/team_images/akshat_rajan.jpg
 
   - id: &ramone_brown
       name: Ramone Brown
       title: Executive Organizer & Co-Head of Sponroship
       link-to: Production
-      bio: Ramone is a third year student who is interested in neuroscience and the humanities.
+      bio: Ramone is a fourth year student who is interested in neuroscience and the humanities.
       image-url: /public/team_images/ramone_brown.jpg
 
   - id: &taylor_fasolo
       name: Taylor Fasolo
       title: Creative Director
-      bio: Taylor is a Junior at Tufts studying Film and Media Studies originally from Pennington, NJ. As a filmmaker and a photographer, Taylor believes that moments are everything.
+      bio: Taylor is a Senior at Tufts studying Film and Media Studies originally from Pennington, NJ. As a filmmaker and a photographer, Taylor believes that moments are everything.
       image-url: /public/team_images/taylor_fasolo.jpg
 
   - id: &jake_moran
@@ -34,10 +34,24 @@ people:
 
   - id: &amy_sokolow
       name: Amy Sokolow
-      title: Publicity Director
+      title: Head of Publicity
       link-to: Marketing & Publicity
       bio: Amy Sokolow is a senior from the 'burbs of Boston studying Film and Media Studies, Sociology, and ELS. She enjoys music and singing, learning about the art of communication, and pursing the best bubble tea in Boston.
       image-url: /public/team_images/amy_sokolow.jpg
+
+  - id: &zach_sebek
+      name: Zach Sebek
+      title: Head of Video
+      link-to: video
+      bio: Zach is a Sophomore from Chicago, Illinois. He is interested in Economics, Psychology, Computer Science, and Japanese. He loves photography, reading, running, and watching movies.
+      image-url: /public/team_images/zach_sebek.jpg
+
+  - id: &jia_wen_goh
+      name: Jia Wen Goh
+      title: Head of Design
+      link-to: Design
+      bio: Jia Wen is a sophomore from Singapore looking to major in Computer Science and/or Economics. He's really into tech, film, graphic design and Kit Kat. Especially Kit Kat.
+      image-url: /public/team_images/jia_wen_goh.jpg
 
   - id: &claire_freeman
       name: Claire Freeman
@@ -48,11 +62,6 @@ people:
       name: Julie Jiang
       bio: Julie is a junior from Shanghai studying CS and math. Some of the weirder things she enjoy include debugging code at 3am in the morning. She believes in living the moment and making the best of it.
       image-url: /public/team_images/julie_jiang.jpg
-
-  - id: &zach_sebek
-      name: Zach Sebek
-      bio: Zach is a Sophomore from Chicago, Illinois. He is interested in Economics, Psychology, Computer Science, and Japanese. He loves photography, reading, running, and watching movies.
-      image-url: /public/team_images/zach_sebek.jpg
 
   - id: &peter_bae
       name: Peter Bae
@@ -153,11 +162,6 @@ people:
       name: Rhea Montgomery-Walsh
       bio: Rhea is a sophomore from Catonsville, Maryland, majoring in Engineering Psychology. She enjoys oil painting, dancing, and watching tasty videos.
       image-url: /public/team_images/rhea_montgomery_walsh.png
-
-  - id: &jia_wen_goh
-      name: Jia Wen Goh
-      bio: Jia Wen is a freshman from Singapore looking to major in Computer Science and/or Economics. He's really into tech, film, graphic design and Kit Kat. Especially Kit Kat.
-      image-url: /public/team_images/jia_wen_goh.jpg
 
   - id: &jackson_clawson
       name: Jackson Clawson
@@ -269,6 +273,8 @@ groups:
       - person: *taylor_fasolo
       - person: *jake_moran
       - person: *amy_sokolow
+      - person: *zach_sebek
+      - person: *jia_wen_goh
 
   - name: Production
     people:
@@ -317,7 +323,6 @@ groups:
       - person: *zoe_miller
       - person: *ezri_horne
       - person: *rhea_montgomery_walsh
-      - person: *jia_wen_goh
 
   - name: Web
     people:
@@ -326,7 +331,6 @@ groups:
 
   - name: Video
     people:
-      - person: *zach_sebek
       - person: *ben_keller
       - person: *lucy_price
 
