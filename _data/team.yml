@@ -249,9 +249,11 @@ people:
       bio: Sid Hillwig is a freshman from Sunset Beach, North Carolina intending to major in Chemical Engineering and loves creating visual art and poetry. Sid's free time is filled with knitting socks for friends and appreciating math.
       image-url: /public/team_images/sid_hillwig.jpg
 
+  - id: &jessie_lan
+      name: Jessie Lan
+      bio: Jessie is a freshman from Bridgewater, New Jersey who plans to major in Cognitive and Brain Sciences (as of now!) She likes to read, draw, and play flute, but somehow finds herself more often spending time watching Tasty videos on facebook when she should be studying.
+      image-url: /public/team_images/jessie_lan.jpg
 
-
-groups:
   - name: Organizers
     people:
 
@@ -323,8 +325,8 @@ groups:
   - name: Web
     people:
 
-      - person: *jackson_clawson
-      - person: *julie_jiang
+      - person: *jessie_lan
+
 
     # If no photo, put this as photo
     # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
