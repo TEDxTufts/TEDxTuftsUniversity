@@ -1,10 +1,4 @@
 people:
-  - id: &slide_kelly
-      name: Slide Kelly
-      title: Executive Organizer
-      link-to: Organizers
-      bio: Slide is a senior majoring in Architectural Studies from Denver, Colorado. He loves all things design, mountain sports, circus arts, and bringing out the creative spark in others.
-      image-url: /public/team_images/slide_kelly.jpg
 
   - id: &akshat_rajan
       name: Akshat Rajan
@@ -26,13 +20,6 @@ people:
       bio: Kate Sienko is a senior from New Providence, New Jersey majoring in English and loves being behind the camera, storytelling, and all things nautical.
       image-url: /public/team_images/kate_sienko.jpg
 
-  - id: &stephanie_kim
-      name: Stephanie Kim
-      title: Partnerships Director
-      link-to: Partnerships
-      bio: Stephanie is a senior majoring in Economics, and is from the sunny state of California.
-      image-url: /public/team_images/stephanie_kim.png
-
   - id: &ramone_brown
       name: Ramone Brown
       title: Production Director
@@ -40,29 +27,16 @@ people:
       bio: Ramone is a third year student who is interested in neuroscience and the humanities.
       image-url: /public/team_images/ramone_brown.jpg
 
-  - id: &cat_armistead
-      name: Catherine Armistead
-      title: Design Director
-      link-to: Design
-      bio: Catherine Armistead is a senior majoring in Engineering Psychology and enrolled in the Dual Degree Program with the SMFA, where she focuses on metalsmithing and papermaking.
-      image-url: /public/team_images/cat_armistead.jpg
-
   - id: &taylor_fasolo
       name: Taylor Fasolo
       title: Video Director
       bio: Taylor is a Junior at Tufts studying Film and Media Studies originally from Pennington, NJ. As a filmmaker and a photographer, Taylor believes that moments are everything.
       image-url: /public/team_images/taylor_fasolo.jpg
 
-  - id: &rachael_robinson
-      name: Rachael Robinson
-      title: Web Director
-      link-to: Web
-      bio: Rachael Robinson is senior from Seattle majoring in Computer Science. She enjoys the outdoors as well as photography and can name the five major types of pacific salmon.
-      image-url: /public/team_images/RachaelRobinson.jpg
 
   - id: &claire_freeman
       name: Claire Freeman
-      bio: Claire is a first year from Singapore interested in biology and visual arts. She enjoys hiking, traveling, and playing the piano.
+      bio: Claire is a sophomore from Singapore and Brooklyn majoring in Biology and minoring in Chinese. She loves traveling, learning songs on the piano and finding new places to eat.
       image-url: /public/team_images/claire_freeman.png
 
   - id: &robert_hrabchak
@@ -152,7 +126,7 @@ people:
 
   - id: &emma_singleton
       name: Emma Singleton
-      bio: Emma is a freshman from Salt Lake City, Utah hoping to major in Biopsychology and Spanish. She loves getting outside, dancing, and anything ice cream related.
+      bio: Emma is a sophomore from Salt Lake City, Utah studying biopsychology and religion on the pre-med track. She is a lover of good food, hiking in the mountains, and long conversations in coffee shops.
       image-url: /public/team_images/emma_singleton.jpg
 
   - id: &katyana_wardhana
@@ -162,7 +136,7 @@ people:
 
   - id: &ballard_blair
       name: Ballard Blair
-      bio: Ballard is a junior from Fairfield, CT who hopes to major in computer science. He loves to explore the outdoors, cook, eat, and think.
+      bio: Ballard is a Senior at Tufts studying Computer Science originally from Fairfield, CT. He finds joy in cooking with pals and seeing live music. Ballard believes in the power of TED talks to inspire and to change minds.
       image-url: /public/team_images/ballard_blair.jpg
 
   - id: &frances_de_freitas
@@ -172,12 +146,12 @@ people:
 
   - id: &mitch_navetta
       name: Mitch Navetta
-      bio: Mitch is a first-year from Groton, Massachusetts thinking of majoring in Political Science and Economics. He loves libraries, touching old things, and cheesecake.
+      bio: Mitch is a sophomore from Groton, MA majoring in political science and history. He loves libraries, old photographs, and cheesecake. His favorite color just happens to be TED red.
       image-url: /public/team_images/mitch_navetta.png
 
   - id: &maya_pace
       name: Maya Pace
-      bio: Maya is a junior (who is currently undecided on her life path) and finds joy in activities such as eating bananas, drinking tea, reading and having her mind blown by the wise words of TED folk.
+      bio: Maya is a senior from Northern California studying Peace and Justice Studies. She finds joy in activities such as eating chips, reading, drinking lots of tea, and having her mind blown by the wise words of TED folk.
       image-url: /public/team_images/maya_pace.jpg
 
   - id: &talia_smith
@@ -187,12 +161,12 @@ people:
 
   - id: &amy_sokolow
       name: Amy Sokolow
-      bio: Amy Sokolow is a junior from Lynnfield, MA majoring in Film and Media Studies and Sociology and minoring in Entrepreneurial Leadership Studies.  Talk to her about ice cream, music, media theory, or dogs.
+      bio: Amy Sokolow is a senior from the 'burbs of Boston studying Film and Media Studies, Sociology, and ELS. She enjoys music and singing, learning about the art of communication, and pursing the best bubble tea in Boston.
       image-url: /public/team_images/amy_sokolow.jpg
 
   - id: &andrew_castro
       name: Andrew Castro
-      bio: Andrew is a first year from San Diego, CA planning to major in Economics. He shamelessly prides himself on being a musical theater geek, self-proclaimed food connoisseur, and amateur surfer.
+      bio: Andrew is a sophomore from San Diego, CA thinking about majoring in Computer Science. He shows his passion for engaging with the world by studying Mandarin Chinese, consulting for nonprofits, and trying new food trends he hears about.
       image-url: /public/team_images/andrew_castro.png
 
   - id: &dani_kupfer
@@ -202,17 +176,17 @@ people:
 
   - id: &boyce_myers
       name: Boyce Myers
-      bio: She's originally from South Carolina, she's interested in IR (but we'll see how that goes)! Some facts about her include that she loves to talk (a lot) and she loves eating dessert.
+      bio: Boyce is a sophomore originally from South Carolina.  She's planning on majoring in International Relations, and loves adventuring and travel.
       image-url: /public/team_images/boyce_myers.jpg
 
   - id: &emily_north
       name: Emily North
-      bio: Emily is a sophomore from San Diego, California majoring in International Relations. Her interests include trail mix, Birkenstocks, and hiding from cold weather.
+      bio: Emily North is a junior from San Diego, California majoring in International Relations with a minor in Econ. She is passionate about peanut butter, color coding, and still scared of cold weather.
       image-url: /public/team_images/emily_north.jpg
 
   - id: &nidhi_rao
       name: Nidhi Rao
-      bio: Nidhi is a first year, and a third culture kid who has grown up in Shanghai, Baltimore and New Delhi. She has yet to declare a major, but is sure that it won't be anything in science.
+      bio: Nidhi is a sophomore majoring in International Relations & Spanish. Currently, Bombay is home for her, but she grew up in Shanghai, Baltimore, and New Delhi. Her interests include playing the piano, eating cookies and basking in the sun.
       image-url: /public/team_images/nidhi_rao.jpg
 
   - id: &nikita_shukla
@@ -235,18 +209,63 @@ people:
       bio: Jackson is a senior from San Francisco double majoring in Human Factors Engineering and Computer Science. In his free time, he plays keyboard and accordion in a range of genres from funk and gospel music to Celtic folk.
       image-url: /public/team_images/jackson_clawson.jpg
 
+  - id: &chae_chun
+      name: Chae Chun
+      bio: Chae is a sophomore from Newton, MA thinking about majoring in either PoliSci, American Studies, or IR (and maybe a minor in Asian American Studies!). She loves photography, listening to music, trying new foods, and traveling.
+      image-url: /public/team_images/chae_chun.jpg
+
+  - id: &jacob_siegelbaum
+      name: Jacob Siegelbaum
+      bio: Jacob is a senior MechE with minors in French and EM from Hunt Valley, MD. He is on the swim team, a Wilderness Leader, and a member of ATO. In his free time, he likes taking prolonged showers while screaming power ballots.
+      image-url: /public/team_images/jacob_siegelbaum.jpg
+
+  - id: &connor_doherty
+      name: Connor Doherty
+      bio: Connor Doherty is a Senior from Manhattan, New York majoring in ACS Chemistry. He is passionate about European soccer, windsurfing, cycling, and tea. He believes that "no moment should go wasted" and that "time is the most valuable resource".
+      image-url: /public/team_images/connor_doherty.jpg
+
+  - id: &sarah_minster
+      name: Sarah Minster
+      bio: Sarah is a first-year from Deerfield, Illinois, and is currently undecided as to what she wants to major in. She loves sunshine, eating ice cream, exploring the outdoors, and engaging with passionate people.
+      image-url: /public/team_images/sarah_minster.jpg
+
+  - id: &ezri_horne
+      name: Ezri Horne
+      bio: Ezri is a freshmen in the SMFA combined degree program from Santa Fe, NM. As a sculptor and potter, Ezri is interested in how both material and visual design can enhance the the way we experience the world.
+      image-url: /public/team_images/ezri_horne.jpg
+
+  - id: &zoe_miller
+      name: Zoe Miller
+      bio: Zoe Miller is a senior studying the connections between IR and Peace & Justice Studies. Zoe can be found shuffling around campus with tennis rackets, a doodling pen at the ready, and a medley of squished fruit in the bottom of her backpack.
+      image-url: /public/team_images/zoe_miller.jpg
+
+  - id: &sarah_minster
+      name: Sarah Minster
+      bio: Sarah is a first-year from Deerfield, Illinois, and is currently undecided as to what she wants to major in. She loves sunshine, eating ice cream, exploring the outdoors, and engaging with passionate people.
+      image-url: /public/team_images/sarah_minster.jpg
+
+  - id: &sid_hillwig
+      name: Sid Hillwig
+      bio: Sid Hillwig is a freshman from Sunset Beach, North Carolina intending to major in Chemical Engineering and loves creating visual art and poetry. Sid's free time is filled with knitting socks for friends and appreciating math.
+      image-url: /public/team_images/sid_hillwig.jpg
+
+  - id: &jessie_lan
+      name: Jessie Lan
+      bio: Jessie is a freshman from Bridgewater, NJ who plans to major in Cognitive and Brain Sciences (as of now!) She likes to read and play flute, and finds herself spending too much time watching Tasty videos on facebook.
+      image-url: /public/team_images/jessie_lan.jpg
+
+
+
+
 groups:
   - name: Organizers
     people:
-      - person: *slide_kelly
+
       - person: *akshat_rajan
       - person: *mika_sanger
       - person: *kate_sienko
-      - person: *stephanie_kim
       - person: *ramone_brown
-      - person: *cat_armistead
       - person: *taylor_fasolo
-      - person: *rachael_robinson
 
   - name: Production
     people:
@@ -280,33 +299,37 @@ groups:
     people:
       - person: *kate_sienko
       - person: *ballard_blair
-      - person: *frances_de_freitas
       - person: *mitch_navetta
-      - person: *maya_pace
       - person: *talia_smith
       - person: *amy_sokolow
+      - person: *jacob_siegelbaum
+      - person: *kemma_kahn
+      - person: *sara_bass
+      - person: *claire_freeman
+      - person: *sarah_minster
+      - person: *sid_hillwig
 
   - name: Partnerships
     people:
-      - person: *stephanie_kim
+      - person: *chae_chun
+      - person: *connor_doherty
       - person: *andrew_castro
       - person: *dani_kupfer
-      - person: *boyce_myers
       - person: *emily_north
       - person: *nidhi_rao
-      - person: *nikita_shukla
+
 
   - name: Design
     people:
-      - person: *cat_armistead
+      - person: *zoe_miller
+      - person: *ezri_horne
       - person: *rhea_montgomery_walsh
       - person: *jia_wen_goh
 
   - name: Web
     people:
-      - person: *rachael_robinson
-      - person: *jackson_clawson
-      - person: *julie_jiang
+      - person: *jessie_lan
+
 
   - name: Video
     people:
