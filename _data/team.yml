@@ -161,7 +161,7 @@ people:
 
   - id: &amy_sokolow
       name: Amy Sokolow
-      bio: Amy Sokolow is a senior from the 'burbs of Boston studying Film and Media Studies, Sociology, and Entrepreneurial Leadership Studies. She enjoys music and singing, learning about the art of communication, and pursing the best bubble tea in the greater Boston area.
+      bio: Amy Sokolow is a senior from the 'burbs of Boston studying Film and Media Studies, Sociology, and ELS. She enjoys music and singing, learning about the art of communication, and pursing the best bubble tea in Boston.
       image-url: /public/team_images/amy_sokolow.jpg
 
   - id: &andrew_castro
@@ -211,12 +211,12 @@ people:
 
   - id: &chae_chun
       name: Chae Chun
-      bio: Chae is a sophomore from Newton, MA thinking about majoring in either Political Science, American Studies, or International Relations (and maybe a minor in Asian American Studies!). She loves photography, listening to music, trying new foods, and traveling.
+      bio: Chae is a sophomore from Newton, MA thinking about majoring in either PoliSci, American Studies, or IR (and maybe a minor in Asian American Studies!). She loves photography, listening to music, trying new foods, and traveling.
       image-url: /public/team_images/chae_chun.jpg
 
   - id: &jacob_siegelbaum
       name: Jacob Siegelbaum
-      bio: Jacob is a senior mechanical engineer with a double minor in French and engineering management from Hunt Valley, MD.  At Tufts (and outside of TEDx) he is on the swim team, a leader for Tufts Wilderness Orientation, and a member of ATO of Massachusetts.  In his free time, he likes talking prolonged showers while screaming power ballots.
+      bio: Jacob is a senior MechE with minors in French and EM from Hunt Valley, MD. He is on the swim team, a Wilderness Leader, and a member of ATO. In his free time, he likes taking prolonged showers while screaming power ballots.
       image-url: /public/team_images/jacob_siegelbaum.jpg
 
   - id: &connor_doherty
@@ -236,7 +236,7 @@ people:
 
   - id: &zoe_miller
       name: Zoe Miller
-      bio: Zoe Miller is a senior studying the connections between spheres of International Relations and Peace & Justice Studies. Zoe can be found shuffling around campus with tennis rackets in hand, a doodling pen at the ready, and a medley of squished fruit in the bottom of her backpack.
+      bio: Zoe Miller is a senior studying the connections between IR and Peace & Justice Studies. Zoe can be found shuffling around campus with tennis rackets, a doodling pen at the ready, and a medley of squished fruit in the bottom of her backpack.
       image-url: /public/team_images/zoe_miller.jpg
 
   - id: &sarah_minster
