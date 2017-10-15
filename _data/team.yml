@@ -1,4 +1,10 @@
 people:
+  - id: &tommy_tang
+      name: Tommy Tang
+      title: Webmaster & Co-Head of Sponsorship
+      link-to: Web
+      bio: Tommy is a senior majoring in CompSci from Beijing, China. He is also a Project Leader for Jumbocode and a devoted TA. Believe in the him that believes in you!
+      image-url: /public/team_images/tommy_tang.jpg
 
   - id: &akshat_rajan
       name: Akshat Rajan
@@ -6,26 +12,32 @@ people:
       bio: Akshat is a second year, from Bombay, India, who will probably major in International Relations. He's been involved with TEDx for 4 years and loves theatre, people and traveling.
       image-url: /public/team_images/akshat_rajan.jpg
 
-  - id: &kate_sienko
-      name: Kate Sienko
-      title: Marketing & Publicity Director
-      link-to: Marketing & Publicity
-      bio: Kate Sienko is a senior from New Providence, New Jersey majoring in English and loves being behind the camera, storytelling, and all things nautical.
-      image-url: /public/team_images/kate_sienko.jpg
-
   - id: &ramone_brown
       name: Ramone Brown
-      title: Production Director
+      title: Executive Organizer & Co-Head of Sponroship
       link-to: Production
       bio: Ramone is a third year student who is interested in neuroscience and the humanities.
       image-url: /public/team_images/ramone_brown.jpg
 
   - id: &taylor_fasolo
       name: Taylor Fasolo
-      title: Video Director
+      title: Creative Director
       bio: Taylor is a Junior at Tufts studying Film and Media Studies originally from Pennington, NJ. As a filmmaker and a photographer, Taylor believes that moments are everything.
       image-url: /public/team_images/taylor_fasolo.jpg
 
+  - id: &jake_moran
+      name: Jake Moran
+      title: Head of Speaker Coaching
+      link-to: Speaker Coaching
+      bio: Jake Moran is a senior from Mansfield, Massachusetts majoring in Economics and Computer Science. He enjoys reading, swimming, and binge watching TV shows.
+      image-url: /public/team_images/jake_moran.jpg
+
+  - id: &amy_sokolow
+      name: Amy Sokolow
+      title: Publicity Director
+      link-to: Marketing & Publicity
+      bio: Amy Sokolow is a senior from the 'burbs of Boston studying Film and Media Studies, Sociology, and ELS. She enjoys music and singing, learning about the art of communication, and pursing the best bubble tea in Boston.
+      image-url: /public/team_images/amy_sokolow.jpg
 
   - id: &claire_freeman
       name: Claire Freeman
@@ -41,11 +53,6 @@ people:
       name: Zach Sebek
       bio: Zach is a Sophomore from Chicago, Illinois. He is interested in Economics, Psychology, Computer Science, and Japanese. He loves photography, reading, running, and watching movies.
       image-url: /public/team_images/zach_sebek.jpg
-
-  - id: &tommy_tang
-      name: Tommy Tang
-      bio: Tommy is a junior engineer from Beijing, China. He is a computer science major and an economics minor. He loves programming and reading.
-      image-url: /public/team_images/tommy_tang.jpg
 
   - id: &peter_bae
       name: Peter Bae
@@ -76,11 +83,6 @@ people:
       name: Teddy Laurita
       bio: Teddy is a sophomore studying computer science and history. He's very excited to be a part of the speaker coaching team again this year. He likes hiking, traveling, knitting, and all you can eat sushi.
       image-url: /public/team_images/teddy_laurita.jpg
-
-  - id: &jake_moran
-      name: Jake Moran
-      bio: Jake Moran is a senior from Mansfield, Massachusetts majoring in Economics and Computer Science. He enjoys reading, swimming, and binge watching TV shows.
-      image-url: /public/team_images/jake_moran.jpg
 
   - id: &catherine_sillari
       name: Catherine Sillari
@@ -116,11 +118,6 @@ people:
       name: Talia Smith
       bio: Talia is a first-year student from Minneapolis, MN who loves archaeology and hopes to major in it. She also loves lakes, drawing, cooking with friends, and thinking bout outer space.
       image-url: /public/team_images/talia_smith.jpg
-
-  - id: &amy_sokolow
-      name: Amy Sokolow
-      bio: Amy Sokolow is a senior from the 'burbs of Boston studying Film and Media Studies, Sociology, and ELS. She enjoys music and singing, learning about the art of communication, and pursing the best bubble tea in Boston.
-      image-url: /public/team_images/amy_sokolow.jpg
 
   - id: &andrew_castro
       name: Andrew Castro
@@ -266,11 +263,12 @@ people:
 groups:
   - name: Organizers
     people:
-
+      - person: *tommy_tang
       - person: *akshat_rajan
-      - person: *kate_sienko
       - person: *ramone_brown
       - person: *taylor_fasolo
+      - person: *jake_moran
+      - person: *amy_sokolow
 
   - name: Production
     people:
@@ -289,17 +287,14 @@ groups:
       - person: *kate_golding
       #- person: *daisy_hu        # these people have not complete the survey yet
       #- person: *teddy_laurita   # these people have not complete the survey yet
-      - person: *jake_moran
       - person: *catherine_sillari
       - person: *emma_singleton
 
   - name: Marketing & Publicity
     people:
-      - person: *kate_sienko
       - person: *ballard_blair
       - person: *mitch_navetta
       - person: *talia_smith
-      - person: *amy_sokolow
       - person: *jacob_siegelbaum
       - person: *kemma_kahn
       - person: *sara_bass
@@ -328,7 +323,6 @@ groups:
     people:
       - person: *jessie_lan
       - person: *james_garijo_garde
-      - person: *tommy_tang
 
   - name: Video
     people:
