@@ -144,7 +144,7 @@ people:
 
   - id: &nidhi_rao
       name: Nidhi Rao
-      bio: Nidhi is a sophomore majoring in IR & Spanish. Currently, Bombay is home, but she grew up in Shanghai, Baltimore, and New Delhi. Her interests include playing the piano, eating cookies and basking in the sun.
+      bio: Nidhi is a sophomore majoring in IR & Spanish. Currently, Bombay is home, but she grew up in Shanghai, Baltimore, and New Delhi. Her interests include playing the piano, eating cookies and suntanning.
       image-url: /public/team_images/nidhi_rao.jpg
 
   - id: &nikita_shukla
@@ -179,7 +179,7 @@ people:
 
   - id: &connor_doherty
       name: Connor Doherty
-      bio: Connor Doherty is a Senior from Manhattan, New York majoring in ACS Chemistry. He is passionate about European soccer, windsurfing, cycling, and tea. He believes that "no moment should go wasted" and that "time is the most valuable resource".
+      bio: Connor Doherty is a Senior from Manhattan, New York majoring in ACS Chemistry. He is passionate about European soccer, windsurfing, cycling, and tea. He believes that "no moment should go wasted."
       image-url: /public/team_images/connor_doherty.jpg
 
   - id: &sarah_minster
