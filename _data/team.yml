@@ -62,7 +62,7 @@ people:
 
   - id: &claire_freeman
       name: Claire Freeman
-      bio:Claire is a sophomore from Singapore and Brooklyn majoring in Biology and minoring in Chinese. She loves traveling, learning songs on the piano and finding new places to eat.
+      bio: Claire is a sophomore from Singapore and Brooklyn majoring in Biology and minoring in Chinese. She loves traveling, learning songs on the piano and finding new places to eat.
       image-url: /public/team_images/claire_freeman.png
 
   - id: &robert_hrabchak
@@ -234,7 +234,6 @@ people:
       name: Jackson Clawson
       bio: Jackson is a senior from San Francisco double majoring in Human Factors Engineering and Computer Science. In his free time, he plays keyboard and accordion in a range of genres from funk and gospel music to Celtic folk.
       image-url: /public/team_images/jackson_clawson.jpg
-<!-- -->
 
   - id: &chae_chun
       name: Chae Chun
@@ -261,19 +260,20 @@ people:
       bio: Ezri is a freshmen in the SMFA combined degree program from Santa Fe, NM. As a sculptor and potter, Ezri is interested in how both material and visual design can enhance the the way we experience the world.
       image-url: /public/team_images/ezri_horne.jpg
 
-        - id: &zoe_miller
-            name: Zoe Miller
-            bio: Zoe Miller is a senior studying the connections between spheres of International Relations and Peace & Justice Studies. Zoe can be found shuffling around campus with tennis rackets in hand, a doodling pen at the ready, and a medley of squished fruit in the bottom of her backpack.
-            image-url: /public/team_images/zoe_miller.jpg
+  - id: &zoe_miller
+      name: Zoe Miller
+      bio: Zoe Miller is a senior studying the connections between spheres of International Relations and Peace & Justice Studies. Zoe can be found shuffling around campus with tennis rackets in hand, a doodling pen at the ready, and a medley of squished fruit in the bottom of her backpack.
+      image-url: /public/team_images/zoe_miller.jpg
 
-              - id: &sarah_minster
-                  name: Sarah Minster
-                  bio: Sarah is a first-year from Deerfield, Illinois, and is currently undecided as to what she wants to major in. She loves sunshine, eating ice cream, exploring the outdoors, and engaging with passionate people.
-                  image-url: /public/team_images/sarah_minster.jp
-    - id: &sid_hillwig
-        name: Sid Hillwig
-        bio: Sid Hillwig is a freshman from Sunset Beach, North Carolina intending to major in Chemical Engineering and loves creating visual art and poetry. Sid's free time is filled with knitting socks for friends and appreciating math.
-        image-url: /public/team_images/sid_hillwig.jp
+  - id: &sarah_minster
+      name: Sarah Minster
+      bio: Sarah is a first-year from Deerfield, Illinois, and is currently undecided as to what she wants to major in. She loves sunshine, eating ice cream, exploring the outdoors, and engaging with passionate people.
+      image-url: /public/team_images/sarah_minster.jp
+
+  - id: &sid_hillwig
+      name: Sid Hillwig
+      bio: Sid Hillwig is a freshman from Sunset Beach, North Carolina intending to major in Chemical Engineering and loves creating visual art and poetry. Sid's free time is filled with knitting socks for friends and appreciating math.
+      image-url: /public/team_images/sid_hillwig.jp
 
 
 
