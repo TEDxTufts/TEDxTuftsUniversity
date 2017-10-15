@@ -61,12 +61,12 @@ people:
   - id: &julie_jiang
       name: Julie Jiang
       bio: Julie is a junior from Shanghai studying CS and math. Some of the weirder things she enjoy include debugging code at 3am in the morning. She believes in living the moment and making the best of it.
-      image-url: /public/team_images/julie_jiang.jpg # update photo
+      image-url: /public/team_images/julie_jiang.jpg
 
   - id: &zach_sebek
       name: Zach Sebek
       bio: Zach is a Sophomore from Chicago, Illinois. He is interested in Economics, Psychology, Computer Science, and Japanese. He loves photography, reading, running, and watching movies.
-      image-url: /public/team_images/zach_sebek.jpg  # update this picture!
+      image-url: /public/team_images/zach_sebek.jpg
 
   - id: &tommy_tang
       name: Tommy Tang
@@ -76,7 +76,7 @@ people:
   - id: &peter_bae
       name: Peter Bae
       bio: Peter is a senior from Milford, MA, and is majoring in Spanish while on the Pre-Medical track. He finds joy in all kinds of things, such as sunrise hikes, fresh air, push-ups and pull-ups, and musical jam sessions with friends.
-      image-url: /public/team_images/peter_bae.jpg # update photo
+      image-url: /public/team_images/peter_bae.jpg
 
   - id: &sara_bass
       name: Sara Bass
@@ -86,7 +86,7 @@ people:
   - id: &kate_golding
       name: Kate Golding
       bio: Kate Golding is a sophomore from Los Angeles, California. Thinking about picking a major stresses her out, but imagining her dream life as a Hollywood executive calms her down. She loves movies about high school, her two cats Minnie and Gus, and arguing.
-      image-url: /public/team_images/kate_golding.JPG # update photo
+      image-url: /public/team_images/kate_golding.JPG
 
   - id: &daisy_hu
       name: Daisy Hu
@@ -106,17 +106,17 @@ people:
   - id: &jake_moran
       name: Jake Moran
       bio: Jake Moran is a senior from Mansfield, Massachusetts majoring in Economics and Computer Science. He enjoys reading, swimming, and binge watching TV shows.
-      image-url: /public/team_images/john_moran.jpg # update photo
+      image-url: /public/team_images/jake_moran.jpg
 
   - id: &catherine_sillari
       name: Catherine Sillari
       bio: Catherine is a senior from Lexington, MA studying biology and child development. She loves running, reading, and anything involving peanut butter.
-      image-url: /public/team_images/catherine_sillari.jpg # update photo
+      image-url: /public/team_images/catherine_sillari.jpg
 
   - id: &emma_singleton
       name: Emma Singleton
       bio: Emma is a sophomore from Salt Lake City, Utah studying biopsychology and religion on the pre-med track. She is a lover of good food, hiking in the mountains, and long conversations in coffee shops.
-      image-url: /public/team_images/emma_singleton.jpg # update photo
+      image-url: /public/team_images/emma_singleton.jpg
 
   - id: &ballard_blair
       name: Ballard Blair
@@ -196,54 +196,58 @@ people:
   - id: &ben_keller
       name: Ben Keller
       bio: Ben Keller is a freshman from Huntingdon Valley, Pennsylvania interested in History and Psychology. Outside of class, Ben enjoys singing, watching Jeopardy, and spending way too much time on Google Maps.
-      image-url: # add picture
+      image-url: /public/team_images/ben_keller.jpg
 
   - id: &lucy_price
       name: Lucy Price
       bio: Lucy is a freshman with no idea what she wants to major in. She is from Sammamish, Washington and loves dancing, hiking, and whipped cream.
-      image-url: # add picture
+      image-url: /public/team_images/lucy_price.jpg
 
   - id: &ava_soltani
       name: Ava Soltani
       bio: Ava Soltani is a freshman at Tufts from Irvine, CA. She loves reading, listening to music, and all things outdoors.
-      image-url: # add picture
+      image-url: /public/team_images/ava_soltani.jpg
   
   - id: &yanelle_cruz_bonilla
       name: Yanelle Cruz Bonilla
       bio: Yanelle Cruz is a junior studying Sociology and Latino Studies. She's from Tegucigalpa, Honduras but considers Washington, DC her home away from home & likes to believe she was from DC in another life. She loves dancing, social theory, traveling, theatre (especially Broadway!), dogs, naps and wine (especially rosé).
-      image-url: # add picture
+      image-url: /public/team_images/yanelle_bonilla.JPG
   
   - id: &hermes_suen
       name: Hermes Suen
       bio: Hermes is a junior from Westfield, NJ studying Mechanical Engineering and Cognitive Brain Science. He is passionate about the ability to change the world through ideas, and is actively involved in entrepreneurship and  design thinking at Tufts.
-      image-url: # add picture
+      image-url: /public/team_images/hermes_suen.jpg
 
   - id: &yang_lowe
       name: Yang Lowe
       bio: Yang Lowe is a freshman from Taiwan, planning to major in Biology. Yang loves cooking, traveling, and photography.
-      image-url: # add picture
+      image-url: /public/team_images/yang_lowe.jpg
 
   - id: &olivia_ng
       name: Oliva Ng
       bio: Olivia is a Sophomore from Northern California who is majoring in Environmental  Studies. She loves being outdoors, dancing, crafting, and making panini's.
-      image-url: # add picture
+      image-url: /public/team_images/olivia_ng.jpg
 
   - id: &saherish_surani
       name: Saherish Surani
       bio: Saherish is a freshman from Corpus Christi, Texas majoring in Political Science and Community Health. She loves Steve Jobs, peanut butter & jelly cupcakes (actually, all cupcakes), excessively napping, binge watching documentaries, and taking way too many plandids (planned candids)!
-      image-url: # add picture
+      image-url: /public/team_images/saherish_surani.jpg
 
   - id: &joe_barbaro
-      name: Joes Barbaro
+      name: Joe Barbaro
       bio: Joe Barbaro is a freshman from Holmdel, New Jersey. Joe runs track and is studying mechanical engineering.
-      image-url: # add picture
+      image-url: /public/team_images/joe_barbaro.jpg
+
+  - id: &james_garijo_garde
+      name: James Garijo-Garde
+      bio: James is a second-year student at Tufts University majoring in Computer Science and Cognitive & Brain Sciences. He is from Darien, Connecticut and enjoys hosting a weekly radio show.
+      image-url: /public/team_images/james_garijo_garde.jpg
 
 groups:
   - name: Organizers
     people:
       - person: *slide_kelly
       - person: *akshat_rajan
-      - person: *mika_sanger
       - person: *kate_sienko
       - person: *stephanie_kim
       - person: *ramone_brown
@@ -266,8 +270,8 @@ groups:
       - person: *yang_lowe
       - person: *peter_bae
       - person: *kate_golding
-      #- person: *daisy_hu
-      #- person: *teddy_laurita
+      #- person: *daisy_hu        # these people have not complete the survey yet
+      #- person: *teddy_laurita   # these people have not complete the survey yet
       - person: *jake_moran
       - person: *catherine_sillari
       - person: *emma_singleton
@@ -300,9 +304,8 @@ groups:
 
   - name: Web
     people:
-      - person: *rachael_robinson
-      - person: *jackson_clawson
-      - person: *julie_jiang
+      - person: *james_garijo_garde
+      - person: *tommy_tang
 
   - name: Video
     people:
