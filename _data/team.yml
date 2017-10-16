@@ -264,6 +264,11 @@ people:
       bio: James is a second-year student at Tufts University majoring in Computer Science and Cognitive & Brain Sciences. He is from Darien, Connecticut and enjoys hosting a weekly radio show.
       image-url: /public/team_images/james_garijo_garde.jpg
 
+  - id: &teddy_laurita
+      name: Teddy Laurita
+      bio: Teddy is a junior studying computer science and history. He's very excited to be a part of the speaker coaching team again this year. He likes hiking, traveling, knitting, and all you can eat sushi.
+      image-url: /public/team_images/teddy_laurita.jpg
+
 groups:
   - name: Organizers
     people:
@@ -292,7 +297,7 @@ groups:
       - person: *peter_bae
       - person: *kate_golding
       #- person: *daisy_hu        # these people have not complete the survey yet
-      #- person: *teddy_laurita   # these people have not complete the survey yet
+      - person: *teddy_laurita
       - person: *catherine_sillari
       - person: *emma_singleton
 
