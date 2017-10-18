@@ -36,7 +36,7 @@ people:
       name: Amy Sokolow
       title: Head of Publicity
       link-to: Marketing & Publicity
-      bio: Amy Sokolow is a senior from the 'burbs of Boston studying Film and Media Studies, Sociology, and ELS. She enjoys music and singing, learning about the art of communication, and pursing the best bubble tea in Boston.
+      bio: Amy Sokolow is a senior from the 'burbs of Boston studying Film and Media Studies, Sociology, and ELS. She enjoys music and singing, learning about the art of communication, and pursuing the best bubble tea in Boston.
       image-url: /public/team_images/amy_sokolow.jpg
 
   - id: &zach_sebek
@@ -80,7 +80,7 @@ people:
 
   - id: &daisy_hu
       name: Daisy Hu
-      bio: Daisy is a freshman from Hangzhou, China. She's on the speaker coaching team. She is considering major in philosophy. She enjoys sitting on the grass reading and chatting with people.
+      bio: Daisy is a sophomore from Hangzhou, China. She tells everyone that she majors in philosophy but actually hasn't declared yet. She loves meditating (aka. doing nothing) and is interested in linguistics.
       image-url: /public/team_images/daisy_hu.jpg
 
   - id: &kemma_kahn
@@ -90,7 +90,7 @@ people:
 
   - id: &teddy_laurita
       name: Teddy Laurita
-      bio: Teddy is a sophomore studying computer science and history. He's very excited to be a part of the speaker coaching team again this year. He likes hiking, traveling, knitting, and all you can eat sushi.
+      bio: Teddy Laurita is a junior from Camden, Maine studying Computer Science and History. He plays ultimate frisbee and loves any food except celery.
       image-url: /public/team_images/teddy_laurita.jpg
 
   - id: &catherine_sillari
@@ -261,6 +261,16 @@ people:
       bio: James is a second-year student at Tufts University majoring in Computer Science and Cognitive & Brain Sciences. He is from Darien, Connecticut and enjoys hosting a weekly radio show.
       image-url: /public/team_images/james_garijo_garde.jpg
 
+  - id: &teddy_laurita
+      name: Teddy Laurita
+      bio: Teddy is a junior studying computer science and history. He's very excited to be a part of the speaker coaching team again this year. He likes hiking, traveling, knitting, and all you can eat sushi.
+      image-url: /public/team_images/teddy_laurita.jpg
+
+  - id: &rob_hrabchak
+      name: Rob Hrabchak
+      bio: Rob is senior studying Mechanical Engineering, from Princeton, NJ. He is passionate about electric cars and creating a sustainable future. He also loves traveling and hearing new stories.
+      image-url: /public/team_images/rob_hrabchak.jpg
+
 groups:
   - name: Organizers
     people:
@@ -289,10 +299,11 @@ groups:
       - person: *yang_lowe
       - person: *peter_bae
       - person: *kate_golding
-      #- person: *daisy_hu        # these people have not complete the survey yet
-      #- person: *teddy_laurita   # these people have not complete the survey yet
+      - person: *daisy_hu
+      - person: *teddy_laurita
       - person: *catherine_sillari
       - person: *emma_singleton
+      - person: *kemma_kahn
 
   - name: Marketing & Publicity
     people:
