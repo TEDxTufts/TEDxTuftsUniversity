@@ -137,11 +137,9 @@ img.no-resize{
     display: block;
 }
 
-#mission{
+#apply-text{
 	text-align: center;
-	font-style: italic;
 	font-size: 1.5vw;
-	font-weight: 200;
 	@media #{$small-only} {
         font-size: 1rem;
 	}
@@ -149,13 +147,28 @@ img.no-resize{
 #home-img{
 	opacity: 0.5;
 }
-#about-text{
+#title{
 	font-size: 3.5vw;
-	font-weight: 200;
+	font-weight: 400;
 	text-align: center;
+    color: #f04124
 }
 .buttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+#workshop {
+	text-align: center;
+	font-size: 1.5vw;
+	font-weight: 300;
+    font-style: italic;
+	@media #{$small-only} {
+        font-size: 1rem;
+	}
+}
+
+.red-highlight {
+    color: #f04124;
+    font-weight: bold;
 }
