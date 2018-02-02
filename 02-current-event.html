@@ -1,0 +1,112 @@
+---
+layout: base
+title: Re:Vision
+permalink: /currentEvent/
+
+
+---
+
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6020043221567', {'value':'0.00','currency':'USD'}]);
+</script>
+
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l5nqa&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5nqa&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /></noscript>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6020043221567&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+
+<div class="row head-row">
+	<img style="width: 100%" src="/public/revision-banner.png">
+</div>
+
+{% assign people = site.data.speaker_interview %}
+{% for p in people %}
+  <div class="row">
+		<img src="{{p.image-url}}" alt="" class="speaker-image">
+    <p style="margin: 3vw 3vw">
+      <span class="red-highlight">Name:</span> <span style="font-weight: bold">{{p.name}}</span>
+      <br/>
+      <span class="red-highlight">Age:</span> {{p.age}}
+      <br/>
+      <span class="red-highlight">Gender Pronouns:</span> {{p.gender}}
+      <br/>
+      <br/>
+      <span class="red-highlight">What are you currently up to and what’s your Tufts affiliation?</span>
+      <br/>
+      {{p.affiliation}}
+      <br/>
+      <br/>
+      <span class="red-highlight">What do you consider home?</span>
+      <br/>
+      {{p.home}}
+      <br/>
+      <br/>
+      <span class="red-highlight">Why did you want to speak at TEDxTufts?</span>
+      <br/>
+      {{p.reason}}
+      <br/>
+      <br/>
+      <span class="red-highlight">What’s your idea of a perfect day?</span>
+      <br/>
+      {{p.perfectDay}}
+      <br/>
+      <br/>
+      <span class="red-highlight">What is something that you want your audience to know about you that they may not know already?</span>
+      <br/>
+      {{p.funFact}}
+      <br/>
+      <br/>
+      <span class="red-highlight">What is the best gift you’ve ever given or received?</span>
+      <br/>
+      {{p.gift}}
+      <br/>
+      <br/>
+      <span class="red-highlight">What’s something that’s exciting you right now?</span>
+      <br/>
+      {{p.exciting}}
+      <br/>
+      <br/>
+      <span class="red-highlight">What is your pump up jam?</span>
+      <br/>
+      {{p.jam}}
+      <br/>
+      <br/>
+    </p>
+	  <!-- <div class="small-12 columns">
+	      <div class="row">
+	         <div class="small-4 columns">
+	            <img src="{{p.image-url}}" alt="" id="team-image">
+	            <div class="small-12 columns">
+	            	<center>
+	            	<h3> {{ person.name }}
+									{% if person.twitter %}
+				            		<small><a href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></small>
+									{% endif %}
+	            	</h3>
+	            </center>
+	        </div>
+	         </div>
+	         <div class="small-8 columns">
+	            <p> {{person.bio}} </p>
+	         </div>
+	         <a class="anchor" id="{{person.name | slugify}}"></a>
+	      </div>
+	  </div> -->
+  </div>
+  <br>
+
+{% endfor %}

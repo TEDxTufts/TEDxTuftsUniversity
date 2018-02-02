@@ -1,0 +1,121 @@
+---
+layout: base
+title: Past Events
+permalink: /pastEvents/
+
+
+---
+
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', '6020043221567', {'value':'0.00','currency':'USD'}]);
+</script>
+
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l5nqa&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5nqa&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /></noscript>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6020043221567&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
+
+<div class="row head-row">
+	<div class="large-12 small-centered columns header-cont">
+		<h1 class="event-title">TEDxTufts 2017 - Rhizome</h1>
+	</div>
+	<img style="opacity: 0.7" src="/public/speakers_home.jpg">
+</div>
+
+{% assign events = site.data.speakers.groups %}
+{% for e in events %}
+  <div class="all-videos">
+    <div class="videos-column" id="left-column">
+      {% for speaker in e.speakers1 %}
+        {% assign s = speaker.person %}
+        <div id="video">
+          <h4 class="video-title">{{s.name}}</h4>
+          <div class="video-wrapper">
+            <iframe src="{{s.url}}" class="video-frame" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <p class="video-bio"> {{s.bio}} </p>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="videos-column" id="right-column">
+      {% for speaker in e.speakers2 %}
+        {% assign s = speaker.person %}
+        <div id="video">
+          <h4 class="video-title">{{s.name}}</h4>
+          <div class="video-wrapper">
+            <iframe src="{{s.url}}" class="video-frame" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <p class="video-bio"> {{s.bio}} </p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endfor %}
+
+<!-- <br>
+<h1 class="centered-text">Featured Past Talks</h1>
+
+<div class="videos">
+	<div class="row">
+		<div class="large-6 columns">
+			<div class="flex-video">
+				<iframe width="560" height="315" src="//www.youtube.com/embed/BSCQ6v1T704" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="large-6 columns">
+			<div class="flex-video">
+				<iframe src="//www.youtube.com/embed/Ny1rIRxC-go" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="large-6 columns">
+			<div class="flex-video">
+				<iframe width="560" height="315" src="//www.youtube.com/embed/3LhNRJkh87w" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="large-6 columns">
+			<div class="flex-video">
+				<iframe width="560" height="315" src="//www.youtube.com/embed/qaaf7sgw_5g" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<h1 class="centered-text">Past Speakers</h1>
+<br><br>
+
+{% assign people = site.data.past_speakers  %}
+<ul class="row small-block-grid-1 medium-block-grid-2" id="past-speakers">
+
+{% for person in people %}
+    <li>
+        <img src="{{person.image-url}}" alt="">
+        <a class="anchor" id="{{person.name | slugify}}"></a>
+        <a href="https://www.youtube.com/watch?v={{person.youtube}}"><h5>{{person.talk-title}}</h5></a>
+        <p class="secondary-text">{{ person.name }}</p>
+
+    </li>
+
+{% endfor %}
+</ul>
+
+<br>
+<br>
+
+<br><br> -->

@@ -1,0 +1,90 @@
+.event-title {
+	font-size: 6vw;
+	font-weight: 200;
+  padding-top: 8vw;
+}
+
+#past-speakers {
+    margin: 0 auto;
+    li {
+        // text-align: center;
+
+        img {
+            float: left;
+            max-width: 100px;
+            margin-right: 15px;
+        }
+    }
+}
+
+.videos-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#left-column {
+  padding-right: 1.5vw;
+  border-right: 2px solid #f04124;
+}
+
+#right-column {
+  padding-left: 1.5vw;
+}
+
+.all-videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  margin-left: 10vw;
+  margin-right: 10vw;
+	margin-top: 5vh;
+}
+
+#video {
+  margin-bottom: 7%;
+  width: 35vw;
+}
+
+.video-wrapper {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 45%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.video-bio {
+  margin: 0 10% 0% 10%;
+}
+
+.video-frame {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-title {
+  color: #f04124;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .all-videos {
+        flex-direction: column;
+    }
+
+    #video {
+      width: 100%;
+    }
+
+    #left-column {
+      border: none;
+    }
+}
