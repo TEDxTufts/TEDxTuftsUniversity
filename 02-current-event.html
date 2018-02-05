@@ -34,10 +34,15 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 </div>
 
 {% assign people = site.data.speaker_interview %}
+<ul class="side-nav side-nav-right side-nav-single-page smooth-scroll sticky" role="navigation" title="Link List">
+    {% for p in people %}
+    <li role="menuitem"><a href="#{{p.name | slugify}}" style="padding-top: 0; padding-bottom: 0">{{p.name}}</a></li>
+    {% endfor %}
+</ul>
 {% for p in people %}
-  <div class="row">
+  <div class="row speaker-profile" id="{{p.name | slugify}}">
 		<img src="{{p.image-url}}" alt="" class="speaker-image">
-    <p style="margin: 3vw 3vw">
+    <p style="clear: right">
       <span class="red-highlight">Name:</span> <span style="font-weight: bold">{{p.name}}</span>
       <br/>
       <span class="red-highlight">Age:</span> {{p.age}}
@@ -54,31 +59,37 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
       <br/>
       {{p.home}}
       <br/>
-      <br/>
-      <span class="red-highlight">Why did you want to speak at TEDxTufts?</span>
-      <br/>
-      {{p.reason}}
-      <br/>
+      {% if p.name != 'Ea Domke' %}
+        <br/>
+        <span class="red-highlight">Why did you want to speak at TEDxTufts?</span>
+        <br/>
+        {{p.reason}}
+        <br/>
+      {% endif %}
       <br/>
       <span class="red-highlight">What’s your idea of a perfect day?</span>
       <br/>
       {{p.perfectDay}}
       <br/>
-      <br/>
-      <span class="red-highlight">What is something that you want your audience to know about you that they may not know already?</span>
-      <br/>
-      {{p.funFact}}
-      <br/>
+      {% if p.name != 'Ea Domke' %}
+        <br/>
+        <span class="red-highlight">What is something that you want your audience to know about you that they may not know already?</span>
+        <br/>
+        {{p.funFact}}
+        <br/>
+      {% endif %}
       <br/>
       <span class="red-highlight">What is the best gift you’ve ever given or received?</span>
       <br/>
       {{p.gift}}
       <br/>
-      <br/>
-      <span class="red-highlight">What’s something that’s exciting you right now?</span>
-      <br/>
-      {{p.exciting}}
-      <br/>
+      {% if p.name != 'Sam Usher' %}
+        <br/>
+        <span class="red-highlight">What’s something that’s exciting you right now?</span>
+        <br/>
+        {{p.exciting}}
+        <br/>
+      {% endif %}
       <br/>
       <span class="red-highlight">What is your pump up jam?</span>
       <br/>
@@ -86,27 +97,5 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
       <br/>
       <br/>
     </p>
-	  <!-- <div class="small-12 columns">
-	      <div class="row">
-	         <div class="small-4 columns">
-	            <img src="{{p.image-url}}" alt="" id="team-image">
-	            <div class="small-12 columns">
-	            	<center>
-	            	<h3> {{ person.name }}
-									{% if person.twitter %}
-				            		<small><a href="http://www.twitter.com/{{person.twitter}}">@{{person.twitter}}</a></small>
-									{% endif %}
-	            	</h3>
-	            </center>
-	        </div>
-	         </div>
-	         <div class="small-8 columns">
-	            <p> {{person.bio}} </p>
-	         </div>
-	         <a class="anchor" id="{{person.name | slugify}}"></a>
-	      </div>
-	  </div> -->
   </div>
-  <br>
-
 {% endfor %}

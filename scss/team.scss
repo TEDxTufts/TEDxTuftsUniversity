@@ -90,10 +90,16 @@
 }
 
 .side-nav {
-    display: none;
+    z-index: 1;
+    display: block;
+    background-color: rgba(2,2,2,.8);
     @media #{$large-up} {
         display: block;
     }
+}
+
+.side-nav li {
+    margin: 0.2rem;
 }
 
 .side-nav-right {

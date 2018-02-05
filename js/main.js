@@ -67,7 +67,9 @@ $(document).ready(function() {
         var scrollPos = $(document).scrollTop();
         $('.side-nav a').each(function () {
             var currLink = $(this);
-            var refElement = $(currLink.attr("href"));
+            // TODO: Figure out why this gives an error
+            try {
+                var refElement = $(currLink.attr("href"));
             if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
                 $('.side-nav li').removeClass("active");
                 currLink.parent().addClass("active");
@@ -75,6 +77,8 @@ $(document).ready(function() {
             else{
                 currLink.parent().removeClass("active");
             }
+            }
+            catch (e) {}
         });
     }
 

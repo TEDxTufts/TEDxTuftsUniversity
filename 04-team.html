@@ -19,7 +19,7 @@ permalink: /team/
 
 <ul class="side-nav side-nav-right side-nav-single-page smooth-scroll sticky" role="navigation" title="Link List">
     {% for group in groups %}
-    <li role="menuitem"><a href="#{{group.name | slugify}}">{{group.name}}</a></li>
+    <li role="menuitem"><a href="#{{group.name | slugify}}" style="padding-top: 0; padding-bottom: 0">{{group.name}}</a></li>
     {% endfor %}
 </ul>
 

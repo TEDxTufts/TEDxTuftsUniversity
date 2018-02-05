@@ -41,8 +41,8 @@ people:
 
   - id: &zach_sebek
       name: Zach Sebek
-      title: Head of Video
-      link-to: video
+      title: Head of Videography
+      link-to: Videography
       bio: Zach is a Sophomore from Chicago, Illinois. He is interested in Economics, Psychology, Computer Science, and Japanese. He loves photography, reading, running, and watching movies.
       image-url: /public/team_images/zach_sebek.jpg
 
@@ -336,15 +336,16 @@ groups:
       - person: *ezri_horne
       - person: *rhea_montgomery_walsh
 
+  - name: Videography
+    people:
+      - person: *ben_keller
+      - person: *lucy_price
+
   - name: Web
     people:
       - person: *jessie_lan
       - person: *james_garijo_garde
 
-  - name: Video
-    people:
-      - person: *ben_keller
-      - person: *lucy_price
 
     # If no photo, put this as photo
     # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png

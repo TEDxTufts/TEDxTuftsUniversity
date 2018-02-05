@@ -1,5 +1,11 @@
+.speaker-profile {
+  border-bottom: 2px solid #f04124;
+  padding: 3vh 3vw;
+}
+
 .speaker-image {
   float: left;
-  margin: 3vh 3vw 0 3vw;
-  height: 50vh;
+  margin: 0 3vw;
+  max-height: 36vh;
+  max-width: 88vw;
 }
