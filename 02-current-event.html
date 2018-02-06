@@ -42,12 +42,15 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 {% for p in people %}
   <div class="row speaker-profile" id="{{p.name | slugify}}">
 		<img src="{{p.image-url}}" alt="" class="speaker-image">
-    <p style="clear: right">
-      <span class="red-highlight">Name:</span> <span style="font-weight: bold">{{p.name}}</span>
-      <br/>
-      <span class="red-highlight">Age:</span> {{p.age}}
-      <br/>
-      <span class="red-highlight">Gender Pronouns:</span> {{p.gender}}
+    <p id="speaker-text">
+      <span style="overflow: auto">
+        <span class="red-highlight">Name:</span> <span style="font-weight: bold">{{p.name}}</span>
+        <br/>
+        <span class="red-highlight">Age:</span> {{p.age}}
+        <br/>
+        <span class="red-highlight">Gender Pronouns:</span> {{p.gender}}
+      </span>
+      <span>
       <br/>
       <br/>
       <span class="red-highlight">What are you currently up to and what’s your Tufts affiliation?</span>
@@ -96,6 +99,7 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
       {{p.jam}}
       <br/>
       <br/>
+      </span>
     </p>
   </div>
 {% endfor %}

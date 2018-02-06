@@ -9,3 +9,10 @@
   max-height: 36vh;
   max-width: 88vw;
 }
+
+#speaker-text {
+  width: 100%;
+  @media #{$small-only} {
+        clear: right;
+    }
+}

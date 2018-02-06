@@ -93,13 +93,18 @@
     z-index: 1;
     display: block;
     background-color: rgba(2,2,2,.8);
-    @media #{$large-up} {
-        display: block;
+    margin: 2vh 2vw 0 0;
+    @media #{$medium-up} {
+            margin: 5vh 5vw 0 0;
     }
 }
 
 .side-nav li {
     margin: 0.2rem;
+    font-size: 1.02rem;
+    @media #{$medium-up} {
+        font-size: 1.5rem;
+    }
 }
 
 .side-nav-right {
