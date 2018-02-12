@@ -36,7 +36,7 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 	<img style="opacity: 0.7" src="/public/speakers_home.jpg">
 </div>
 
-{% assign events = site.data.speakers.groups %}
+{% assign events = site.data.past_events.groups %}
 {% for e in events %}
   <div class="all-videos">
     <div class="videos-column" id="left-column">
@@ -65,57 +65,3 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
     </div>
   </div>
 {% endfor %}
-
-<!-- <br>
-<h1 class="centered-text">Featured Past Talks</h1>
-
-<div class="videos">
-	<div class="row">
-		<div class="large-6 columns">
-			<div class="flex-video">
-				<iframe width="560" height="315" src="//www.youtube.com/embed/BSCQ6v1T704" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-		<div class="large-6 columns">
-			<div class="flex-video">
-				<iframe src="//www.youtube.com/embed/Ny1rIRxC-go" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="large-6 columns">
-			<div class="flex-video">
-				<iframe width="560" height="315" src="//www.youtube.com/embed/3LhNRJkh87w" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-		<div class="large-6 columns">
-			<div class="flex-video">
-				<iframe width="560" height="315" src="//www.youtube.com/embed/qaaf7sgw_5g" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-<h1 class="centered-text">Past Speakers</h1>
-<br><br>
-
-{% assign people = site.data.past_speakers  %}
-<ul class="row small-block-grid-1 medium-block-grid-2" id="past-speakers">
-
-{% for person in people %}
-    <li>
-        <img src="{{person.image-url}}" alt="">
-        <a class="anchor" id="{{person.name | slugify}}"></a>
-        <a href="https://www.youtube.com/watch?v={{person.youtube}}"><h5>{{person.talk-title}}</h5></a>
-        <p class="secondary-text">{{ person.name }}</p>
-
-    </li>
-
-{% endfor %}
-</ul>
-
-<br>
-<br>
-
-<br><br> -->

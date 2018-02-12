@@ -4,61 +4,51 @@
 speakers:
  - id: &alyssa_rivas
      name: "#StayWoke or Stay Divided | Alyssa Rivas"
-     sort-order: 0
      url: https://www.youtube.com/embed/wOzaR5rKAkE?showinfo=0
      bio: Alyssa Rivas was a junior majoring in Interdisciplinary Studies; she created the major Youth Development, Ethnic Idea and Media Socialization. Alyssa served as a Gerald Gill Fellow at the Center for the Study of Race and Democracy.
 
  - id: &atreyo_sinha
      name: How's it Going? | Atreyo Sinha
-     sort-order: 0
      url: https://www.youtube.com/embed/1cAAlSI2xTY?showinfo=0
      bio: Atreyo was a senior studying Economics and International Relations. Relentlessly inquisitive, he strives to understand the intricacies and nuances that influence popular culture. He also loves singing in the shower and watching sappy films.
 
  - id: &eric_tytell
      name: Floppy Fish and the Mystery of Muscle | Eric Tytell
-     sort-order: 0
      url: https://www.youtube.com/embed/t_WP8-_Og7s?showinfo=0
      bio: Eric Tytell is an assistant professor of Biology at Tufts University, where he studies how fish swim. In his research, he aims to understand how fish bodies and brains work together so that they can swim stably and efficiently.
 
  - id: &isabel_merrin
      name: Let's Talk About Death | Isabel Merrin
-     sort-order: 0
      url: https://www.youtube.com/embed/R2HcxtBCK-o?showinfo=0
      bio: Isabel was a senior studying Art History.  Aside from her passion for hospice care, she was a Tisch Scholar, interning for The Conversation Project, the leader of Moral Voices, a social justice initiative, and a campus tour guide.
 
  - id: &jonathan_garlick
      name: Humanizing the Science Conversation | Jonathan Garlick
-     sort-order: 0
      url: https://www.youtube.com/embed/RlskBiasYwg?showinfo=0
      bio: Jonathan Garlick is a stem cell scientist who teaches that learning about sciences issues. He deeply believes that we can build trust, dignity and humility through dialogue across divisive societal issues by being genuinely curious about each other.
 
  - id: &justin_robbins
      name: Who's Afraid of the Big Bad Autism? | Justin Robbins
-     sort-order: 1
      url: https://www.youtube.com/embed/sFJOoUjGtYU?showinfo=0
      bio: Justin Robbins was a senior double majoring in biology and history. He was the co-founder and president of the Coalition for Autism Support at Tufts (CAST), a support and advocacy group by and for autistic students.
 
  - id: &manal_cheema
      name: Speaking While Female | Manal Cheema
-     sort-order: 0
      url: https://www.youtube.com/embed/VaAANmwo81g?showinfo=0
      bio: Manal Cheema was a senior majoring in Political Science in addition to pursuing a certificate in Ethics, Law, and Society and a minor in Cognitive and Brain Sciences. She was involved with ALLIES, the Union, and Writing Fellows at Tufts.
 
  - id: &rachael_bonoan
      name: Embracing Science as a Verb | Rachael Bonoan
-     sort-order: 1
      url: https://www.youtube.com/embed/KsA8V-yooFA?showinfo=0
      bio: Rachael was a Ph.D. Candidate who studied honey bee nutritional ecology at Tufts University. Rachael is also the President of the Boston Area Beekeepers Association and enjoys sharing her research and the importance of pollinator health.
 
  - id: &sonja_spears
      name: Targeted, Accused and Why I Teach About Justice | Sonja Spears
-     sort-order: 0
      url: https://www.youtube.com/embed/9pJbK6WhevU?showinfo=0
      bio: Sonja M. Spears is a Tufts graduate and a retired judge with twelve years of judicial service. She is eternally hopeful and confident that upcoming generations will choose to create a future where equality, justice and compassion are priorities.
 
  - id: &susan_napier
      name: How I Learned to...Enjoy Being an Anime Expert | Susan Napier
-     sort-order: 1
      url: https://www.youtube.com/embed/zTZQhTl1ss0?showinfo=0
      bio: Susan Napier is Professor of Japanese Studies at Tufts University. Besides teaching Japan-related courses on literature, gender, and popular culture, Professor Napier also teaches "Fantasy in World Culture," and "The Cinema of Apocalypse."
 
