@@ -10,7 +10,7 @@ speakers:
      bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations.
 
  - id: &sasha_chanoff
-     name: A refugee rescue mission story Uncovering distinct competences | Sasha Chanoff
+     name: A refugee rescue mission story - Uncovering distinct competences | Sasha Chanoff
      url: https://www.youtube.com/embed/5o2n50Dt3Dw?showinfo=0
      bio: Sasha Chanoff is the founder of RefugePoint, a humanitarian organization that finds lasting solutions for the most at risk refugees. Sasha received his Master's in Humanitarian Assistance through the Fletcher and Nutrition Schools.
 
@@ -45,7 +45,7 @@ speakers:
      bio: Max is a senior at Tufts double majoring in Cognitive and Brain Science and in Computer Science. Researching topics in artificial intelligence and social robotics, Max wants to shape future human-robot encounters in positive ways.
 
  - id: &neal_jawadekar
-     name: Food for thought Empowering humans with data | Neal Jawadekar
+     name: Food for thought - Empowering humans with data | Neal Jawadekar
      url: https://www.youtube.com/embed/l7jFSQvBAkg?showinfo=0
      bio: Neal Jawadekar graduated with a BA/MPH from Tufts University in 2014, where he played on the tennis team and co-founded the Association of Multiracial People at Tufts. He is currently a healthcare data analyst at Predilytics.
 
@@ -59,10 +59,10 @@ speakers:
      url: https://www.youtube.com/embed/dAchrl00DhU?showinfo=0
      bio: Soubhik Barari is a Tufts senior who grew up in New England and is studying Mathematics and Computer Science. He is the founder of the Tufts Independent Data Journal and enjoys playing music during his off-hours as a student.
 
-- id: &cristina_rosa
-    name: A refugee rescue mission story: Uncovering distinct competences | Cristina Rosa
-    url: https://www.youtube.com/embed/-NSXdL04EZo?showinfo=0
-    bio: Cristina F. Rosa lectures at Tufts University's Drama and Dance department, where she teaches dance. Her research interests include the intersection of embodiment, knowledge production, and processes of identification.
+ - id: &cristina_rosa
+     name: A refugee rescue mission story - Uncovering distinct competences | Cristina Rosa
+     url: https://www.youtube.com/embed/-NSXdL04EZo?showinfo=0
+     bio: Cristina F. Rosa lectures at Tufts University's Drama and Dance department, where she teaches dance. Her research interests include the intersection of embodiment, knowledge production, and processes of identification.
 
 
 # - name: Laura Graham
