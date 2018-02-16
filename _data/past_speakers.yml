@@ -1,168 +1,244 @@
- - name: Ameya Naik
-   twitter: Kianayema
-   sort-order: 0
-   image-url: /public/past_speaker_images/ameya_naik.jpg
-   bio: Ameya is a graduate student at The Fletcher School of Law and Diplomacy, studying international relations and international law. A psychologist, lawyer, and policy analyst by training, he is interested in how identities influence the acquisition, use, or rejection of new information about the world.
-   youtube: BSCQ6v1T704
-   talk-title: "I don't know, so I will listen"
+speakers:
+ - id: &ameya_naik
+     name: I don't know, so I will listen | Ameya Naik
+     url: https://www.youtube.com/embed/BSCQ6v1T704?showinfo=0
+     bio: Ameya is a graduate student at The Fletcher School, studying International Relations and International Law. He is interested in how identities influence the acquisition, use, or rejection of new information about the world.
 
- - name: Cristina F Rosa
-   sort-order: 0
-   image-url: /public/past_speaker_images/cristina_rosa.jpg
-   bio: Cristina F. Rosa is a full-time lecturer at Tufts University's Drama and Dance department, where she teaches dance studio classes and seminars. Her research interests include the intersection of embodiment, knowledge production, and processes of identification.
-   youtube: -NSXdL04EZo
-   talk-title: "What do our movements say about who we are?"
+ - id: &jennifer_perry
+     name: Using Motivated Empathy to Address Societal Issues | Jennifer Perry
+     url: https://www.youtube.com/embed/chXKZC4D42k?showinfo=0
+     bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations.
 
- - name: Howard Woolf
-   sort-order: 0
-   image-url: /public/past_speaker_images/howard_woolf.jpg
-   bio: Howard Woolf is the Director of the Experimental College and an Associate Dean of Undergraduate Studies at Tufts University. In addition, he revitalized and currently overseas filmmaking at the university and recently produced, wrote, and directed a feature film titled Marranos.
-   youtube: 3q6pG2Tlito
-   talk-title: "Re-imagining the undergraduate experience"
+ - id: &sasha_chanoff
+     name: A refugee rescue mission story Uncovering distinct competences | Sasha Chanoff
+     url: https://www.youtube.com/embed/5o2n50Dt3Dw?showinfo=0
+     bio: Sasha Chanoff is the founder of RefugePoint, a humanitarian organization that finds lasting solutions for the most at risk refugees. Sasha received his Master's in Humanitarian Assistance through the Fletcher and Nutrition Schools.
 
- - name: Jennifer Perry
-   twitter: jmperry06
-   sort-order: 0
-   image-url: /public/past_speaker_images/jen_perry.jpg
-   bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations.
-   youtube: chXKZC4D42k
-   talk-title: "Using motivated empathy to address societal issues"
+ - id: &mahmoud_jabari
+     name: Creating partnerships and social change through multimedia tools | Mahmoud Jabari
+     url: https://www.youtube.com/embed/9PdZmDuSzAo?showinfo=0
+     bio: Mahmoud Jabari studying Law and Diplomacy with a focus on International Business Relations at the Fletcher School. He co-designed the BREAKAWAY Summer Camps Initiative which was implemented in Palestine and in El Salvador.
 
- - name: Jimena Sanchez Gallego
-   sort-order: 0
-   image-url: /public/past_speaker_images/jimena_sanchez_gallego.jpg
-   bio: Jimena Sanchez Gallego is a senior triple majoring in International Relations, Community Health, and French. Originally from Mexico City, Jimena hopes that one day she will return to Mexico and apply this knowledge to help her homeland develop sustainably and achieve its full potential.
-   youtube: Ny1rIRxC-go
-   talk-title: "A healthy mind, not just the absence of mental illness"
+ - id: &howard_woolf
+     name: Re-imagining the undergraduate experience | Howard Woolf
+     url: https://www.youtube.com/embed/3q6pG2Tlito?showinfo=0
+     bio: Howard Woolf is the Director of the Experimental College and an Associate Dean of Undergraduate Studies at Tufts University. Here, he revitalized and oversees filmmaking, and recently spearheaded a feature film titled Marranos.
 
- - name: Jordin Metz
-   sort-order: 1
-   image-url: /public/past_speaker_images/jordin_metz.jpg
-   bio: Jordin Metz is a senior majoring in chemistry. He loves dancing, learning, and sleeping, and thinks that keeping an open mind is the best way to grow.
-   youtube: 3LhNRJkh87w
-   talk-title: "Chemistry is fun. No, seriously!"
+ - id: &jimena_sanchez_gallego
+     name: A healthy mind, not just the absence of mental illness | Jimena Sanchez Gallego
+     url: https://www.youtube.com/embed/Ny1rIRxC-go?showinfo=0
+     bio: Jimena Sanchez Gallego is a senior triple majoring in International Relations, Community Health, and French. Jimena hopes that one day she will return to her homeland of Mexico and apply her knowledge to help it develop sustainably and achieve its full potential.
 
- - name: Laura Graham
-   sort-order: 0
-   image-url: /public/past_speaker_images/laura_graham.jpg
-   bio: Graham is a scholar of international conflict and peace processes. Her research focuses on the role of civil society in peacebuilding and post-conflict reconciliation.
-   youtube: 0pzIPHWR3iY
-   talk-title: "The subjectivity of truth"
+ - id: &jordin_metz
+     name: Chemistry is fun. No, seriously! | Jordin Metz
+     url: https://www.youtube.com/embed/3LhNRJkh87w?showinfo=0
+     bio: Jordin Metz is a senior majoring in chemistry. He loves dancing, learning, and sleeping, and thinks that keeping an open mind is the best way to grow.
 
- - name: Mahmoud Jabari
-   twitter: mahmoudjabari
-   sort-order: 1
-   image-url: /public/past_speaker_images/mahmoud_jabari.jpg
-   bio: Mahmoud Jabari is currently pursuing a Master of Arts in Law and Diplomacy with a focus on International Business Relations, at the Fletcher School at Tufts University. From 2012 to 2014, he was a Marketing Strategist at the Emergent Media Center at Champlain College where he co-designed the BREAKAWAY Summer Camps Initiative which was implemented in Palestine and in El Salvador. Mahmoud holds a BS in Communications from Champlain College.
-   youtube: 9PdZmDuSzAo
-   talk-title: "Creating partnerships and social change through multimedia tools"
+ - id: &laura_graham
+     name: The subjectivity of truth | Laura Graham
+     url: https://www.youtube.com/embed/0pzIPHWR3iY?showinfo=0
+     bio: Graham is a scholar of international conflict and peace processes. Her research focuses on the role of civil society in peacebuilding and post-conflict reconciliation.
 
- - name: Max Bennett
-   sort-order: 0
-   image-url: /public/past_speaker_images/max_bennett.jpg
-   bio: Max is a senior at Tufts double majoring in Cognitive and Brain Science and in Computer Science. Researching topics in artificial intelligence and social robotics at Tufts' Human-Robot Interaction Lab for his third year, Max has developed a strong interest in shaping future human-robot encounters in positive ways.
-   youtube: LCNy59XScHE
-   talk-title: "Creating a better world through artificial intelligence"
+ - id: &max_bennett
+     name: Creating a better world through artificial intelligence | Max Bennett
+     url: https://www.youtube.com/embed/LCNy59XScHE?showinfo=0
+     bio: Max is a senior at Tufts double majoring in Cognitive and Brain Science and in Computer Science. Researching topics in artificial intelligence and social robotics, Max wants to shape future human-robot encounters in positive ways.
 
- - name: Neal Jawadekar
-   sort-order: 1
-   image-url: /public/past_speaker_images/neal_jawadekar.jpg
-   bio: Neal Jawadekar graduated with a BA/MPH from Tufts University in 2014, where he played on the tennis team and co-founded the Association of Multiracial People at Tufts. He is currently a Big Data Analyst at Predilytics, an advanced healthcare analytics company.
-   youtube: l7jFSQvBAkg
-   talk-title: "Food for thought: Empowering humans with data"
+ - id: &neal_jawadekar
+     name: Food for thought Empowering humans with data | Neal Jawadekar
+     url: https://www.youtube.com/embed/l7jFSQvBAkg?showinfo=0
+     bio: Neal Jawadekar graduated with a BA/MPH from Tufts University in 2014, where he played on the tennis team and co-founded the Association of Multiracial People at Tufts. He is currently a healthcare data analyst at Predilytics.
 
- - name: Sam Weiser
-   sort-order: 0
-   image-url: /public/past_speaker_images/samuel.jpg
-   bio: Sam Weiser is an undergraduate student at Tufts University and the New England Conservatory pursuing degrees in both computer science and violin performance.
-   youtube: qaaf7sgw_5g
-   talk-title: "Keeping the classical music story alive"
+ - id: &sam_weiser
+     name: Keeping the classical music story alive | Sam Weiser
+     url: https://www.youtube.com/embed/qaaf7sgw_5g?showinfo=0
+     bio: Sam Weiser is an undergraduate student at Tufts University and the New England Conservatory pursuing degrees in both computer science and violin performance.
 
- - name: Sasha Chanoff
-   sort-order: 0
-   image-url: /public/past_speaker_images/sasha_chanoff.jpg
-   bio: "Sasha Chanoff is the founder and executive director of RefugePoint, a humanitarian organization that finds lasting solutions for the most at risk refugees. Recognized widely through media and social entrepreneurship accolades, RefugePoint was initially developed at Tufts where Sasha received his Master's in Humanitarian Assistance through the Fletcher and Nutrition Schools and guidance and instrumental support from the Institute for Global Leadership. Sasha's book, From Crisis to Calling: Finding Your Moral Center in the Toughest Decisions, will be published on June 6, 2016."
-   youtube: 5o2n50Dt3Dw
-   talk-title: "A refugee rescue mission story: Uncovering distinct competences"
+ - id: &soubhik_barari
+     name: The reconciliation of numbers & narratives | Soubhik Barari
+     url: https://www.youtube.com/embed/dAchrl00DhU?showinfo=0
+     bio: Soubhik Barari is a Tufts senior who grew up in New England and is studying Mathematics and Computer Science. He is the founder of the Tufts Independent Data Journal and enjoys playing music during his off-hours as a student.
 
- - name: Soubhik Barari
-   sort-order: 1
-   image-url: /public/past_speaker_images/soubhik_barari.jpg
-   bio: Soubhik Barari is a Tufts senior who grew up in New England and is studying Mathematics and Computer Science. He is the founder of the Tufts Independent Data Journal and enjoys playing music during his off-hours as a student.
-   youtube: dAchrl00DhU
-   talk-title: "The reconciliation of numbers & narratives"
+- id: &cristina_rosa
+    name: A refugee rescue mission story: Uncovering distinct competences | Cristina Rosa
+    url: https://www.youtube.com/embed/-NSXdL04EZo?showinfo=0
+    bio: Cristina F. Rosa lectures at Tufts University's Drama and Dance department, where she teaches dance. Her research interests include the intersection of embodiment, knowledge production, and processes of identification.
 
- - name: Angeli Gianchandani
-   twitter: angeligian
-   sort-order: 0
-   image-url: /public/past_speaker_images/angeli.gianchandani.jpg
-   bio: Angeli Gianchandani recently completed an MA in International Relations from The Fletcher School at Tufts University. As a global brand strategist, Angeli has spearheaded a number of marketing initiatives from the runway to the raceway to help keep such iconic brands as DKNY, Ralph Lauren and BMW at the forefront of innovation, technology and design.
-   youtube: r-Tw2Hu_wMA
-   talk-title: "Embracing female leadership in crisis and beyond"
 
- - name: Michael Lustgarten
-   twitter: mike_lustgarten
-   sort-order: 0
-   image-url: /public/past_speaker_images/mike_lustgarten.jpg
-   bio: Michael Lustgarten, PhD is a post-doctoral scholar at the Jean Mayer Human Nutrition Research Center on Aging at Tufts University where he uses serum metabolomics to investigate mechanisms that may underlie muscle mass and physical function in older adults.
-   youtube: y4zUQ3Pwj68
-   talk-title: "An evidence-based, personalized approach to health"
+# - name: Laura Graham
+#   sort-order: 0
+#   image-url: /public/past_speaker_images/laura_graham.jpg
+#   bio: Graham is a scholar of international conflict and peace processes. Her research focuses on the role of civil society in peacebuilding and post-conflict reconciliation.
+#   youtube: 0pzIPHWR3iY
+#   talk-title: "The subjectivity of truth"
+# - name: Max Bennett
+#   sort-order: 0
+#   image-url: /public/past_speaker_images/max_bennett.jpg
+#   bio: Max is a senior at Tufts double majoring in Cognitive and Brain Science and in Computer Science. Researching topics in artificial intelligence and social robotics at Tufts' Human-Robot Interaction Lab for his third year, Max has developed a strong interest in shaping future human-robot encounters in positive ways.
+#   youtube: LCNy59XScHE
+#   talk-title: "Creating a better world through artificial intelligence"
+# - name: Neal Jawadekar
+#   sort-order: 1
+#   image-url: /public/past_speaker_images/neal_jawadekar.jpg
+#   bio:Neal Jawadekar graduated with a BA/MPH from Tufts University in 2014, where he played on the tennis team and co-founded the Association of Multiracial People at Tufts. He is currently a healthcare data analyst at Predilytics.
+#   youtube: l7jFSQvBAkg
+#   talk-title: "Food for thought: Empowering humans with data"
+# - name: Sam Weiser
+#   sort-order: 0
+#   image-url: /public/past_speaker_images/samuel.jpg
+#   bio: Sam Weiser is an undergraduate student at Tufts University and the New England Conservatory pursuing degrees in both computer science and violin performance.
+#   youtube: qaaf7sgw_5g
+#   talk-title: "Keeping the classical music story alive"
+# - name: Soubhik Barari
+#   sort-order: 1
+#   image-url: /public/past_speaker_images/soubhik_barari.jpg
+#   bio: Soubhik Barari is a Tufts senior who grew up in New England and is studying Mathematics and Computer Science. He is the founder of the Tufts Independent Data Journal and enjoys playing music during his off-hours as a student.
+#   youtube: dAchrl00DhU
+#   talk-title: "The reconciliation of numbers & narratives"
+# - name: Mahmoud Jabari
+#    twitter: mahmoudjabari
+#    sort-order: 1
+#    image-url: /public/past_speaker_images/mahmoud_jabari.jpg
+#    bio: Mahmoud Jabari is currently pursuing a Master of Arts in Law and Diplomacy with a focus on International Business Relations, at the Fletcher School at Tufts University. From 2012 to 2014, he was a Marketing Strategist at the Emergent Media Center at Champlain College where he co-designed the BREAKAWAY Summer Camps Initiative which was implemented in Palestine and in El Salvador. Mahmoud holds a BS in Communications from Champlain College.
+#    youtube: 9PdZmDuSzAo
+#    talk-title: "Creating partnerships and social change through multimedia tools"
+# - name: Sasha Chanoff
+#    sort-order: 0
+#    image-url: /public/past_speaker_images/sasha_chanoff.jpg
+#    bio: "Sasha Chanoff is the founder and executive director of RefugePoint, a humanitarian organization that finds lasting solutions for the most at risk refugees. Recognized widely through media and social entrepreneurship accolades, RefugePoint was initially developed at Tufts where Sasha received his Master's in Humanitarian Assistance through the Fletcher and Nutrition Schools and guidance and instrumental support from the Institute for Global Leadership. Sasha's book, From Crisis to Calling: Finding Your Moral Center in the Toughest Decisions, will be published on June 6, 2016."
+#    youtube: 5o2n50Dt3Dw
+#    talk-title: "A refugee rescue mission story: Uncovering distinct competences"
+#
+#  - name: Jennifer Perry
+#     twitter: jmperry06
+#     sort-order: 0
+#     image-url: /public/past_speaker_images/jen_perry.jpg
+#     bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations.
+#     youtube: chXKZC4D42k
+#     talk-title: "Using motivated empathy to address societal issues"
+#  - name: Ameya Naik
+#    twitter: Kianayema
+#    sort-order: 0
+#    image-url: /public/past_speaker_images/ameya_naik.jpg
+#    bio: Ameya is a graduate student at The Fletcher School of Law and Diplomacy, studying international relations and international law. A psychologist, lawyer, and policy analyst by training, he is interested in how identities influence the acquisition, use, or rejection of new information about the world.
+#    youtube: BSCQ6v1T704
+#    talk-title: "I don't know, so I will listen"
+#  - name: Cristina F Rosa
+#    sort-order: 0
+#    image-url: /public/past_speaker_images/cristina_rosa.jpg
+#    bio: Cristina F. Rosa lectures at Tufts University's Drama and Dance department, where she teaches dance. Her research interests include the intersection of embodiment, knowledge production, and processes of identification.
+#    youtube: -NSXdL04EZo
+#    talk-title: "What do our movements say about who we are?"
+#  - name: Howard Woolf
+#    sort-order: 0
+#    image-url: /public/past_speaker_images/howard_woolf.jpg
+#    bio: Howard Woolf is the Director of the Experimental College and an Associate Dean of Undergraduate Studies at Tufts University. Here, he revitalized and oversees filmmaking, and recently spearheaded a feature film titled Marranos.
+#    youtube: 3q6pG2Tlito
+#    talk-title: "Re-imagining the undergraduate experience"
+#  - name: Jimena Sanchez Gallego
+#    sort-order: 0
+#    image-url: /public/past_speaker_images/jimena_sanchez_gallego.jpg
+#    bio: Jimena Sanchez Gallego is a senior triple majoring in International Relations, Community Health, and French. Jimena hopes that one day she will return to her homeland of Mexico and apply her knowledge to help it develop sustainably and achieve its full potential.
+#    youtube: Ny1rIRxC-go
+#    talk-title: "A healthy mind, not just the absence of mental illness"
+#  - name: Jordin Metz
+#    sort-order: 1
+#    image-url: /public/past_speaker_images/jordin_metz.jpg
+#    bio: Jordin Metz is a senior majoring in chemistry. He loves dancing, learning, and sleeping, and thinks that keeping an open mind is the best way to grow.
+#    youtube: 3LhNRJkh87w
+#    talk-title: "Chemistry is fun. No, seriously!"
+#
+#
+#
+#  - name: Angeli Gianchandani
+#    twitter: angeligian
+#    sort-order: 0
+#    image-url: /public/past_speaker_images/angeli.gianchandani.jpg
+#    bio: Angeli Gianchandani recently completed an MA in International Relations from The Fletcher School at Tufts University. As a global brand strategist, Angeli has spearheaded a number of marketing initiatives from the runway to the raceway to help keep such iconic brands as DKNY, Ralph Lauren and BMW at the forefront of innovation, technology and design.
+#    youtube: r-Tw2Hu_wMA
+#    talk-title: "Embracing female leadership in crisis and beyond"
+#
+#  - name: Michael Lustgarten
+#    twitter: mike_lustgarten
+#    sort-order: 0
+#    image-url: /public/past_speaker_images/mike_lustgarten.jpg
+#    bio: Michael Lustgarten, PhD is a post-doctoral scholar at the Jean Mayer Human Nutrition Research Center on Aging at Tufts University where he uses serum metabolomics to investigate mechanisms that may underlie muscle mass and physical function in older adults.
+#    youtube: y4zUQ3Pwj68
+#    talk-title: "An evidence-based, personalized approach to health"
+#
+#  - name: Ben Perlstein
+#    sort-order: 0
+#    image-url: /public/past_speaker_images/ben_perlstein.jpg
+#    bio: Ben Perlstein graduated from Tufts in 2013 with a BA in Political Science, and has served as a political and strategic communications consultant for public figures and executives in multiple industries and countries.  He has also worked in various educational roles and contexts, and has participated in fellowship programs in political theory, Jewish philosophy and theology.
+#    youtube: q6iSt8GClwU
+#    talk-title: "Bringing the sacred down to earth"
+#
+#  - name: Rabia Ergin
+#    sort-order: 1
+#    image-url: /public/past_speaker_images/rabia_ergin.jpg
+#    bio: Rabia is a PhD student in the Cognitive Science and Psychology joint PhD program at Tufts. She is a graduate student of Prof. Ray Jackendoff, who is a worldly known scholar, and she holds an MSci in Cogntive Science obtained from Middle East Technical University, Turkey, where she is originally from.
+#    youtube: RO1cXxEQm-w
+#    talk-title: "Something out of nothing: A brand new language"
+#
+#  - name: Jeremy Blaney
+#    twitter: jeremyblaney
+#    sort-order: 1
+#    image-url: /public/past_speaker_images/jeremy_blaney.jpg
+#    bio: Jeremy Blaney is an Institute for Business in the Global Context Scholar at The Fletcher School at Tufts University, where he is pursuing a masters degree in international business. Before coming to Fletcher, Jeremy served in the U.S. Air Force, completing three deployments in support of Operations ENDURING and IRAQI FREEDOM.
+#    youtube: 9c3rDfsPT7c
+#    talk-title: "Finding friendship in a grande latte: story of cross-cultural engagement"
+#
+#  - name: Marcella Hastings
+#    twitter: marsella_h
+#    sort-order: 1
+#    image-url: /public/past_speaker_images/marcella_hastings.jpg
+#    bio: Marcella Hastings is a senior studying computer science and mathematics. An engineer, she enjoys building communities, investigating data, teaching undergraduates, and knit-based art projects.
+#    youtube: Xta27SQkA_U
+#    talk-title: "On pedestals"
+#
+#  - name: James Kiefner
+#    sort-order: 2
+#    image-url: /public/past_speaker_images/james_kiefner.jpg
+#    bio: James Kiefner is a Tufts senior from Concord, NH, majoring in Psychology and History.  He is also a cadet in the US Army ROTC, destined for Ft. Rucker, AL shortly after graduation.
+#    youtube: qaqW0eOZNEQ
+#    talk-title: "The Dao of getting lost"
+#
+#  - name: Gracie McKenzie
+#    twitter: graciemckenzie
+#    sort-order: 2
+#    image-url: /public/past_speaker_images/gracie_mckenzie.jpg
+#    bio: Gracie McKenzie is a senior from Eugene, Oregon majoring in American Studies and minoring in Media Studies, with a concentration in explaining what she actually studies. She's happiest watching the sun rise, eating burritos, and/or sharing stories, but is always making lists.
+#    youtube: OFx_6wsAbYI
+#    talk-title: "The renaissance of voice"
+#
+#  - name: Abuzar Royesh
+#    sort-order: 2
+#    image-url: /public/past_speaker_images/abuzar_royesh.jpg
+#    bio: Abuzar Royesh, is an International Relations student at Tufts University, class of 2016, originally from Kabul, Afghanistan. He is the co-founder of Bridges Academy, an education and literacy project for internally displaced persons in Afghanistan.
+#    youtube: Awi_GYUDpGM
+#    talk-title: "The boxes we check"
+#
+#  - name: Sulmaan Khan, Ellen Mcdonald, and Elayne Stecher
+#    sort-order: 2
+#    bio: "<b>Sulmaan Khan</b> is Assistant Professor of International History and Chinese Foreign Relations. He also directs the Water and Oceans program at the Center for International Environment and Resource Policy (CIERP). His book, Muslim, Trader, Nomad, Spy: China's Cold War and the People of the Tibetan Borderlands, was published on March 23, 2015 by UNC Chapel Hill Press. He is currently working on a history of Sino-Japanese relations and China's maritime encounters with its neighbors during the twentieth century. <b>Ellen McDonald</b> began working as a librarian at the Fletcher School's Ginn Library in 1986. Her days are mostly consumed with research, book collecting and ferreting out snacks in nearby offices. Her strong convictions have only occasionally landed her in jail. <b>Elayne Stecher</b> graduated from Tufts in May 2014 with a degree in Arabic and International Relations, and currently works for the Center for International Environment and Resource Policy (CIERP) at the Fletcher School. Her interest in the psychology of conflict and particularly children in conflict zones has found her working and conducting research in Jordan, Nicaragua and Iraq within the past two years. She still firmly believes that one motivated person can change the world."
+#    image-url: /public/past_speaker_images/triple.jpg
+#    youtube: iJYK_CozUP4
+#    talk-title: From ivory tower to ivory trade
 
- - name: Ben Perlstein
-   sort-order: 0
-   image-url: /public/past_speaker_images/ben_perlstein.jpg
-   bio: Ben Perlstein graduated from Tufts in 2013 with a BA in Political Science, and has served as a political and strategic communications consultant for public figures and executives in multiple industries and countries.  He has also worked in various educational roles and contexts, and has participated in fellowship programs in political theory, Jewish philosophy and theology.
-   youtube: q6iSt8GClwU
-   talk-title: "Bringing the sacred down to earth"
-
- - name: Rabia Ergin
-   sort-order: 1
-   image-url: /public/past_speaker_images/rabia_ergin.jpg
-   bio: Rabia is a PhD student in the Cognitive Science and Psychology joint PhD program at Tufts. She is a graduate student of Prof. Ray Jackendoff, who is a worldly known scholar, and she holds an MSci in Cogntive Science obtained from Middle East Technical University, Turkey, where she is originally from.
-   youtube: RO1cXxEQm-w
-   talk-title: "Something out of nothing: A brand new language"
-
- - name: Jeremy Blaney
-   twitter: jeremyblaney
-   sort-order: 1
-   image-url: /public/past_speaker_images/jeremy_blaney.jpg
-   bio: Jeremy Blaney is an Institute for Business in the Global Context Scholar at The Fletcher School at Tufts University, where he is pursuing a masters degree in international business. Before coming to Fletcher, Jeremy served in the U.S. Air Force, completing three deployments in support of Operations ENDURING and IRAQI FREEDOM.
-   youtube: 9c3rDfsPT7c
-   talk-title: "Finding friendship in a grande latte: story of cross-cultural engagement"
-
- - name: Marcella Hastings
-   twitter: marsella_h
-   sort-order: 1
-   image-url: /public/past_speaker_images/marcella_hastings.jpg
-   bio: Marcella Hastings is a senior studying computer science and mathematics. An engineer, she enjoys building communities, investigating data, teaching undergraduates, and knit-based art projects.
-   youtube: Xta27SQkA_U
-   talk-title: "On pedestals"
-
- - name: James Kiefner
-   sort-order: 2
-   image-url: /public/past_speaker_images/james_kiefner.jpg
-   bio: James Kiefner is a Tufts senior from Concord, NH, majoring in Psychology and History.  He is also a cadet in the US Army ROTC, destined for Ft. Rucker, AL shortly after graduation.
-   youtube: qaqW0eOZNEQ
-   talk-title: "The Dao of getting lost"
-
- - name: Gracie McKenzie
-   twitter: graciemckenzie
-   sort-order: 2
-   image-url: /public/past_speaker_images/gracie_mckenzie.jpg
-   bio: Gracie McKenzie is a senior from Eugene, Oregon majoring in American Studies and minoring in Media Studies, with a concentration in explaining what she actually studies. She's happiest watching the sun rise, eating burritos, and/or sharing stories, but is always making lists.
-   youtube: OFx_6wsAbYI
-   talk-title: "The renaissance of voice"
-
- - name: Abuzar Royesh
-   sort-order: 2
-   image-url: /public/past_speaker_images/abuzar_royesh.jpg
-   bio: Abuzar Royesh, is an International Relations student at Tufts University, class of 2016, originally from Kabul, Afghanistan. He is the co-founder of Bridges Academy, an education and literacy project for internally displaced persons in Afghanistan.
-   youtube: Awi_GYUDpGM
-   talk-title: "The boxes we check"
-
- - name: Sulmaan Khan, Ellen Mcdonald, and Elayne Stecher
-   sort-order: 2
-   bio: "<b>Sulmaan Khan</b> is Assistant Professor of International History and Chinese Foreign Relations. He also directs the Water and Oceans program at the Center for International Environment and Resource Policy (CIERP). His book, Muslim, Trader, Nomad, Spy: China's Cold War and the People of the Tibetan Borderlands, was published on March 23, 2015 by UNC Chapel Hill Press. He is currently working on a history of Sino-Japanese relations and China's maritime encounters with its neighbors during the twentieth century. <b>Ellen McDonald</b> began working as a librarian at the Fletcher School's Ginn Library in 1986. Her days are mostly consumed with research, book collecting and ferreting out snacks in nearby offices. Her strong convictions have only occasionally landed her in jail. <b>Elayne Stecher</b> graduated from Tufts in May 2014 with a degree in Arabic and International Relations, and currently works for the Center for International Environment and Resource Policy (CIERP) at the Fletcher School. Her interest in the psychology of conflict and particularly children in conflict zones has found her working and conducting research in Jordan, Nicaragua and Iraq within the past two years. She still firmly believes that one motivated person can change the world."
-   image-url: /public/past_speaker_images/triple.jpg
-   youtube: iJYK_CozUP4
-   talk-title: From ivory tower to ivory trade
+groups:
+  - name: 2016 Verge
+    speakers1:
+      - person: *sasha_chanoff
+      - person: *jennifer_perry
+      - person: *ameya_naik
+      - person: *mahmoud_jabari
+      - person: *howard_woolf
+      - person: *laura_graham
+      - person: *cristina_rosa
+    speakers2:
+      - person: *neal_jawadekar
+      - person: *max_bennett
+      - person: *sam_weiser
+      - person: *jimena_sanchez_gallego
+      - person: *jordin_metz
+      - person: *soubhik_barari
