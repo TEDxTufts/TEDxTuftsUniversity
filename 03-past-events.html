@@ -29,15 +29,14 @@ twttr.conversion.trackPid('l5nqa', { tw_sale_amount: 0, tw_order_quantity: 0 });
 <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l5nqa&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /></noscript>
 <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6020043221567&amp;cd[value]=0.00&amp;cd[currency]=USD&amp;noscript=1" /></noscript>
 
-<div class="row head-row">
-	<div class="large-12 small-centered columns header-cont">
-		<h1 class="event-title">TEDxTufts 2017 - Rhizome</h1>
-	</div>
-	<img style="opacity: 0.7" src="/public/speakers_home.jpg">
-</div>
-
 {% assign events = site.data.past_events.groups %}
 {% for e in events %}
+  <div class="row head-row">
+  	<div class="large-12 small-centered columns header-cont">
+  		<h1 class="event-title">{{e.name}}</h1>
+  	</div>
+  	<img style="opacity: 0.7" src="{{e.banner}}">
+  </div>
   <div class="all-videos">
     <div class="videos-column" id="left-column">
       {% for speaker in e.speakers1 %}

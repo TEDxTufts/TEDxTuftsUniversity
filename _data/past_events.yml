@@ -2,6 +2,71 @@
  # https://scontent-b.xx.fbcdn.net/hphotos-xpf1/t31.0-8/s960x960/10945017_382428545265030_773348030081493712_o.png
 
 speakers:
+ - id: &ameya_naik
+     name: I don't know, so I will listen | Ameya Naik
+     url: https://www.youtube.com/embed/BSCQ6v1T704?showinfo=0
+     bio: Ameya is a graduate student at The Fletcher School, studying International Relations and International Law. He is interested in how identities influence the acquisition, use, or rejection of new information about the world.
+
+ - id: &jennifer_perry
+     name: Using Motivated Empathy to Address Societal Issues | Jennifer Perry
+     url: https://www.youtube.com/embed/chXKZC4D42k?showinfo=0
+     bio: Jennifer Perry is a PhD Candidate in Social Psychology at Tufts, with an MA in Psychology from NYU. She uses social psychological and neuroscientific approaches to examine the complexities underlying contemporary race relations.
+
+ - id: &sasha_chanoff
+     name: A refugee rescue mission story - Uncovering distinct competences | Sasha Chanoff
+     url: https://www.youtube.com/embed/5o2n50Dt3Dw?showinfo=0
+     bio: Sasha Chanoff is the founder of RefugePoint, a humanitarian organization that finds lasting solutions for the most at risk refugees. Sasha received his Master's in Humanitarian Assistance through the Fletcher and Nutrition Schools.
+
+ - id: &mahmoud_jabari
+     name: Creating partnerships and social change through multimedia tools | Mahmoud Jabari
+     url: https://www.youtube.com/embed/9PdZmDuSzAo?showinfo=0
+     bio: Mahmoud Jabari studying Law and Diplomacy with a focus on International Business Relations at the Fletcher School. He co-designed the BREAKAWAY Summer Camps Initiative which was implemented in Palestine and in El Salvador.
+
+ - id: &howard_woolf
+     name: Re-imagining the undergraduate experience | Howard Woolf
+     url: https://www.youtube.com/embed/3q6pG2Tlito?showinfo=0
+     bio: Howard Woolf is the Director of the Experimental College and an Associate Dean of Undergraduate Studies at Tufts University. Here, he revitalized and oversees filmmaking, and recently spearheaded a feature film titled Marranos.
+
+ - id: &jimena_sanchez_gallego
+     name: A healthy mind, not just the absence of mental illness | Jimena Sanchez Gallego
+     url: https://www.youtube.com/embed/Ny1rIRxC-go?showinfo=0
+     bio: Jimena Sanchez Gallego is a senior triple majoring in International Relations, Community Health, and French. Jimena hopes that one day she will return to her homeland of Mexico and apply her knowledge to help it develop sustainably and achieve its full potential.
+
+ - id: &jordin_metz
+     name: Chemistry is fun. No, seriously! | Jordin Metz
+     url: https://www.youtube.com/embed/3LhNRJkh87w?showinfo=0
+     bio: Jordin Metz is a senior majoring in chemistry. He loves dancing, learning, and sleeping, and thinks that keeping an open mind is the best way to grow.
+
+ - id: &laura_graham
+     name: The subjectivity of truth | Laura Graham
+     url: https://www.youtube.com/embed/0pzIPHWR3iY?showinfo=0
+     bio: Graham is a scholar of international conflict and peace processes. Her research focuses on the role of civil society in peacebuilding and post-conflict reconciliation.
+
+ - id: &max_bennett
+     name: Creating a better world through artificial intelligence | Max Bennett
+     url: https://www.youtube.com/embed/LCNy59XScHE?showinfo=0
+     bio: Max is a senior at Tufts double majoring in Cognitive and Brain Science and in Computer Science. Researching topics in artificial intelligence and social robotics, Max wants to shape future human-robot encounters in positive ways.
+
+ - id: &neal_jawadekar
+     name: Food for thought - Empowering humans with data | Neal Jawadekar
+     url: https://www.youtube.com/embed/l7jFSQvBAkg?showinfo=0
+     bio: Neal Jawadekar graduated with a BA/MPH from Tufts University in 2014, where he played on the tennis team and co-founded the Association of Multiracial People at Tufts. He is currently a healthcare data analyst at Predilytics.
+
+ - id: &sam_weiser
+     name: Keeping the classical music story alive | Sam Weiser
+     url: https://www.youtube.com/embed/qaaf7sgw_5g?showinfo=0
+     bio: Sam Weiser is an undergraduate student at Tufts University and the New England Conservatory pursuing degrees in both computer science and violin performance.
+
+ - id: &soubhik_barari
+     name: The reconciliation of numbers & narratives | Soubhik Barari
+     url: https://www.youtube.com/embed/dAchrl00DhU?showinfo=0
+     bio: Soubhik Barari is a Tufts senior who grew up in New England and is studying Mathematics and Computer Science. He is the founder of the Tufts Independent Data Journal and enjoys playing music during his off-hours as a student.
+
+ - id: &cristina_rosa
+     name: A refugee rescue mission story - Uncovering distinct competences | Cristina Rosa
+     url: https://www.youtube.com/embed/-NSXdL04EZo?showinfo=0
+     bio: Cristina F. Rosa lectures at Tufts University's Drama and Dance department, where she teaches dance. Her research interests include the intersection of embodiment, knowledge production, and processes of identification.
+
  - id: &alyssa_rivas
      name: "#StayWoke or Stay Divided | Alyssa Rivas"
      url: https://www.youtube.com/embed/wOzaR5rKAkE?showinfo=0
@@ -48,12 +113,13 @@ speakers:
      bio: Sonja M. Spears is a Tufts graduate and a retired judge with twelve years of judicial service. She is eternally hopeful and confident that upcoming generations will choose to create a future where equality, justice and compassion are priorities.
 
  - id: &susan_napier
-     name: How I Learned to...Enjoy Being an Anime Expert | Susan Napier
+     name: How I Learned to Stop Worrying and Enjoy Being an Anime Expert | Susan Napier
      url: https://www.youtube.com/embed/zTZQhTl1ss0?showinfo=0
      bio: Susan Napier is Professor of Japanese Studies at Tufts University. Besides teaching Japan-related courses on literature, gender, and popular culture, Professor Napier also teaches "Fantasy in World Culture," and "The Cinema of Apocalypse."
 
 groups:
-  - name: 2017 Rhizome
+  - name: 2017 - Rhizome
+    banner: /public/rhizome.jpg
     speakers1:
       - person: *isabel_merrin
       - person: *alyssa_rivas
@@ -66,3 +132,20 @@ groups:
       - person: *rachael_bonoan
       - person: *sonja_spears
       - person: *susan_napier
+  - name: 2016 - Verge
+    banner: /public/verge.jpg
+    speakers1:
+      - person: *sasha_chanoff
+      - person: *jennifer_perry
+      - person: *ameya_naik
+      - person: *mahmoud_jabari
+      - person: *howard_woolf
+      - person: *laura_graham
+      - person: *cristina_rosa
+    speakers2:
+      - person: *neal_jawadekar
+      - person: *max_bennett
+      - person: *sam_weiser
+      - person: *jimena_sanchez_gallego
+      - person: *jordin_metz
+      - person: *soubhik_barari
