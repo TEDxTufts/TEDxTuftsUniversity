@@ -166,6 +166,85 @@ people:
       bio: Justin Tran was born in Hong Kong and grew up in Arizona. He is a junior majoring in International Relations and Film & Media Studies. He enjoys traveling, spicy foods, and supports Real Madrid, the best futbol team in the world.
       image-url:
 
+  #MAR/PUB
+  - id: &mitch_navetta
+      name: Mitch Navetta
+      bio: Mitch is a sophomore from Groton, MA majoring in political science and history. He loves libraries, old photographs, and cheesecake. His favorite color just happens to be TED red.
+      image-url: /public/team_images/mitch_navetta.png
+
+  - id: &talia_smith
+      name: Talia Smith
+      bio: Talia is a first-year student from Minneapolis, MN who loves archaeology and hopes to major in it. She also loves lakes, drawing, cooking with friends, and thinking bout outer space.
+      image-url: /public/team_images/talia_smith.jpg
+
+  - id: &daisy_hu
+      name: Daisy Hu
+      bio: Daisy is a sophomore from Hangzhou, China. She tells everyone that she majors in philosophy but actually hasn't declared yet. She loves meditating (aka. doing nothing) and is interested in linguistics.
+      image-url: /public/team_images/daisy_hu.jpg
+
+  - id: &lucy_price
+      name: Lucy Price
+      bio: Lucy is a freshman with no idea what she wants to major in. She is from Sammamish, Washington and loves dancing, hiking, and whipped cream.
+      image-url: /public/team_images/lucy_price.jpg
+  
+  - id: &katherine_reid
+      name: Katherine Reid
+      bio: Kat Reid is a Sophomore from Dover, New Hampshire studying International Relations and Cognitive Brain Sciences. She is an avid foodie and sports fanatic, and loves learning about other people's passions, aspirations and life stories. She aspires to one day be multilingual.
+      image-url:  
+
+  - id: &thuy_anh_duong
+      name: Thuy Anh Duong
+      bio: Thuy Anh Duong is a sophomore from Ho Chi Minh City, Vietnam majoring in Economics and minoring in Political Science. Thuy Anh loves traveling, painting and food.
+      image-url:
+
+  - id: &layan_soghaier
+      name: Layan (Lulu) Soghaier
+      bio: Lulu Soghaier is a sophomore from Dubai, UAE, majoring in Economics and Spanish with a Finance minor. As an international student, Lulu loves bringing together people of all backgrounds and enjoys learning and speaking different languages.
+      image-url:
+
+  - id: &alfonso_syquia
+      name: Alfonso Syquia 
+      bio: Alfonso is a freshman from Manila, Philippines looking to major in Sociology and Environmental Studies. He loves, reading, pugs, sitcoms, puns, and Hawaiian pizza.
+      image-url:
+  
+  - id: &emma_dzwierzynski
+      name: Emma Dzwierzynski 
+      bio: Emma Dzwierzynski is a sophomore from Evanston, IL majoring in Political Science and Community Health. She loves running, being outdoors in the warm weather, and anything food related!
+      image-url:
+
+  - id: &kristen_moran
+      name: Kristen Moran
+      bio: Kristen Moran is a junior from Darien, CT, majoring in Computer Science. While her major is in STEM, her heart lies in marketing and advertising.
+      image-url:
+
+  #DESIGN
+ - id: &ezri_horne
+      name: Ezri Horne
+      bio: Ezri is a freshmen in the SMFA combined degree program from Santa Fe, NM. As a sculptor and potter, Ezri is interested in how both material and visual design can enhance the the way we experience the world.
+      image-url: /public/team_images/ezri_horne.jpg
+
+ - id: &quinn_tucker
+      name: Quinn Tucker
+      bio: Quinn Tucker is a freshman at Tufts University. She is originally from Los Angeles, but has lived in Singapore since 2006. While her major is currently undecided, she is thinking about studying English or Anthropology for her love for both art and literature.
+      image-url: 
+
+  #WEB
+  - id: &james_garijo_garde
+      name: James Garijo-Garde
+      bio: James is a second-year student at Tufts University majoring in Computer Science and Cognitive & Brain Sciences. He is from Darien, Connecticut and enjoys hosting a weekly radio show.
+      image-url: /public/team_images/james_garijo_garde.jpg
+
+  - id: &kate_clawson
+      name: Kate Clawson 
+      bio: Kate Clawson is a sophomore from San Francisco, California. She is majoring in Engineering Psychology, and loves skiing and sleeping, as well as front-end development and design. 
+      image-url:
+
+  - id: &kunaal_bhargava
+      name: Kunaal Bhargava 
+      bio: Kunaal Bhargava is a sophomore from Mumbai, India majoring in Computer Science and Biotechnology. In his spare time, he loves drumming, coding small mini-games and playing or watching soccer.
+      image-url:
+
+
 # BREAK
 
   - id: &daisy_hu
